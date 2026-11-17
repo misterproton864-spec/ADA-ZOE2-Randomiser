@@ -1,0 +1,1849 @@
+{
+  "source_creation_sites": 20,
+  "installed": false,
+  "live_replacement_ready": false,
+  "entries": [
+    {
+      "source": "nephtis-verified-spawn-contracts.json",
+      "stage": "ba02",
+      "offset": 1432,
+      "hash": null,
+      "contract": {
+        "actor_id": 4294915707,
+        "actor_type": 11,
+        "phase": 7,
+        "phase_option_present": false,
+        "script_callback": null,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294915707,
+            "offset": 1391
+          },
+          {
+            "kind": 192,
+            "value": 11,
+            "offset": 1398
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 1405
+          },
+          {
+            "kind": 193,
+            "value": 1133903872,
+            "offset": 1412
+          },
+          {
+            "kind": 193,
+            "value": 2147483648,
+            "offset": 1419
+          },
+          {
+            "kind": 193,
+            "value": 1127481344,
+            "offset": 1426
+          }
+        ],
+        "coordinate_values": [
+          0.0,
+          300.0,
+          -0.0,
+          180.0
+        ],
+        "native_health_multiplier": 1.0,
+        "replacement_ready": false
+      }
+    },
+    {
+      "source": "nephtis-verified-spawn-contracts.json",
+      "stage": "ba02",
+      "offset": 2155,
+      "hash": null,
+      "contract": {
+        "actor_id": 4294915707,
+        "actor_type": 11,
+        "phase": 1,
+        "phase_option_present": true,
+        "script_callback": 1847,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294915707,
+            "offset": 2098
+          },
+          {
+            "kind": 192,
+            "value": 11,
+            "offset": 2105
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 2112
+          },
+          {
+            "kind": 193,
+            "value": 1133903872,
+            "offset": 2119
+          },
+          {
+            "kind": 193,
+            "value": 2147483648,
+            "offset": 2126
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 2133
+          },
+          {
+            "kind": 223,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 1847,
+            "offset": 2141
+          },
+          {
+            "kind": 227,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 192,
+            "value": 1,
+            "offset": 2149
+          }
+        ],
+        "coordinate_values": [
+          0.0,
+          300.0,
+          -0.0,
+          0.0
+        ],
+        "native_health_multiplier": 1.0,
+        "replacement_ready": false,
+        "callback_first_return_window": {
+          "start": 1847,
+          "end": 1863,
+          "native_calls": [
+            {
+              "offset": 1847,
+              "hash": "ffff4890"
+            },
+            {
+              "offset": 1852,
+              "hash": "ffffa0a2"
+            }
+          ],
+          "control_flow_verified": false,
+          "branches_requiring_analysis": [
+            {
+              "offset": 1857,
+              "opcode": 135,
+              "target": 1784
+            }
+          ]
+        }
+      }
+    },
+    {
+      "source": "nephtis-verified-spawn-contracts.json",
+      "stage": "ba02",
+      "offset": 4370,
+      "hash": null,
+      "contract": {
+        "actor_id": 4294915707,
+        "actor_type": 11,
+        "phase": 7,
+        "phase_option_present": false,
+        "script_callback": null,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294915707,
+            "offset": 4329
+          },
+          {
+            "kind": 192,
+            "value": 11,
+            "offset": 4336
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 4343
+          },
+          {
+            "kind": 193,
+            "value": 1133903872,
+            "offset": 4350
+          },
+          {
+            "kind": 193,
+            "value": 2147483648,
+            "offset": 4357
+          },
+          {
+            "kind": 193,
+            "value": 1127481344,
+            "offset": 4364
+          }
+        ],
+        "coordinate_values": [
+          0.0,
+          300.0,
+          -0.0,
+          180.0
+        ],
+        "native_health_multiplier": 1.0,
+        "replacement_ready": false
+      }
+    },
+    {
+      "source": "nephtis-verified-spawn-contracts.json",
+      "stage": "ba02",
+      "offset": 4877,
+      "hash": null,
+      "contract": {
+        "actor_id": 4294915707,
+        "actor_type": 11,
+        "phase": 7,
+        "phase_option_present": false,
+        "script_callback": null,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294915707,
+            "offset": 4836
+          },
+          {
+            "kind": 192,
+            "value": 11,
+            "offset": 4843
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 4850
+          },
+          {
+            "kind": 193,
+            "value": 1133903872,
+            "offset": 4857
+          },
+          {
+            "kind": 193,
+            "value": 2147483648,
+            "offset": 4864
+          },
+          {
+            "kind": 193,
+            "value": 1127481344,
+            "offset": 4871
+          }
+        ],
+        "coordinate_values": [
+          0.0,
+          300.0,
+          -0.0,
+          180.0
+        ],
+        "native_health_multiplier": 1.0,
+        "replacement_ready": false
+      }
+    },
+    {
+      "source": "nephtis-verified-spawn-contracts.json",
+      "stage": "cy02",
+      "offset": 3744,
+      "hash": null,
+      "contract": {
+        "actor_id": 4294915707,
+        "actor_type": 11,
+        "phase": 2,
+        "phase_option_present": true,
+        "script_callback": 1181,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294915707,
+            "offset": 3687
+          },
+          {
+            "kind": 192,
+            "value": 11,
+            "offset": 3694
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 3701
+          },
+          {
+            "kind": 193,
+            "value": 1148846080,
+            "offset": 3708
+          },
+          {
+            "kind": 193,
+            "value": 3322716160,
+            "offset": 3715
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 3722
+          },
+          {
+            "kind": 223,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 1181,
+            "offset": 3730
+          },
+          {
+            "kind": 227,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 192,
+            "value": 2,
+            "offset": 3738
+          }
+        ],
+        "coordinate_values": [
+          0.0,
+          1000.0,
+          -9000.0,
+          0.0
+        ],
+        "native_health_multiplier": 1.0,
+        "replacement_ready": false,
+        "callback_first_return_window": {
+          "start": 1181,
+          "end": 1203,
+          "native_calls": [
+            {
+              "offset": 1197,
+              "hash": "ffffb011"
+            }
+          ],
+          "control_flow_verified": true,
+          "branches_requiring_analysis": []
+        }
+      }
+    },
+    {
+      "source": "nephtis-verified-spawn-contracts.json",
+      "stage": "vc01",
+      "offset": 3510,
+      "hash": null,
+      "contract": {
+        "actor_id": 4294915707,
+        "actor_type": 11,
+        "phase": 3,
+        "phase_option_present": true,
+        "script_callback": 1456,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294915707,
+            "offset": 3453
+          },
+          {
+            "kind": 192,
+            "value": 11,
+            "offset": 3460
+          },
+          {
+            "kind": 193,
+            "value": 3317399552,
+            "offset": 3467
+          },
+          {
+            "kind": 193,
+            "value": 1148846080,
+            "offset": 3474
+          },
+          {
+            "kind": 193,
+            "value": 3316375552,
+            "offset": 3481
+          },
+          {
+            "kind": 193,
+            "value": 1127481344,
+            "offset": 3488
+          },
+          {
+            "kind": 223,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 1456,
+            "offset": 3496
+          },
+          {
+            "kind": 227,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 192,
+            "value": 3,
+            "offset": 3504
+          }
+        ],
+        "coordinate_values": [
+          -6000.0,
+          1000.0,
+          -5500.0,
+          180.0
+        ],
+        "native_health_multiplier": 0.5,
+        "replacement_ready": false,
+        "callback_first_return_window": {
+          "start": 1456,
+          "end": 1478,
+          "native_calls": [
+            {
+              "offset": 1472,
+              "hash": "ffffb011"
+            }
+          ],
+          "control_flow_verified": true,
+          "branches_requiring_analysis": []
+        }
+      }
+    },
+    {
+      "source": "nephtis-verified-spawn-contracts.json",
+      "stage": "ef01",
+      "offset": 8926,
+      "hash": null,
+      "contract": {
+        "actor_id": 4294915707,
+        "actor_type": 11,
+        "phase": 4,
+        "phase_option_present": true,
+        "script_callback": 976,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294915707,
+            "offset": 8869
+          },
+          {
+            "kind": 192,
+            "value": 11,
+            "offset": 8876
+          },
+          {
+            "kind": 193,
+            "value": 1157234688,
+            "offset": 8883
+          },
+          {
+            "kind": 193,
+            "value": 1159479296,
+            "offset": 8890
+          },
+          {
+            "kind": 193,
+            "value": 1167867904,
+            "offset": 8897
+          },
+          {
+            "kind": 193,
+            "value": 1127481344,
+            "offset": 8904
+          },
+          {
+            "kind": 223,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 976,
+            "offset": 8912
+          },
+          {
+            "kind": 227,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 192,
+            "value": 4,
+            "offset": 8920
+          }
+        ],
+        "coordinate_values": [
+          2000.0,
+          2500.0,
+          5000.0,
+          180.0
+        ],
+        "native_health_multiplier": 1.0,
+        "replacement_ready": false,
+        "callback_first_return_window": {
+          "start": 976,
+          "end": 998,
+          "native_calls": [
+            {
+              "offset": 992,
+              "hash": "ffffb011"
+            }
+          ],
+          "control_flow_verified": true,
+          "branches_requiring_analysis": []
+        }
+      }
+    },
+    {
+      "source": "nephtis-verified-spawn-contracts.json",
+      "stage": "am01g",
+      "offset": 1544,
+      "hash": null,
+      "contract": {
+        "actor_id": 4294781001,
+        "actor_type": 11,
+        "phase": 5,
+        "phase_option_present": true,
+        "script_callback": 1425,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294781001,
+            "offset": 1479
+          },
+          {
+            "kind": 192,
+            "value": 11,
+            "offset": 1486
+          },
+          {
+            "kind": 193,
+            "value": 3321989120,
+            "offset": 1493
+          },
+          {
+            "kind": 151,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 193,
+            "value": 3316764672,
+            "offset": 1515
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 1522
+          },
+          {
+            "kind": 223,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 1425,
+            "offset": 1530
+          },
+          {
+            "kind": 227,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 192,
+            "value": 5,
+            "offset": 1538
+          }
+        ],
+        "coordinate_values": [
+          -8290.0,
+          null,
+          -5690.0,
+          0.0
+        ],
+        "native_health_multiplier": 1.0,
+        "replacement_ready": false,
+        "callback_first_return_window": {
+          "start": 1425,
+          "end": 1431,
+          "native_calls": [],
+          "control_flow_verified": false,
+          "branches_requiring_analysis": [
+            {
+              "offset": 1425,
+              "opcode": 135,
+              "target": 1431
+            }
+          ]
+        }
+      }
+    },
+    {
+      "source": "nephtis-verified-spawn-contracts.json",
+      "stage": "am01g",
+      "offset": 1623,
+      "hash": null,
+      "contract": {
+        "actor_id": 4294912100,
+        "actor_type": 11,
+        "phase": 5,
+        "phase_option_present": true,
+        "script_callback": 1457,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294912100,
+            "offset": 1566
+          },
+          {
+            "kind": 192,
+            "value": 11,
+            "offset": 1573
+          },
+          {
+            "kind": 193,
+            "value": 3321989120,
+            "offset": 1580
+          },
+          {
+            "kind": 193,
+            "value": 1141800960,
+            "offset": 1587
+          },
+          {
+            "kind": 193,
+            "value": 3316764672,
+            "offset": 1594
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 1601
+          },
+          {
+            "kind": 223,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 1457,
+            "offset": 1609
+          },
+          {
+            "kind": 227,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 192,
+            "value": 5,
+            "offset": 1617
+          }
+        ],
+        "coordinate_values": [
+          -8290.0,
+          570.0,
+          -5690.0,
+          0.0
+        ],
+        "native_health_multiplier": 1.0,
+        "replacement_ready": false,
+        "callback_first_return_window": {
+          "start": 1457,
+          "end": 1463,
+          "native_calls": [],
+          "control_flow_verified": false,
+          "branches_requiring_analysis": [
+            {
+              "offset": 1457,
+              "opcode": 135,
+              "target": 1431
+            }
+          ]
+        }
+      }
+    },
+    {
+      "source": "additional-verified-boss-contracts.json",
+      "stage": "ca02",
+      "offset": 2564,
+      "hash": "fffedd53",
+      "contract": {
+        "boss": "Ardjet",
+        "actor_id": 4294892883,
+        "actor_type": 14,
+        "variant": 0,
+        "variant_explicit": true,
+        "script_callbacks": [
+          {
+            "offset": 1542,
+            "argument_offset": 2544,
+            "actor_field": "0x1480",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 1542,
+              "states": 9,
+              "native_calls": [
+                {
+                  "offset": 1558,
+                  "hash": "ffffb011"
+                }
+              ],
+              "writes": [],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          },
+          {
+            "offset": 1483,
+            "argument_offset": 2551,
+            "actor_field": "0x1484",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 1483,
+              "states": 22,
+              "native_calls": [
+                {
+                  "offset": 1518,
+                  "hash": "ffffb011"
+                }
+              ],
+              "writes": [
+                {
+                  "offset": 1531,
+                  "opcode": 177,
+                  "reference": 30194
+                }
+              ],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          },
+          {
+            "offset": 1482,
+            "argument_offset": 2558,
+            "actor_field": "0x1488",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 1482,
+              "states": 1,
+              "native_calls": [],
+              "writes": [],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          }
+        ],
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294892883,
+            "offset": 2502
+          },
+          {
+            "kind": 192,
+            "value": 0,
+            "offset": 2509
+          },
+          {
+            "kind": 193,
+            "value": 3325788160,
+            "offset": 2516
+          },
+          {
+            "kind": 193,
+            "value": 1148846080,
+            "offset": 2523
+          },
+          {
+            "kind": 192,
+            "value": 13000,
+            "offset": 2530
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 2537
+          },
+          {
+            "kind": 197,
+            "value": 1542,
+            "offset": 2544
+          },
+          {
+            "kind": 197,
+            "value": 1483,
+            "offset": 2551
+          },
+          {
+            "kind": 197,
+            "value": 1482,
+            "offset": 2558
+          }
+        ],
+        "replacement_ready": false
+      }
+    },
+    {
+      "source": "additional-verified-boss-contracts.json",
+      "stage": "fr02",
+      "offset": 939,
+      "hash": "bfd9f8ec",
+      "contract": {
+        "boss": "Inhert",
+        "actor_id": 4294932111,
+        "actor_type": 12,
+        "variant": 1,
+        "source_initial_health_ratio": 0.5,
+        "script_callbacks": [
+          {
+            "offset": 856,
+            "argument_offset": 933,
+            "actor_field": "0x14f0",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 856,
+              "states": 23,
+              "native_calls": [
+                {
+                  "offset": 850,
+                  "hash": "ffbc9566"
+                },
+                {
+                  "offset": 864,
+                  "hash": "fffff75a"
+                },
+                {
+                  "offset": 877,
+                  "hash": "7fbf2652"
+                }
+              ],
+              "writes": [
+                {
+                  "offset": 837,
+                  "opcode": 179,
+                  "reference": 3065806290
+                }
+              ],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          }
+        ],
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294932111,
+            "offset": 891
+          },
+          {
+            "kind": 192,
+            "value": 12,
+            "offset": 898
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 905
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 912
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 919
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 926
+          },
+          {
+            "kind": 197,
+            "value": 856,
+            "offset": 933
+          }
+        ],
+        "replacement_ready": false,
+        "phase_end_health_rule": {
+          "verified": true,
+          "native_damage_handler": "0x146ad2570",
+          "threshold_ratio": 0,
+          "source_maximum_health": 1000,
+          "threshold_health": 0,
+          "callback_state_entry_mapping_verified": false
+        }
+      }
+    },
+    {
+      "source": "additional-verified-boss-contracts.json",
+      "stage": "fr02",
+      "offset": 12718,
+      "hash": "dfedfdb4",
+      "contract": {
+        "boss": "Inhert",
+        "actor_id": 4294932111,
+        "actor_type": 12,
+        "variant": 0,
+        "source_initial_health_ratio": 1.0,
+        "script_callbacks": [
+          {
+            "offset": 12316,
+            "argument_offset": 12712,
+            "actor_field": "0x14f0",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 12316,
+              "states": 19,
+              "native_calls": [
+                {
+                  "offset": 11402,
+                  "hash": "ffff511f"
+                },
+                {
+                  "offset": 12324,
+                  "hash": "fffff75a"
+                },
+                {
+                  "offset": 12337,
+                  "hash": "7fbf2652"
+                }
+              ],
+              "writes": [
+                {
+                  "offset": 11397,
+                  "opcode": 179,
+                  "reference": 3065806290
+                }
+              ],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          }
+        ],
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294932111,
+            "offset": 12670
+          },
+          {
+            "kind": 192,
+            "value": 12,
+            "offset": 12677
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 12684
+          },
+          {
+            "kind": 193,
+            "value": 3306962944,
+            "offset": 12691
+          },
+          {
+            "kind": 193,
+            "value": 1157234688,
+            "offset": 12698
+          },
+          {
+            "kind": 193,
+            "value": 1127481344,
+            "offset": 12705
+          },
+          {
+            "kind": 197,
+            "value": 12316,
+            "offset": 12712
+          }
+        ],
+        "replacement_ready": false,
+        "phase_end_health_rule": {
+          "verified": true,
+          "native_damage_handler": "0x146ad2570",
+          "threshold_ratio": 0.5,
+          "source_maximum_health": 1000,
+          "threshold_health": 500,
+          "callback_state_entry_mapping_verified": false
+        }
+      }
+    },
+    {
+      "source": "additional-verified-boss-contracts.json",
+      "stage": "ef02g",
+      "offset": 1364,
+      "hash": "fffedd53",
+      "contract": {
+        "boss": "Ardjet",
+        "actor_id": 4294892883,
+        "actor_type": 14,
+        "variant": 1,
+        "variant_explicit": true,
+        "script_callbacks": [
+          {
+            "offset": 1277,
+            "argument_offset": 1344,
+            "actor_field": "0x1480",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 1277,
+              "states": 9,
+              "native_calls": [
+                {
+                  "offset": 1293,
+                  "hash": "ffffb011"
+                }
+              ],
+              "writes": [],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          },
+          {
+            "offset": 1263,
+            "argument_offset": 1351,
+            "actor_field": "0x1484",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 1263,
+              "states": 6,
+              "native_calls": [
+                {
+                  "offset": 1271,
+                  "hash": "d1f9be9f"
+                }
+              ],
+              "writes": [],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          },
+          {
+            "offset": 1257,
+            "argument_offset": 1358,
+            "actor_field": "0x1488",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 1257,
+              "states": 55,
+              "native_calls": [
+                {
+                  "offset": 1023,
+                  "hash": "4f9c88c1"
+                },
+                {
+                  "offset": 1049,
+                  "hash": "7fbf2652"
+                },
+                {
+                  "offset": 1054,
+                  "hash": "144505ad"
+                },
+                {
+                  "offset": 1095,
+                  "hash": "dfd46208"
+                },
+                {
+                  "offset": 1144,
+                  "hash": "ffcc3307"
+                }
+              ],
+              "writes": [],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          }
+        ],
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294892883,
+            "offset": 1302
+          },
+          {
+            "kind": 192,
+            "value": 1,
+            "offset": 1309
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 1316
+          },
+          {
+            "kind": 193,
+            "value": 1159479296,
+            "offset": 1323
+          },
+          {
+            "kind": 193,
+            "value": 1168277504,
+            "offset": 1330
+          },
+          {
+            "kind": 193,
+            "value": 3266576384,
+            "offset": 1337
+          },
+          {
+            "kind": 197,
+            "value": 1277,
+            "offset": 1344
+          },
+          {
+            "kind": 197,
+            "value": 1263,
+            "offset": 1351
+          },
+          {
+            "kind": 197,
+            "value": 1257,
+            "offset": 1358
+          }
+        ],
+        "replacement_ready": false
+      }
+    },
+    {
+      "source": "anubis-verified-spawn-contracts.json",
+      "stage": "cs01",
+      "offset": 4718,
+      "hash": "ef217f76",
+      "contract": {
+        "boss": "Compressed-space Anubis",
+        "actor_id": 4294959705,
+        "actor_type": 9,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294959705,
+            "offset": 4669
+          },
+          {
+            "kind": 192,
+            "value": 9,
+            "offset": 4676
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 4683
+          },
+          {
+            "kind": 193,
+            "value": 1145569280,
+            "offset": 4690
+          },
+          {
+            "kind": 193,
+            "value": 3287941120,
+            "offset": 4697
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 4704
+          },
+          {
+            "kind": 212,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 4596,
+            "offset": 4712
+          }
+        ],
+        "script_callbacks": [
+          {
+            "offset": 4596,
+            "argument_offset": 4712,
+            "actor_field": "0x163c",
+            "purpose_verified": true,
+            "purpose": "Source encounter completion",
+            "flow": {
+              "entry": 4596,
+              "states": 30,
+              "native_calls": [
+                {
+                  "offset": 855,
+                  "hash": "7fbf2652"
+                },
+                {
+                  "offset": 890,
+                  "hash": "ffbc9566"
+                },
+                {
+                  "offset": 4597,
+                  "hash": "4f9c88c1"
+                }
+              ],
+              "writes": [
+                {
+                  "offset": 868,
+                  "opcode": 179,
+                  "reference": 3065806290
+                }
+              ],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          }
+        ],
+        "encounter_counter_limit": null,
+        "replacement_ready": false
+      }
+    },
+    {
+      "source": "anubis-verified-spawn-contracts.json",
+      "stage": "fa01",
+      "offset": 3308,
+      "hash": "fa106dc5",
+      "contract": {
+        "boss": "Fake Anubis",
+        "actor_id": 4294959705,
+        "actor_type": 9,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294959705,
+            "offset": 3259
+          },
+          {
+            "kind": 192,
+            "value": 9,
+            "offset": 3266
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 3273
+          },
+          {
+            "kind": 193,
+            "value": 1176256512,
+            "offset": 3280
+          },
+          {
+            "kind": 193,
+            "value": 1140457472,
+            "offset": 3287
+          },
+          {
+            "kind": 193,
+            "value": 1127481344,
+            "offset": 3294
+          },
+          {
+            "kind": 212,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 3197,
+            "offset": 3302
+          }
+        ],
+        "script_callbacks": [
+          {
+            "offset": 3197,
+            "argument_offset": 3302,
+            "actor_field": "0x163c",
+            "purpose_verified": true,
+            "purpose": "Source encounter completion",
+            "flow": {
+              "entry": 3197,
+              "states": 18,
+              "native_calls": [
+                {
+                  "offset": 863,
+                  "hash": "ffbc9566"
+                },
+                {
+                  "offset": 3205,
+                  "hash": "7fbf2652"
+                }
+              ],
+              "writes": [
+                {
+                  "offset": 850,
+                  "opcode": 179,
+                  "reference": 3065806290
+                }
+              ],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          }
+        ],
+        "encounter_counter_limit": null,
+        "replacement_ready": false
+      }
+    },
+    {
+      "source": "anubis-verified-spawn-contracts.json",
+      "stage": "ba03",
+      "offset": 2572,
+      "hash": "dfe3a990",
+      "contract": {
+        "boss": "Bahram Anubis",
+        "actor_id": 4294959705,
+        "actor_type": 9,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294959705,
+            "offset": 2515
+          },
+          {
+            "kind": 192,
+            "value": 9,
+            "offset": 2522
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 2529
+          },
+          {
+            "kind": 193,
+            "value": 1101529088,
+            "offset": 2536
+          },
+          {
+            "kind": 193,
+            "value": 1154162688,
+            "offset": 2543
+          },
+          {
+            "kind": 193,
+            "value": 1127481344,
+            "offset": 2550
+          },
+          {
+            "kind": 221,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 192,
+            "value": 5,
+            "offset": 2558
+          },
+          {
+            "kind": 212,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 1307,
+            "offset": 2566
+          }
+        ],
+        "script_callbacks": [
+          {
+            "offset": 1307,
+            "argument_offset": 2566,
+            "actor_field": "0x13f4",
+            "purpose_verified": true,
+            "purpose": "Source encounter completion",
+            "flow": {
+              "entry": 1307,
+              "states": 54,
+              "native_calls": [
+                {
+                  "offset": 1308,
+                  "hash": "4f9c88c1"
+                },
+                {
+                  "offset": 1336,
+                  "hash": "ffff909f"
+                },
+                {
+                  "offset": 1384,
+                  "hash": "6197ab0b"
+                },
+                {
+                  "offset": 1433,
+                  "hash": "ffcc3307"
+                }
+              ],
+              "writes": [
+                {
+                  "offset": 1349,
+                  "opcode": 179,
+                  "reference": 3065806290
+                }
+              ],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          }
+        ],
+        "encounter_counter_limit": 5,
+        "replacement_ready": false
+      }
+    },
+    {
+      "source": "vic-viper-verified-spawn-contract.json",
+      "stage": "wn01",
+      "offset": 1479,
+      "hash": "7fed7b0b",
+      "contract": {
+        "boss": "Vic Viper",
+        "actor_id": 2146269963,
+        "actor_type": 13,
+        "actor_type_implicit": true,
+        "source_maximum_health": 10000,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 2146269963,
+            "offset": 1430
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 1437
+          },
+          {
+            "kind": 193,
+            "value": 1134559232,
+            "offset": 1444
+          },
+          {
+            "kind": 193,
+            "value": 1157234688,
+            "offset": 1451
+          },
+          {
+            "kind": 193,
+            "value": 1127481344,
+            "offset": 1458
+          },
+          {
+            "kind": 192,
+            "value": 10000,
+            "offset": 1465
+          },
+          {
+            "kind": 223,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 1231,
+            "offset": 1473
+          }
+        ],
+        "script_callbacks": [
+          {
+            "offset": 1231,
+            "argument_offset": 1473,
+            "actor_field": "0x164c",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 1231,
+              "states": 19,
+              "native_calls": [
+                {
+                  "offset": 1207,
+                  "hash": "7fbf2652"
+                },
+                {
+                  "offset": 1225,
+                  "hash": "ffff511f"
+                },
+                {
+                  "offset": 1239,
+                  "hash": "7fbf2652"
+                }
+              ],
+              "writes": [
+                {
+                  "offset": 1220,
+                  "opcode": 179,
+                  "reference": 3065806290
+                }
+              ],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          }
+        ],
+        "replacement_ready": false
+      }
+    },
+    {
+      "source": "late-anubis-verified-spawn-contracts.json",
+      "stage": "am02",
+      "offset": 4785,
+      "hash": "ef9a96d8",
+      "contract": {
+        "boss": "Aumaan Anubis",
+        "actor_id": 3757126974,
+        "actor_type": 10,
+        "actor_type_namespace": "native actor registration; separate from ENE enemy record types",
+        "source_option": {
+          "tag": "0xdf",
+          "value": 0
+        },
+        "source_initial_health": 1000,
+        "source_initial_state": 0,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 3757126974,
+            "offset": 4728
+          },
+          {
+            "kind": 192,
+            "value": 10,
+            "offset": 4735
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 4742
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 4749
+          },
+          {
+            "kind": 193,
+            "value": 3304718336,
+            "offset": 4756
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 4763
+          },
+          {
+            "kind": 223,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 192,
+            "value": 0,
+            "offset": 4771
+          },
+          {
+            "kind": 212,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 4498,
+            "offset": 4779
+          }
+        ],
+        "script_callbacks": [
+          {
+            "offset": 4498,
+            "argument_offset": 4779,
+            "actor_field": "0x16a8",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 4498,
+              "states": 27,
+              "native_calls": [
+                {
+                  "offset": 895,
+                  "hash": "7fbf2652"
+                },
+                {
+                  "offset": 908,
+                  "hash": "7fbf2652"
+                },
+                {
+                  "offset": 926,
+                  "hash": "ffff511f"
+                },
+                {
+                  "offset": 4499,
+                  "hash": "4f9c88c1"
+                }
+              ],
+              "writes": [
+                {
+                  "offset": 921,
+                  "opcode": 179,
+                  "reference": 3065806290
+                }
+              ],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          }
+        ],
+        "replacement_ready": false
+      }
+    },
+    {
+      "source": "late-anubis-verified-spawn-contracts.json",
+      "stage": "am02",
+      "offset": 5232,
+      "hash": "ef9a96d8",
+      "contract": {
+        "boss": "Aumaan Anubis",
+        "actor_id": 3757126974,
+        "actor_type": 10,
+        "actor_type_namespace": "native actor registration; separate from ENE enemy record types",
+        "source_option": {
+          "tag": "0xdf",
+          "value": 1
+        },
+        "source_initial_health": 1,
+        "source_initial_state": 25,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 3757126974,
+            "offset": 5175
+          },
+          {
+            "kind": 192,
+            "value": 10,
+            "offset": 5182
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 5189
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 5196
+          },
+          {
+            "kind": 193,
+            "value": 3300622336,
+            "offset": 5203
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 5210
+          },
+          {
+            "kind": 223,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 192,
+            "value": 1,
+            "offset": 5218
+          },
+          {
+            "kind": 212,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 4579,
+            "offset": 5226
+          }
+        ],
+        "script_callbacks": [
+          {
+            "offset": 4579,
+            "argument_offset": 5226,
+            "actor_field": "0x16a8",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 4579,
+              "states": 45,
+              "native_calls": [
+                {
+                  "offset": 4587,
+                  "hash": "7fbf2652"
+                },
+                {
+                  "offset": 4600,
+                  "hash": "7fbf2652"
+                },
+                {
+                  "offset": 4635,
+                  "hash": "6197ab0b"
+                },
+                {
+                  "offset": 4684,
+                  "hash": "ffcc3307"
+                }
+              ],
+              "writes": [],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          }
+        ],
+        "replacement_ready": false
+      }
+    },
+    {
+      "source": "late-anubis-verified-spawn-contracts.json",
+      "stage": "fr04g",
+      "offset": 13683,
+      "hash": "b7d9f1ad",
+      "contract": {
+        "boss": "Anubis (fr04g)",
+        "actor_id": 4294959705,
+        "actor_type": 9,
+        "actor_type_namespace": "native actor registration; separate from ENE enemy record types",
+        "source_option": {
+          "tag": "0xdd",
+          "value": 4
+        },
+        "source_initial_health": null,
+        "source_initial_state": null,
+        "arguments": [
+          {
+            "kind": 192,
+            "value": 4294959705,
+            "offset": 13626
+          },
+          {
+            "kind": 192,
+            "value": 9,
+            "offset": 13633
+          },
+          {
+            "kind": 193,
+            "value": 0,
+            "offset": 13640
+          },
+          {
+            "kind": 193,
+            "value": 3313106944,
+            "offset": 13647
+          },
+          {
+            "kind": 193,
+            "value": 1148846080,
+            "offset": 13654
+          },
+          {
+            "kind": 193,
+            "value": 1127481344,
+            "offset": 13661
+          },
+          {
+            "kind": 221,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 192,
+            "value": 4,
+            "offset": 13669
+          },
+          {
+            "kind": 212,
+            "value": null,
+            "offset": null
+          },
+          {
+            "kind": 197,
+            "value": 13219,
+            "offset": 13677
+          }
+        ],
+        "script_callbacks": [
+          {
+            "offset": 13219,
+            "argument_offset": 13677,
+            "actor_field": "0x13e4",
+            "purpose_verified": false,
+            "flow": {
+              "entry": 13219,
+              "states": 26,
+              "native_calls": [
+                {
+                  "offset": 13276,
+                  "hash": "ffcc3307"
+                }
+              ],
+              "writes": [
+                {
+                  "offset": 13227,
+                  "opcode": 179,
+                  "reference": 3065806290
+                }
+              ],
+              "return_states": 1,
+              "unresolved": [],
+              "conditions_evaluated": false,
+              "termination_proven": false
+            }
+          }
+        ],
+        "replacement_ready": false
+      }
+    }
+  ]
+}

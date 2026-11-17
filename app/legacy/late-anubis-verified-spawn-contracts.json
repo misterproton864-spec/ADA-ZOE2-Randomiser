@@ -1,0 +1,323 @@
+[
+  {
+    "stage": "am02",
+    "file": "639b7c4f.scx",
+    "offset": 4785,
+    "hash": "ef9a96d8",
+    "source_sha256": "4fd854fba593d98e5b5cfabf4c9fb672ac8b5e6e59e05d5d71d351f2215cd6aa",
+    "contract": {
+      "boss": "Aumaan Anubis",
+      "actor_id": 3757126974,
+      "actor_type": 10,
+      "actor_type_namespace": "native actor registration; separate from ENE enemy record types",
+      "source_option": {
+        "tag": "0xdf",
+        "value": 0
+      },
+      "source_initial_health": 1000,
+      "source_initial_state": 0,
+      "arguments": [
+        {
+          "kind": 192,
+          "value": 3757126974,
+          "offset": 4728
+        },
+        {
+          "kind": 192,
+          "value": 10,
+          "offset": 4735
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 4742
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 4749
+        },
+        {
+          "kind": 193,
+          "value": 3304718336,
+          "offset": 4756
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 4763
+        },
+        {
+          "kind": 223,
+          "value": null,
+          "offset": null
+        },
+        {
+          "kind": 192,
+          "value": 0,
+          "offset": 4771
+        },
+        {
+          "kind": 212,
+          "value": null,
+          "offset": null
+        },
+        {
+          "kind": 197,
+          "value": 4498,
+          "offset": 4779
+        }
+      ],
+      "script_callbacks": [
+        {
+          "offset": 4498,
+          "argument_offset": 4779,
+          "actor_field": "0x16a8",
+          "purpose_verified": false,
+          "flow": {
+            "entry": 4498,
+            "states": 27,
+            "native_calls": [
+              {
+                "offset": 895,
+                "hash": "7fbf2652"
+              },
+              {
+                "offset": 908,
+                "hash": "7fbf2652"
+              },
+              {
+                "offset": 926,
+                "hash": "ffff511f"
+              },
+              {
+                "offset": 4499,
+                "hash": "4f9c88c1"
+              }
+            ],
+            "writes": [
+              {
+                "offset": 921,
+                "opcode": 179,
+                "reference": 3065806290
+              }
+            ],
+            "return_states": 1,
+            "unresolved": [],
+            "conditions_evaluated": false,
+            "termination_proven": false
+          }
+        }
+      ],
+      "replacement_ready": false
+    }
+  },
+  {
+    "stage": "am02",
+    "file": "639b7c4f.scx",
+    "offset": 5232,
+    "hash": "ef9a96d8",
+    "source_sha256": "4fd854fba593d98e5b5cfabf4c9fb672ac8b5e6e59e05d5d71d351f2215cd6aa",
+    "contract": {
+      "boss": "Aumaan Anubis",
+      "actor_id": 3757126974,
+      "actor_type": 10,
+      "actor_type_namespace": "native actor registration; separate from ENE enemy record types",
+      "source_option": {
+        "tag": "0xdf",
+        "value": 1
+      },
+      "source_initial_health": 1,
+      "source_initial_state": 25,
+      "arguments": [
+        {
+          "kind": 192,
+          "value": 3757126974,
+          "offset": 5175
+        },
+        {
+          "kind": 192,
+          "value": 10,
+          "offset": 5182
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 5189
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 5196
+        },
+        {
+          "kind": 193,
+          "value": 3300622336,
+          "offset": 5203
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 5210
+        },
+        {
+          "kind": 223,
+          "value": null,
+          "offset": null
+        },
+        {
+          "kind": 192,
+          "value": 1,
+          "offset": 5218
+        },
+        {
+          "kind": 212,
+          "value": null,
+          "offset": null
+        },
+        {
+          "kind": 197,
+          "value": 4579,
+          "offset": 5226
+        }
+      ],
+      "script_callbacks": [
+        {
+          "offset": 4579,
+          "argument_offset": 5226,
+          "actor_field": "0x16a8",
+          "purpose_verified": false,
+          "flow": {
+            "entry": 4579,
+            "states": 45,
+            "native_calls": [
+              {
+                "offset": 4587,
+                "hash": "7fbf2652"
+              },
+              {
+                "offset": 4600,
+                "hash": "7fbf2652"
+              },
+              {
+                "offset": 4635,
+                "hash": "6197ab0b"
+              },
+              {
+                "offset": 4684,
+                "hash": "ffcc3307"
+              }
+            ],
+            "writes": [],
+            "return_states": 1,
+            "unresolved": [],
+            "conditions_evaluated": false,
+            "termination_proven": false
+          }
+        }
+      ],
+      "replacement_ready": false
+    }
+  },
+  {
+    "stage": "fr04g",
+    "file": "dfd7b35d.scx",
+    "offset": 13683,
+    "hash": "b7d9f1ad",
+    "source_sha256": "8c32b33dbcde99ba7a819e868cd674e3077c48b315cb8aa3657904bf6335b0c9",
+    "contract": {
+      "boss": "Anubis (fr04g)",
+      "actor_id": 4294959705,
+      "actor_type": 9,
+      "actor_type_namespace": "native actor registration; separate from ENE enemy record types",
+      "source_option": {
+        "tag": "0xdd",
+        "value": 4
+      },
+      "source_initial_health": null,
+      "source_initial_state": null,
+      "arguments": [
+        {
+          "kind": 192,
+          "value": 4294959705,
+          "offset": 13626
+        },
+        {
+          "kind": 192,
+          "value": 9,
+          "offset": 13633
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 13640
+        },
+        {
+          "kind": 193,
+          "value": 3313106944,
+          "offset": 13647
+        },
+        {
+          "kind": 193,
+          "value": 1148846080,
+          "offset": 13654
+        },
+        {
+          "kind": 193,
+          "value": 1127481344,
+          "offset": 13661
+        },
+        {
+          "kind": 221,
+          "value": null,
+          "offset": null
+        },
+        {
+          "kind": 192,
+          "value": 4,
+          "offset": 13669
+        },
+        {
+          "kind": 212,
+          "value": null,
+          "offset": null
+        },
+        {
+          "kind": 197,
+          "value": 13219,
+          "offset": 13677
+        }
+      ],
+      "script_callbacks": [
+        {
+          "offset": 13219,
+          "argument_offset": 13677,
+          "actor_field": "0x13e4",
+          "purpose_verified": false,
+          "flow": {
+            "entry": 13219,
+            "states": 26,
+            "native_calls": [
+              {
+                "offset": 13276,
+                "hash": "ffcc3307"
+              }
+            ],
+            "writes": [
+              {
+                "offset": 13227,
+                "opcode": 179,
+                "reference": 3065806290
+              }
+            ],
+            "return_states": 1,
+            "unresolved": [],
+            "conditions_evaluated": false,
+            "termination_proven": false
+          }
+        }
+      ],
+      "replacement_ready": false
+    }
+  }
+]

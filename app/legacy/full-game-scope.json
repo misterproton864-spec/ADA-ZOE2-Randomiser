@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "scope": "Story campaign from ca00 through ending",
+  "regular_enemies": {
+    "pool": [
+      "Raptor",
+      "Mummyhead",
+      "Narita",
+      "Cyclops",
+      "Clod",
+      "Leopard"
+    ],
+    "excluded_types": [
+      10
+    ],
+    "preserve_counts": true,
+    "preserve_levels": true
+  },
+  "regular_stages": [
+    "ca00",
+    "ca01",
+    "ba01",
+    "ds00",
+    "ds01",
+    "ds02",
+    "ds03",
+    "wn00",
+    "wn01",
+    "wn02",
+    "cy01",
+    "ex01",
+    "vc02",
+    "vc03",
+    "tr01",
+    "ef01",
+    "ef03",
+    "ef04",
+    "he01",
+    "fc01",
+    "fr01",
+    "af01",
+    "mf01",
+    "mf02",
+    "am01",
+    "ds00g",
+    "ds01g",
+    "af01g",
+    "mf01c",
+    "fr01c",
+    "am01f"
+  ],
+  "boss_slots": [
+    {
+      "stage": "ca02",
+      "label": "Ardjet",
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "ba02",
+      "label": "Nephtis - Bahram ship",
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "ba03",
+      "label": "Anubis - Bahram ship",
+      "scripted_outcome": true,
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "wn01",
+      "label": "Vic Viper",
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "cy02",
+      "label": "Nephtis",
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "vc01",
+      "label": "Nephtis - valley",
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "ef01",
+      "label": "Nephtis - plant",
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "ef02g",
+      "label": "Infected Ardjet",
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false,
+      "randomise": false,
+      "vanilla": true,
+      "exclusion_reason": "User requested the second infected Ardjet / Viola AI removal encounter stay completely vanilla to avoid progression softlocks"
+    },
+    {
+      "stage": "fr02",
+      "label": "Inhert",
+      "multiple_phases": true,
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "fr03",
+      "label": "Inhert continuation candidate",
+      "multiple_phases": true,
+      "mapping_verified": false
+    },
+    {
+      "stage": "fr04",
+      "label": "Anubis/Inhert transition candidate",
+      "mapping_verified": false
+    },
+    {
+      "stage": "af02",
+      "label": "Zakat",
+      "mapping_verified": false,
+      "randomise": false,
+      "vanilla": true,
+      "exclusion_reason": "User requested Zakat remain vanilla for now"
+    },
+    {
+      "stage": "cs01",
+      "label": "Anubis - compressed space",
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "am01",
+      "label": "Anubis - Aumaan core",
+      "mapping_verified": false
+    },
+    {
+      "stage": "fa01",
+      "label": "Fake Anubis",
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "fr04g",
+      "label": "Anubis - continuation",
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "am02",
+      "label": "Aumaan Anubis",
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    },
+    {
+      "stage": "am01g",
+      "label": "Nephtis - revival",
+      "multiple_phases": true,
+      "mapping_verified": true,
+      "source_factory_verified": true,
+      "replacement_adapter_verified": false
+    }
+  ],
+  "subweapons": {
+    "pool_candidates": [
+      "Geyser",
+      "Comet",
+      "Gauntlet",
+      "Decoy",
+      "Homing Missile",
+      "Wisp",
+      "Floating Mine",
+      "Zero Shift",
+      "Phalanx",
+      "Halberd",
+      "Mummy"
+    ],
+    "ids_verified": true,
+    "metatron_chance_percent": 20,
+    "metatron_reward_policy": "Prefer unowned subweapons; retain normal healing",
+    "progression_policy": "Required weapon available before any mandatory gate",
+    "vanilla_weapons": [
+      "Vector Cannon"
+    ],
+    "vanilla_policy": "Vector Cannon retains original acquisition and behaviour; excluded from shuffle and Metatron reward pool",
+    "ownership_script_preview": "Weapons-Preview-4/manifest.json",
+    "script_acquisition_verified": true,
+    "progression_verified": false,
+    "ui_assets_verified": false,
+    "metatron_hook_implemented": true,
+    "metatron_hook_gameplay_verified": false,
+    "metatron_native_fixture_cases": 1080
+  },
+  "validation": {
+    "full_game_playable": false,
+    "narita_ca01_gameplay": true,
+    "all_enemy_assets_audited": false,
+    "boss_adapters_verified": false,
+    "reward_hooks_verified": false
+  },
+  "bosses": {
+    "vanilla_bosses": [
+      "Zakat"
+    ],
+    "vanilla_stages": [
+      "af02"
+    ],
+    "shuffle_policy": "Shuffle other boss encounters only after spawn/phase/completion adapters are verified; Zakat is excluded from both source and destination pools",
+    "encounter_catalog": "campaign-boss-encounters.json"
+  },
+  "campaign_phase_evidence": {
+    "ds00g": "ds00 SCX references ds00g; own enemy managers and ENE records",
+    "ds01g": "ds01 SCX references ds01g; own enemy managers and area enemy triggers",
+    "af01g": "af01 SCX references af01g; battleship combat labels and own managers",
+    "mf01c": "mf01 SCX references mf01c; own Narita/Leopard managers and encounters",
+    "fr01c": "fr01 SCX references fr01c; own five-type managers and area triggers",
+    "am01f": "am01 script links am01f; own ENE types Narita/Leopard/Clod and native managers Narita/Leopard/Clod/Raptor verified by original archive audit. Gameplay not validated."
+  },
+  "regular_adapter_evidence": {
+    "mf01": {
+      "adapter": "scx_manager_chain_adapter.py",
+      "source_script": "e5d52896.scx",
+      "source_call": 9575,
+      "added_original_manager_types": [
+        "Clod",
+        "Leopard"
+      ],
+      "archive_integrated": true,
+      "stack_model_checks": 14,
+      "independent_mutation_validation": true,
+      "gameplay_verified": false
+    }
+  },
+  "additional_enemy_systems": [
+    {
+      "name": "Spider",
+      "stage": "vc02",
+      "required_by_all_enemies_scope": true,
+      "excluded": false,
+      "native_adapter_implemented": false,
+      "assets_catalog": "secondary-enemy-assets.json",
+      "creation_contract": "secondary-actor-pool-contract.json"
+    }
+  ],
+  "protected_boss_encounters": [
+    {
+      "stage": "ef02g",
+      "boss": "Infected Ardjet",
+      "variant": 1,
+      "exclude_as_source": true,
+      "exclude_as_replacement_variant": true
+    },
+    {
+      "stage": "af02",
+      "boss": "Zakat",
+      "exclude_as_source": true,
+      "exclude_as_replacement_variant": true
+    }
+  ]
+}

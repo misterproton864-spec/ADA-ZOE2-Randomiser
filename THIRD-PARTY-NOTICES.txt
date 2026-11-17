@@ -1,0 +1,29 @@
+ADA - The ZOE2 MARS Randomiser
+
+Original ADA code is licensed under the MIT licence in LICENSE.
+This public distribution notice supersedes the private-testing permission
+wording in the earlier Local.22 beta package for original ADA code.
+
+Archive reader:
+app/legacy/research/zoe2_archive.py is an altered Python implementation
+of archive algorithms adapted from tools-mgs by Missingno_force / Missingmew.
+Upstream: https://github.com/Joy-Division/tools-mgs
+Reference commit: 4e9394baa8ac6872e66202ff0ce26352cd45bef9
+Its complete original notice is preserved at:
+app/legacy/research/THIRD_PARTY_LICENSE.txt
+The altered implementation is not the upstream tools-mgs program.
+
+Release runtime (not included in this source checkout):
+The Local.22 tester package includes CPython 3.12.14, Tcl/Tk and Microsoft
+Visual C++ runtime files. Python terms: runtime/LICENSE.txt. Tcl/Tk notices
+and licences are retained below runtime/tcl. These components are not
+relicensed under ADA's MIT licence.
+
+Research reference:
+Credits-bank fields were independently inspected using wwiser by bnnm:
+https://github.com/bnnm/wwiser
+wwiser is not included or required by this distribution.
+
+Game files:
+ZOE2 MARS and all Konami game assets remain the property of their respective
+rights holders. No licence to those assets is granted by this project.

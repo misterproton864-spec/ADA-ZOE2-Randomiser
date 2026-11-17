@@ -1,0 +1,4480 @@
+{
+  "enemy_seed": "full-enemies-2026-10-16-v2",
+  "pool": {
+    "10": "Mosquito",
+    "31": "Narita",
+    "32": "Mummyhead",
+    "40": "Raptor",
+    "41": "Cyclops",
+    "42": "Leopard",
+    "43": "Clod"
+  },
+  "mosquito_excluded": false,
+  "subweapon_seed": "branch-mixed-9",
+  "subweapon_manifest_sha256": "d1c2ba1aea9514b7f87f4cb89bbc8a3b1913a2d080b6b51a4c9794fd30c290e0",
+  "metatron_subweapon_chance_percent": 20,
+  "summary": {
+    "slots": 342,
+    "mosquito_source_slots": 39,
+    "mosquito_destination_slots": 8,
+    "unchanged_active_slots": 0
+  },
+  "stages": [
+    {
+      "stage": "ca00",
+      "seed_family": [
+        "ca00",
+        "cad1"
+      ],
+      "mapping": {
+        "10": 31,
+        "31": 42,
+        "32": 41,
+        "40": 43,
+        "41": 10,
+        "42": 40,
+        "43": 32
+      },
+      "swarm_destination_blocked_for_actor_types": [],
+      "slots": [
+        {
+          "file": "31b2bda7.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 10,
+          "count": 40,
+          "level": 0,
+          "script_group_id": 1022785640,
+          "replacement_type": 31
+        },
+        {
+          "file": "31b2bda7.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 3321328388,
+          "replacement_type": 43
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "cad1",
+      "seed_family": [
+        "ca00",
+        "cad1"
+      ],
+      "mapping": {
+        "10": 31,
+        "31": 42,
+        "32": 41,
+        "40": 43,
+        "41": 10,
+        "42": 40,
+        "43": 32
+      },
+      "swarm_destination_blocked_for_actor_types": [],
+      "slots": [
+        {
+          "file": "31b2bda7.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 10,
+          "count": 40,
+          "level": 0,
+          "script_group_id": 1022785640,
+          "replacement_type": 31
+        },
+        {
+          "file": "31b2bda7.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 3321328388,
+          "replacement_type": 43
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ca01",
+      "seed_family": [
+        "ca01"
+      ],
+      "mapping": {
+        "10": 43,
+        "31": 32,
+        "32": 31,
+        "40": 42,
+        "41": 40,
+        "42": 41,
+        "43": 10
+      },
+      "swarm_destination_blocked_for_actor_types": [],
+      "slots": [
+        {
+          "file": "28db1f18.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 10,
+          "count": 20,
+          "level": 0,
+          "script_group_id": 3456003856,
+          "replacement_type": 43
+        },
+        {
+          "file": "28db1f18.ene",
+          "record": 0,
+          "slot": 1,
+          "offset": 88,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 3456003856,
+          "replacement_type": 42
+        },
+        {
+          "file": "28db1f18.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 10,
+          "count": 20,
+          "level": 0,
+          "script_group_id": 301477041,
+          "replacement_type": 43
+        },
+        {
+          "file": "28db1f18.ene",
+          "record": 1,
+          "slot": 1,
+          "offset": 200,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 301477041,
+          "replacement_type": 42
+        },
+        {
+          "file": "28db1f18.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 10,
+          "count": 5,
+          "level": 0,
+          "script_group_id": 2045897490,
+          "replacement_type": 43
+        },
+        {
+          "file": "28db1f18.ene",
+          "record": 2,
+          "slot": 1,
+          "offset": 312,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 2045897490,
+          "replacement_type": 42
+        },
+        {
+          "file": "28db1f18.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 10,
+          "count": 10,
+          "level": 0,
+          "script_group_id": 971335347,
+          "replacement_type": 43
+        },
+        {
+          "file": "28db1f18.ene",
+          "record": 3,
+          "slot": 1,
+          "offset": 424,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 971335347,
+          "replacement_type": 42
+        },
+        {
+          "file": "28db1f18.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 40,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 1186219380,
+          "replacement_type": 42
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ba01",
+      "seed_family": [
+        "ba01"
+      ],
+      "mapping": {
+        "10": 43,
+        "31": 10,
+        "32": 40,
+        "40": 42,
+        "41": 31,
+        "42": 41,
+        "43": 32
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40
+      ],
+      "slots": [
+        {
+          "file": "addd0510.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 4094044359,
+          "replacement_type": 42
+        },
+        {
+          "file": "addd0510.ene",
+          "record": 0,
+          "slot": 1,
+          "offset": 88,
+          "original_type": 32,
+          "count": 1,
+          "level": 2,
+          "script_group_id": 4094044359,
+          "replacement_type": 40
+        },
+        {
+          "file": "bd6b79d1.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 10,
+          "count": 20,
+          "level": 0,
+          "script_group_id": 2361255284,
+          "replacement_type": 43
+        },
+        {
+          "file": "bd6b79d1.ene",
+          "record": 0,
+          "slot": 1,
+          "offset": 88,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 2361255284,
+          "replacement_type": 42
+        },
+        {
+          "file": "9eba1ac0.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 3,
+          "level": 1,
+          "script_group_id": 4131190067,
+          "replacement_type": 42
+        },
+        {
+          "file": "da0549ae.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 3,
+          "level": 1,
+          "script_group_id": 4131190067,
+          "replacement_type": 42
+        },
+        {
+          "file": "da0549ae.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 10,
+          "count": 30,
+          "level": 0,
+          "script_group_id": 2361255284,
+          "replacement_type": 43
+        },
+        {
+          "file": "da0549ae.ene",
+          "record": 1,
+          "slot": 1,
+          "offset": 200,
+          "original_type": 40,
+          "count": 2,
+          "level": 0,
+          "script_group_id": 2361255284,
+          "replacement_type": 42
+        },
+        {
+          "file": "da0549ae.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 40,
+          "count": 2,
+          "level": 0,
+          "script_group_id": 4094044359,
+          "replacement_type": 42
+        },
+        {
+          "file": "da0549ae.ene",
+          "record": 3,
+          "slot": 1,
+          "offset": 424,
+          "original_type": 32,
+          "count": 1,
+          "level": 0,
+          "script_group_id": 4094044359,
+          "replacement_type": 40
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ds00",
+      "seed_family": [
+        "ds00"
+      ],
+      "mapping": {
+        "10": 32,
+        "31": 41,
+        "32": 40,
+        "40": 31,
+        "41": 43,
+        "42": 10,
+        "43": 42
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40,
+        41
+      ],
+      "slots": [
+        {
+          "file": "ab7cae07.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 41,
+          "count": 3,
+          "level": 1,
+          "script_group_id": 1300077491,
+          "replacement_type": 43
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 41,
+          "count": 3,
+          "level": 1,
+          "script_group_id": 729547404,
+          "replacement_type": 43
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 3321566379,
+          "replacement_type": 31
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 32,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 892229466,
+          "replacement_type": 40
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 41,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 3316702162,
+          "replacement_type": 43
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 2784705525,
+          "replacement_type": 31
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 41,
+          "count": 3,
+          "level": 1,
+          "script_group_id": 649962665,
+          "replacement_type": 43
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 32,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 2521321803,
+          "replacement_type": 40
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 10,
+          "count": 12,
+          "level": 1,
+          "script_group_id": 3489505243,
+          "replacement_type": 32
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 10,
+          "slot": 0,
+          "offset": 1200,
+          "original_type": 10,
+          "count": 10,
+          "level": 1,
+          "script_group_id": 268279563,
+          "replacement_type": 32
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 11,
+          "slot": 0,
+          "offset": 1312,
+          "original_type": 10,
+          "count": 12,
+          "level": 1,
+          "script_group_id": 2952503130,
+          "replacement_type": 32
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 12,
+          "slot": 1,
+          "offset": 1432,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 905665606,
+          "replacement_type": 31
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 13,
+          "slot": 0,
+          "offset": 1536,
+          "original_type": 10,
+          "count": 8,
+          "level": 1,
+          "script_group_id": 1341419556,
+          "replacement_type": 32
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 14,
+          "slot": 0,
+          "offset": 1648,
+          "original_type": 10,
+          "count": 8,
+          "level": 1,
+          "script_group_id": 2815569811,
+          "replacement_type": 32
+        },
+        {
+          "file": "ab7cae07.ene",
+          "record": 15,
+          "slot": 0,
+          "offset": 1760,
+          "original_type": 10,
+          "count": 6,
+          "level": 1,
+          "script_group_id": 2009100090,
+          "replacement_type": 32
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ds01",
+      "seed_family": [
+        "ds01",
+        "ds01g"
+      ],
+      "mapping": {
+        "10": 31,
+        "31": 41,
+        "32": 42,
+        "40": 43,
+        "41": 32,
+        "42": 10,
+        "43": 40
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40,
+        41
+      ],
+      "slots": [
+        {
+          "file": "63959606.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1125226311,
+          "replacement_type": 43
+        },
+        {
+          "file": "63959606.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 32,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 3843176393,
+          "replacement_type": 42
+        },
+        {
+          "file": "63959606.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 41,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1729148523,
+          "replacement_type": 32
+        },
+        {
+          "file": "63959606.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 41,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1898091149,
+          "replacement_type": 32
+        },
+        {
+          "file": "63959606.ene",
+          "record": 3,
+          "slot": 1,
+          "offset": 424,
+          "original_type": 32,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1898091149,
+          "replacement_type": 42
+        },
+        {
+          "file": "63959606.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 41,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 724990414,
+          "replacement_type": 32
+        },
+        {
+          "file": "63959606.ene",
+          "record": 4,
+          "slot": 1,
+          "offset": 536,
+          "original_type": 32,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 724990414,
+          "replacement_type": 42
+        },
+        {
+          "file": "63959606.ene",
+          "record": 5,
+          "slot": 1,
+          "offset": 648,
+          "original_type": 41,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1749422447,
+          "replacement_type": 32
+        },
+        {
+          "file": "63959606.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 41,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1333270245,
+          "replacement_type": 32
+        },
+        {
+          "file": "63959606.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 32,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 2180847496,
+          "replacement_type": 42
+        },
+        {
+          "file": "63959606.ene",
+          "record": 7,
+          "slot": 1,
+          "offset": 872,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 2180847496,
+          "replacement_type": 43
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ds02",
+      "seed_family": [
+        "ds02"
+      ],
+      "mapping": {
+        "10": 41,
+        "31": 40,
+        "32": 42,
+        "40": 43,
+        "41": 31,
+        "42": 32,
+        "43": 10
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        40,
+        41
+      ],
+      "slots": [
+        {
+          "file": "4a9abad0.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1125226311,
+          "replacement_type": 43
+        },
+        {
+          "file": "4a9abad0.ene",
+          "record": 1,
+          "slot": 2,
+          "offset": 208,
+          "original_type": 41,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 3843176393,
+          "replacement_type": 31
+        },
+        {
+          "file": "4a9abad0.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1729148523,
+          "replacement_type": 43
+        },
+        {
+          "file": "4a9abad0.ene",
+          "record": 2,
+          "slot": 1,
+          "offset": 312,
+          "original_type": 41,
+          "count": 1,
+          "level": 2,
+          "script_group_id": 1729148523,
+          "replacement_type": 31
+        },
+        {
+          "file": "4a9abad0.ene",
+          "record": 3,
+          "slot": 2,
+          "offset": 432,
+          "original_type": 41,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 1898091149,
+          "replacement_type": 31
+        },
+        {
+          "file": "4a9abad0.ene",
+          "record": 4,
+          "slot": 2,
+          "offset": 544,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 724990414,
+          "replacement_type": 43
+        },
+        {
+          "file": "4a9abad0.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 41,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1749422447,
+          "replacement_type": 31
+        },
+        {
+          "file": "4a9abad0.ene",
+          "record": 7,
+          "slot": 2,
+          "offset": 880,
+          "original_type": 40,
+          "count": 4,
+          "level": 2,
+          "script_group_id": 1070657924,
+          "replacement_type": 43
+        },
+        {
+          "file": "4a9abad0.ene",
+          "record": 14,
+          "slot": 0,
+          "offset": 1648,
+          "original_type": 41,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 1267128231,
+          "replacement_type": 31
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ds03",
+      "seed_family": [
+        "ds03"
+      ],
+      "mapping": {
+        "10": 43,
+        "31": 32,
+        "32": 41,
+        "40": 42,
+        "41": 40,
+        "42": 10,
+        "43": 31
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        40
+      ],
+      "slots": [
+        {
+          "file": "fff51895.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 5,
+          "level": 3,
+          "script_group_id": 48748,
+          "replacement_type": 42
+        },
+        {
+          "file": "fff51895.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 40,
+          "count": 6,
+          "level": 3,
+          "script_group_id": 243755,
+          "replacement_type": 42
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "wn00",
+      "seed_family": [
+        "wn00"
+      ],
+      "mapping": {
+        "10": 43,
+        "31": 41,
+        "32": 40,
+        "40": 32,
+        "41": 42,
+        "42": 31,
+        "43": 10
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        31,
+        32
+      ],
+      "slots": [
+        {
+          "file": "4848ab95.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 31,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 2562722517,
+          "replacement_type": 41
+        },
+        {
+          "file": "4848ab95.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 31,
+          "count": 4,
+          "level": 2,
+          "script_group_id": 4172887070,
+          "replacement_type": 41
+        },
+        {
+          "file": "4848ab95.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 32,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 2609202009,
+          "replacement_type": 40
+        },
+        {
+          "file": "4848ab95.ene",
+          "record": 2,
+          "slot": 1,
+          "offset": 312,
+          "original_type": 40,
+          "count": 4,
+          "level": 4,
+          "script_group_id": 2609202009,
+          "replacement_type": 32
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "wn01",
+      "seed_family": [
+        "wn01"
+      ],
+      "mapping": {
+        "10": 42,
+        "31": 43,
+        "32": 31,
+        "40": 41,
+        "41": 40,
+        "42": 10,
+        "43": 32
+      },
+      "swarm_destination_blocked_for_actor_types": [],
+      "slots": [
+        {
+          "file": "15ba54c8.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 43,
+          "count": 1,
+          "level": 0,
+          "script_group_id": 2088505518,
+          "replacement_type": 32
+        },
+        {
+          "file": "15ba54c8.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 40,
+          "count": 4,
+          "level": 0,
+          "script_group_id": 368332509,
+          "replacement_type": 41
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "wn02",
+      "seed_family": [
+        "wn02"
+      ],
+      "mapping": {
+        "10": 40,
+        "31": 32,
+        "32": 43,
+        "40": 10,
+        "41": 31,
+        "42": 41,
+        "43": 42
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        31
+      ],
+      "slots": [
+        {
+          "file": "8d2853b0.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 31,
+          "count": 1,
+          "level": 3,
+          "script_group_id": 2562722517,
+          "replacement_type": 32
+        },
+        {
+          "file": "8d2853b0.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 31,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 4172887070,
+          "replacement_type": 32
+        },
+        {
+          "file": "8d2853b0.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 31,
+          "count": 4,
+          "level": 4,
+          "script_group_id": 2609202009,
+          "replacement_type": 32
+        },
+        {
+          "file": "8d2853b0.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 31,
+          "count": 4,
+          "level": 4,
+          "script_group_id": 3128037729,
+          "replacement_type": 32
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "cy01",
+      "seed_family": [
+        "cy01"
+      ],
+      "mapping": {
+        "10": 42,
+        "31": 32,
+        "32": 43,
+        "40": 31,
+        "41": 40,
+        "42": 10,
+        "43": 41
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40,
+        41
+      ],
+      "slots": [
+        {
+          "file": "207a74b0.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 458340309,
+          "replacement_type": 31
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 0,
+          "slot": 1,
+          "offset": 88,
+          "original_type": 32,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 458340309,
+          "replacement_type": 43
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 0,
+          "slot": 2,
+          "offset": 96,
+          "original_type": 41,
+          "count": 1,
+          "level": 2,
+          "script_group_id": 458340309,
+          "replacement_type": 40
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 693122966,
+          "replacement_type": 43
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 32,
+          "count": 4,
+          "level": 3,
+          "script_group_id": 1125226311,
+          "replacement_type": 43
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 10,
+          "count": 10,
+          "level": 2,
+          "script_group_id": 2032187064,
+          "replacement_type": 42
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 3,
+          "slot": 1,
+          "offset": 424,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 2032187064,
+          "replacement_type": 31
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 40,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 3143742362,
+          "replacement_type": 31
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 5,
+          "slot": 1,
+          "offset": 648,
+          "original_type": 32,
+          "count": 1,
+          "level": 3,
+          "script_group_id": 3143742362,
+          "replacement_type": 43
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 32,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1729148523,
+          "replacement_type": 43
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 3210917756,
+          "replacement_type": 31
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 7,
+          "slot": 1,
+          "offset": 872,
+          "original_type": 32,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 3210917756,
+          "replacement_type": 43
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1898091149,
+          "replacement_type": 31
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 8,
+          "slot": 1,
+          "offset": 984,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1898091149,
+          "replacement_type": 43
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 8,
+          "slot": 2,
+          "offset": 992,
+          "original_type": 41,
+          "count": 1,
+          "level": 3,
+          "script_group_id": 1898091149,
+          "replacement_type": 40
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 9,
+          "slot": 0,
+          "offset": 1088,
+          "original_type": 40,
+          "count": 1,
+          "level": 3,
+          "script_group_id": 1058673120,
+          "replacement_type": 31
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 10,
+          "slot": 0,
+          "offset": 1200,
+          "original_type": 40,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 1749422447,
+          "replacement_type": 31
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 11,
+          "slot": 0,
+          "offset": 1312,
+          "original_type": 40,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 3074062720,
+          "replacement_type": 31
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 12,
+          "slot": 0,
+          "offset": 1424,
+          "original_type": 41,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 722081971,
+          "replacement_type": 40
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 13,
+          "slot": 0,
+          "offset": 1536,
+          "original_type": 10,
+          "count": 10,
+          "level": 2,
+          "script_group_id": 1143640260,
+          "replacement_type": 42
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 14,
+          "slot": 0,
+          "offset": 1648,
+          "original_type": 10,
+          "count": 10,
+          "level": 2,
+          "script_group_id": 1861652949,
+          "replacement_type": 42
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 16,
+          "slot": 0,
+          "offset": 1872,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1484729229,
+          "replacement_type": 43
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 17,
+          "slot": 0,
+          "offset": 1984,
+          "original_type": 40,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 2911147828,
+          "replacement_type": 31
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 18,
+          "slot": 0,
+          "offset": 2096,
+          "original_type": 32,
+          "count": 1,
+          "level": 3,
+          "script_group_id": 1443341917,
+          "replacement_type": 43
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 19,
+          "slot": 0,
+          "offset": 2208,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3210848112,
+          "replacement_type": 31
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 19,
+          "slot": 1,
+          "offset": 2216,
+          "original_type": 41,
+          "count": 1,
+          "level": 2,
+          "script_group_id": 3210848112,
+          "replacement_type": 40
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 21,
+          "slot": 0,
+          "offset": 2432,
+          "original_type": 10,
+          "count": 10,
+          "level": 2,
+          "script_group_id": 827002005,
+          "replacement_type": 42
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 22,
+          "slot": 0,
+          "offset": 2544,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3468367762,
+          "replacement_type": 31
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 22,
+          "slot": 1,
+          "offset": 2552,
+          "original_type": 32,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 3468367762,
+          "replacement_type": 43
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 23,
+          "slot": 0,
+          "offset": 2656,
+          "original_type": 41,
+          "count": 6,
+          "level": 4,
+          "script_group_id": 3937178424,
+          "replacement_type": 40
+        },
+        {
+          "file": "207a74b0.ene",
+          "record": 24,
+          "slot": 0,
+          "offset": 2768,
+          "original_type": 32,
+          "count": 6,
+          "level": 3,
+          "script_group_id": 3238175061,
+          "replacement_type": 43
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ex01",
+      "seed_family": [
+        "ex01"
+      ],
+      "mapping": {
+        "10": 43,
+        "31": 41,
+        "32": 42,
+        "40": 31,
+        "41": 40,
+        "42": 32,
+        "43": 10
+      },
+      "swarm_destination_blocked_for_actor_types": [],
+      "slots": [
+        {
+          "file": "71bf668d.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 43,
+          "count": 3,
+          "level": 7,
+          "script_group_id": 3668408029,
+          "replacement_type": 10
+        },
+        {
+          "file": "71bf668d.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 31,
+          "count": 3,
+          "level": 7,
+          "script_group_id": 1311807517,
+          "replacement_type": 41
+        },
+        {
+          "file": "71bf668d.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 42,
+          "count": 3,
+          "level": 7,
+          "script_group_id": 18323456,
+          "replacement_type": 32
+        },
+        {
+          "file": "71bf668d.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 42,
+          "count": 2,
+          "level": 7,
+          "script_group_id": 2900107441,
+          "replacement_type": 32
+        },
+        {
+          "file": "71bf668d.ene",
+          "record": 3,
+          "slot": 1,
+          "offset": 424,
+          "original_type": 43,
+          "count": 2,
+          "level": 7,
+          "script_group_id": 2900107441,
+          "replacement_type": 10
+        },
+        {
+          "file": "71bf668d.ene",
+          "record": 3,
+          "slot": 2,
+          "offset": 432,
+          "original_type": 31,
+          "count": 2,
+          "level": 7,
+          "script_group_id": 2900107441,
+          "replacement_type": 41
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "vc02",
+      "seed_family": [
+        "vc02",
+        "vc03"
+      ],
+      "mapping": {
+        "10": 40,
+        "31": 42,
+        "32": 43,
+        "40": 41,
+        "41": 32,
+        "42": 10,
+        "43": 31
+      },
+      "swarm_destination_blocked_for_actor_types": [],
+      "slots": [
+        {
+          "file": "51ba548e.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 693122966,
+          "replacement_type": 41
+        },
+        {
+          "file": "51ba548e.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 2032187064,
+          "replacement_type": 41
+        },
+        {
+          "file": "51ba548e.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 10,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1878990814,
+          "replacement_type": 40
+        },
+        {
+          "file": "51ba548e.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 10,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 2952732589,
+          "replacement_type": 40
+        },
+        {
+          "file": "51ba548e.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 10,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 3489603564,
+          "replacement_type": 40
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "vc03",
+      "seed_family": [
+        "vc02",
+        "vc03"
+      ],
+      "mapping": {
+        "10": 40,
+        "31": 42,
+        "32": 43,
+        "40": 41,
+        "41": 32,
+        "42": 10,
+        "43": 31
+      },
+      "swarm_destination_blocked_for_actor_types": [],
+      "slots": [
+        {
+          "file": "51ba548e.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 693122966,
+          "replacement_type": 41
+        },
+        {
+          "file": "51ba548e.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 2032187064,
+          "replacement_type": 41
+        },
+        {
+          "file": "51ba548e.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 10,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1878990814,
+          "replacement_type": 40
+        },
+        {
+          "file": "51ba548e.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 10,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 2952732589,
+          "replacement_type": 40
+        },
+        {
+          "file": "51ba548e.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 10,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 3489603564,
+          "replacement_type": 40
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "tr01",
+      "seed_family": [
+        "tr01"
+      ],
+      "mapping": {
+        "10": 42,
+        "31": 40,
+        "32": 43,
+        "40": 10,
+        "41": 31,
+        "42": 41,
+        "43": 32
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        31,
+        41
+      ],
+      "slots": [
+        {
+          "file": "7db50816.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 31,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 2582054518,
+          "replacement_type": 40
+        },
+        {
+          "file": "7db50816.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 41,
+          "count": 4,
+          "level": 2,
+          "script_group_id": 3518982619,
+          "replacement_type": 31
+        },
+        {
+          "file": "7db50816.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 31,
+          "count": 4,
+          "level": 2,
+          "script_group_id": 3326721157,
+          "replacement_type": 40
+        },
+        {
+          "file": "7db50816.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 41,
+          "count": 4,
+          "level": 2,
+          "script_group_id": 2977178468,
+          "replacement_type": 31
+        },
+        {
+          "file": "7db50816.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 41,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 2473743433,
+          "replacement_type": 31
+        },
+        {
+          "file": "7db50816.ene",
+          "record": 4,
+          "slot": 1,
+          "offset": 536,
+          "original_type": 31,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 2473743433,
+          "replacement_type": 40
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ef01",
+      "seed_family": [
+        "ef01"
+      ],
+      "mapping": {
+        "10": 32,
+        "31": 10,
+        "32": 40,
+        "40": 41,
+        "41": 42,
+        "42": 43,
+        "43": 31
+      },
+      "swarm_destination_blocked_for_actor_types": [],
+      "slots": [
+        {
+          "file": "e728b273.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 3008247106,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 726644945,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 449746142,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 4073740543,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 2866804032,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 449778961,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 1752963528,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 2809940393,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 829172186,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 9,
+          "slot": 0,
+          "offset": 1088,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 963377611,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 10,
+          "slot": 0,
+          "offset": 1200,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 1361844668,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 11,
+          "slot": 0,
+          "offset": 1312,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 2159827405,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 12,
+          "slot": 0,
+          "offset": 1424,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 1058673072,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 13,
+          "slot": 0,
+          "offset": 1536,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 1749422463,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 14,
+          "slot": 0,
+          "offset": 1648,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 3074062736,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 15,
+          "slot": 0,
+          "offset": 1760,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 1543928241,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 16,
+          "slot": 0,
+          "offset": 1872,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 2687900114,
+          "replacement_type": 31
+        },
+        {
+          "file": "e728b273.ene",
+          "record": 17,
+          "slot": 0,
+          "offset": 1984,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 722082243,
+          "replacement_type": 31
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ef03",
+      "seed_family": [
+        "ef03",
+        "ef04"
+      ],
+      "mapping": {
+        "10": 42,
+        "31": 43,
+        "32": 40,
+        "40": 32,
+        "41": 10,
+        "42": 31,
+        "43": 41
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40,
+        43
+      ],
+      "slots": [
+        {
+          "file": "72a20b2e.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 693122966,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 1,
+          "slot": 1,
+          "offset": 200,
+          "original_type": 32,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 1125226311,
+          "replacement_type": 40
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 2032187064,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 2,
+          "slot": 1,
+          "offset": 312,
+          "original_type": 43,
+          "count": 1,
+          "level": 1,
+          "script_group_id": 2032187064,
+          "replacement_type": 41
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 3468367730,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 4,
+          "slot": 1,
+          "offset": 536,
+          "original_type": 32,
+          "count": 1,
+          "level": 1,
+          "script_group_id": 1333270245,
+          "replacement_type": 40
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 1757917873,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 5,
+          "slot": 1,
+          "offset": 648,
+          "original_type": 43,
+          "count": 1,
+          "level": 2,
+          "script_group_id": 1757917873,
+          "replacement_type": 41
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 3843176393,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 6,
+          "slot": 1,
+          "offset": 760,
+          "original_type": 43,
+          "count": 1,
+          "level": 3,
+          "script_group_id": 3843176393,
+          "replacement_type": 41
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 1212575378,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3143742362,
+          "replacement_type": 32
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ef04",
+      "seed_family": [
+        "ef03",
+        "ef04"
+      ],
+      "mapping": {
+        "10": 42,
+        "31": 43,
+        "32": 40,
+        "40": 32,
+        "41": 10,
+        "42": 31,
+        "43": 41
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40,
+        43
+      ],
+      "slots": [
+        {
+          "file": "72a20b2e.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 693122966,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 1,
+          "slot": 1,
+          "offset": 200,
+          "original_type": 32,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 1125226311,
+          "replacement_type": 40
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 2032187064,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 2,
+          "slot": 1,
+          "offset": 312,
+          "original_type": 43,
+          "count": 1,
+          "level": 1,
+          "script_group_id": 2032187064,
+          "replacement_type": 41
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 3468367730,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 4,
+          "slot": 1,
+          "offset": 536,
+          "original_type": 32,
+          "count": 1,
+          "level": 1,
+          "script_group_id": 1333270245,
+          "replacement_type": 40
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 1757917873,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 5,
+          "slot": 1,
+          "offset": 648,
+          "original_type": 43,
+          "count": 1,
+          "level": 2,
+          "script_group_id": 1757917873,
+          "replacement_type": 41
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 3843176393,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 6,
+          "slot": 1,
+          "offset": 760,
+          "original_type": 43,
+          "count": 1,
+          "level": 3,
+          "script_group_id": 3843176393,
+          "replacement_type": 41
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 1212575378,
+          "replacement_type": 32
+        },
+        {
+          "file": "72a20b2e.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3143742362,
+          "replacement_type": 32
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "he01",
+      "seed_family": [
+        "he01"
+      ],
+      "mapping": {
+        "10": 42,
+        "31": 43,
+        "32": 10,
+        "40": 31,
+        "41": 32,
+        "42": 40,
+        "43": 41
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        43
+      ],
+      "slots": [
+        {
+          "file": "08cbe8b0.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 4100371941,
+          "replacement_type": 10
+        },
+        {
+          "file": "08cbe8b0.ene",
+          "record": 0,
+          "slot": 1,
+          "offset": 88,
+          "original_type": 41,
+          "count": 2,
+          "level": 0,
+          "script_group_id": 4100371941,
+          "replacement_type": 32
+        },
+        {
+          "file": "08cbe8b0.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 3563518446,
+          "replacement_type": 41
+        },
+        {
+          "file": "08cbe8b0.ene",
+          "record": 1,
+          "slot": 1,
+          "offset": 200,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 3563518446,
+          "replacement_type": 31
+        },
+        {
+          "file": "08cbe8b0.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 40,
+          "count": 3,
+          "level": 4,
+          "script_group_id": 3011854823,
+          "replacement_type": 31
+        },
+        {
+          "file": "08cbe8b0.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 43,
+          "count": 4,
+          "level": 3,
+          "script_group_id": 1857236497,
+          "replacement_type": 41
+        },
+        {
+          "file": "08cbe8b0.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 40,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 3505668665,
+          "replacement_type": 31
+        },
+        {
+          "file": "08cbe8b0.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 40,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 3906159528,
+          "replacement_type": 31
+        },
+        {
+          "file": "08cbe8b0.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 10,
+          "count": 5,
+          "level": 4,
+          "script_group_id": 1286817941,
+          "replacement_type": 42
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "fc01",
+      "seed_family": [
+        "fc01"
+      ],
+      "mapping": {
+        "10": 42,
+        "31": 10,
+        "32": 40,
+        "40": 43,
+        "41": 31,
+        "42": 32,
+        "43": 41
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40,
+        42
+      ],
+      "slots": [
+        {
+          "file": "d15488c8.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 42,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 3843176393,
+          "replacement_type": 32
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 0,
+          "slot": 1,
+          "offset": 88,
+          "original_type": 32,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 3843176393,
+          "replacement_type": 40
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 42,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 2032187064,
+          "replacement_type": 32
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 40,
+          "count": 3,
+          "level": 4,
+          "script_group_id": 693122966,
+          "replacement_type": 43
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 40,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 1125226311,
+          "replacement_type": 43
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 3,
+          "slot": 1,
+          "offset": 424,
+          "original_type": 32,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 1125226311,
+          "replacement_type": 40
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 42,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 1757917873,
+          "replacement_type": 32
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 42,
+          "count": 3,
+          "level": 4,
+          "script_group_id": 3468367730,
+          "replacement_type": 32
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 32,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 2029778763,
+          "replacement_type": 40
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 32,
+          "count": 4,
+          "level": 4,
+          "script_group_id": 3067860875,
+          "replacement_type": 40
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 9,
+          "slot": 0,
+          "offset": 1088,
+          "original_type": 40,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 2264663938,
+          "replacement_type": 43
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 10,
+          "slot": 0,
+          "offset": 1200,
+          "original_type": 32,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 3573299520,
+          "replacement_type": 40
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 11,
+          "slot": 0,
+          "offset": 1312,
+          "original_type": 40,
+          "count": 3,
+          "level": 4,
+          "script_group_id": 1660692873,
+          "replacement_type": 43
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 12,
+          "slot": 0,
+          "offset": 1424,
+          "original_type": 40,
+          "count": 4,
+          "level": 4,
+          "script_group_id": 1868986780,
+          "replacement_type": 43
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 13,
+          "slot": 0,
+          "offset": 1536,
+          "original_type": 40,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 996194755,
+          "replacement_type": 43
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 14,
+          "slot": 0,
+          "offset": 1648,
+          "original_type": 42,
+          "count": 4,
+          "level": 2,
+          "script_group_id": 341481921,
+          "replacement_type": 32
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 15,
+          "slot": 0,
+          "offset": 1760,
+          "original_type": 42,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 561797530,
+          "replacement_type": 32
+        },
+        {
+          "file": "d15488c8.ene",
+          "record": 15,
+          "slot": 1,
+          "offset": 1768,
+          "original_type": 32,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 561797530,
+          "replacement_type": 40
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "fr01",
+      "seed_family": [
+        "fr01"
+      ],
+      "mapping": {
+        "10": 42,
+        "31": 32,
+        "32": 41,
+        "40": 43,
+        "41": 40,
+        "42": 10,
+        "43": 31
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40,
+        41,
+        43
+      ],
+      "slots": [
+        {
+          "file": "d62d2c97.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 2163914517,
+          "replacement_type": 31
+        },
+        {
+          "file": "d62d2c97.ene",
+          "record": 0,
+          "slot": 1,
+          "offset": 88,
+          "original_type": 41,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 2163914517,
+          "replacement_type": 40
+        },
+        {
+          "file": "d62d2c97.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 32,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 3468367730,
+          "replacement_type": 41
+        },
+        {
+          "file": "d62d2c97.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 40,
+          "count": 3,
+          "level": 4,
+          "script_group_id": 2029778763,
+          "replacement_type": 43
+        },
+        {
+          "file": "d62d2c97.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 40,
+          "count": 3,
+          "level": 4,
+          "script_group_id": 3514095414,
+          "replacement_type": 43
+        },
+        {
+          "file": "d62d2c97.ene",
+          "record": 4,
+          "slot": 1,
+          "offset": 536,
+          "original_type": 32,
+          "count": 3,
+          "level": 4,
+          "script_group_id": 1333270245,
+          "replacement_type": 41
+        },
+        {
+          "file": "d62d2c97.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 1543526146,
+          "replacement_type": 31
+        },
+        {
+          "file": "d62d2c97.ene",
+          "record": 5,
+          "slot": 1,
+          "offset": 648,
+          "original_type": 41,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 1543526146,
+          "replacement_type": 40
+        },
+        {
+          "file": "d62d2c97.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 41,
+          "count": 3,
+          "level": 4,
+          "script_group_id": 2022057520,
+          "replacement_type": 40
+        },
+        {
+          "file": "d62d2c97.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 43,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 1757917873,
+          "replacement_type": 31
+        },
+        {
+          "file": "d62d2c97.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 1212575378,
+          "replacement_type": 31
+        },
+        {
+          "file": "d62d2c97.ene",
+          "record": 8,
+          "slot": 1,
+          "offset": 984,
+          "original_type": 32,
+          "count": 2,
+          "level": 4,
+          "script_group_id": 1212575378,
+          "replacement_type": 41
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "af01",
+      "seed_family": [
+        "af01",
+        "af01g"
+      ],
+      "mapping": {
+        "10": 40,
+        "31": 32,
+        "32": 41,
+        "40": 31,
+        "41": 42,
+        "42": 43,
+        "43": 10
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40
+      ],
+      "slots": [
+        {
+          "file": "75ce349e.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 105695926,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3075133107,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 307153588,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3594309237,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3058616158,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1983692639,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 4148737888,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3612001645,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 4132222836,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 9,
+          "slot": 0,
+          "offset": 1088,
+          "original_type": 10,
+          "count": 4,
+          "level": 3,
+          "script_group_id": 3489603564,
+          "replacement_type": 40
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 10,
+          "slot": 0,
+          "offset": 1200,
+          "original_type": 10,
+          "count": 4,
+          "level": 3,
+          "script_group_id": 2952732589,
+          "replacement_type": 40
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 11,
+          "slot": 0,
+          "offset": 1312,
+          "original_type": 10,
+          "count": 4,
+          "level": 3,
+          "script_group_id": 1878990814,
+          "replacement_type": 40
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 12,
+          "slot": 0,
+          "offset": 1424,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 810283750,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 13,
+          "slot": 0,
+          "offset": 1536,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 2954622629,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 14,
+          "slot": 0,
+          "offset": 1648,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 2412501606,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 15,
+          "slot": 0,
+          "offset": 1760,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 1345042903,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 16,
+          "slot": 0,
+          "offset": 1872,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 3622557896,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 17,
+          "slot": 0,
+          "offset": 1984,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 3630937257,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 18,
+          "slot": 0,
+          "offset": 2096,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1165715187,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 19,
+          "slot": 0,
+          "offset": 2208,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1919647680,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 20,
+          "slot": 0,
+          "offset": 2320,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3395010305,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 21,
+          "slot": 0,
+          "offset": 2432,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 2122031922,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 22,
+          "slot": 0,
+          "offset": 2544,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3866847283,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 23,
+          "slot": 0,
+          "offset": 2656,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3044761652,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 24,
+          "slot": 0,
+          "offset": 2768,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1449885685,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 25,
+          "slot": 0,
+          "offset": 2880,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 2454430774,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 26,
+          "slot": 0,
+          "offset": 2992,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 240871543,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 27,
+          "slot": 0,
+          "offset": 3104,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 108751032,
+          "replacement_type": 31
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "mf01",
+      "seed_family": [
+        "mf01"
+      ],
+      "mapping": {
+        "10": 32,
+        "31": 10,
+        "32": 41,
+        "40": 31,
+        "41": 40,
+        "42": 43,
+        "43": 42
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40,
+        41,
+        42,
+        43
+      ],
+      "slots": [
+        {
+          "file": "b3ed2f86.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 4,
+          "level": 3,
+          "script_group_id": 693122966,
+          "replacement_type": 31
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 32,
+          "count": 6,
+          "level": 5,
+          "script_group_id": 1125226311,
+          "replacement_type": 41
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 41,
+          "count": 3,
+          "level": 5,
+          "script_group_id": 2032187064,
+          "replacement_type": 40
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 2,
+          "slot": 1,
+          "offset": 312,
+          "original_type": 32,
+          "count": 3,
+          "level": 5,
+          "script_group_id": 2032187064,
+          "replacement_type": 41
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 42,
+          "count": 3,
+          "level": 5,
+          "script_group_id": 3843176393,
+          "replacement_type": 43
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 4,
+          "slot": 1,
+          "offset": 536,
+          "original_type": 42,
+          "count": 2,
+          "level": 5,
+          "script_group_id": 3143742362,
+          "replacement_type": 43
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 32,
+          "count": 2,
+          "level": 5,
+          "script_group_id": 1729148523,
+          "replacement_type": 41
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 5,
+          "slot": 1,
+          "offset": 648,
+          "original_type": 43,
+          "count": 1,
+          "level": 5,
+          "script_group_id": 1729148523,
+          "replacement_type": 42
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 41,
+          "count": 4,
+          "level": 5,
+          "script_group_id": 2911147828,
+          "replacement_type": 40
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 9,
+          "slot": 0,
+          "offset": 1088,
+          "original_type": 42,
+          "count": 3,
+          "level": 5,
+          "script_group_id": 2751017927,
+          "replacement_type": 43
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 10,
+          "slot": 0,
+          "offset": 1200,
+          "original_type": 10,
+          "count": 5,
+          "level": 5,
+          "script_group_id": 987768594,
+          "replacement_type": 32
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 11,
+          "slot": 0,
+          "offset": 1312,
+          "original_type": 10,
+          "count": 6,
+          "level": 5,
+          "script_group_id": 4261174129,
+          "replacement_type": 32
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 12,
+          "slot": 0,
+          "offset": 1424,
+          "original_type": 10,
+          "count": 6,
+          "level": 5,
+          "script_group_id": 4261176168,
+          "replacement_type": 32
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 13,
+          "slot": 0,
+          "offset": 1536,
+          "original_type": 41,
+          "count": 3,
+          "level": 5,
+          "script_group_id": 3283662787,
+          "replacement_type": 40
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 14,
+          "slot": 0,
+          "offset": 1648,
+          "original_type": 32,
+          "count": 3,
+          "level": 5,
+          "script_group_id": 2180847496,
+          "replacement_type": 41
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 16,
+          "slot": 0,
+          "offset": 1872,
+          "original_type": 41,
+          "count": 2,
+          "level": 5,
+          "script_group_id": 905193033,
+          "replacement_type": 40
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 16,
+          "slot": 1,
+          "offset": 1880,
+          "original_type": 43,
+          "count": 1,
+          "level": 5,
+          "script_group_id": 905193033,
+          "replacement_type": 42
+        },
+        {
+          "file": "b3ed2f86.ene",
+          "record": 17,
+          "slot": 0,
+          "offset": 1984,
+          "original_type": 40,
+          "count": 4,
+          "level": 3,
+          "script_group_id": 3999942002,
+          "replacement_type": 31
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "mf02",
+      "seed_family": [
+        "mf02"
+      ],
+      "mapping": {
+        "10": 31,
+        "31": 10,
+        "32": 43,
+        "40": 42,
+        "41": 40,
+        "42": 32,
+        "43": 41
+      },
+      "swarm_destination_blocked_for_actor_types": [],
+      "slots": [
+        {
+          "file": "24cb3956.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 42,
+          "count": 3,
+          "level": 7,
+          "script_group_id": 693122966,
+          "replacement_type": 32
+        },
+        {
+          "file": "24cb3956.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 32,
+          "count": 3,
+          "level": 7,
+          "script_group_id": 1125226311,
+          "replacement_type": 43
+        },
+        {
+          "file": "24cb3956.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 43,
+          "count": 3,
+          "level": 7,
+          "script_group_id": 2032187064,
+          "replacement_type": 41
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "am01",
+      "seed_family": [
+        "am01"
+      ],
+      "mapping": {
+        "10": 40,
+        "31": 43,
+        "32": 41,
+        "40": 10,
+        "41": 42,
+        "42": 31,
+        "43": 32
+      },
+      "swarm_destination_blocked_for_actor_types": [],
+      "slots": [
+        {
+          "file": "4d3854d0.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 8,
+          "level": 1,
+          "script_group_id": 935872575,
+          "replacement_type": 10
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ds00g",
+      "seed_family": [
+        "ds00g"
+      ],
+      "mapping": {
+        "10": 41,
+        "31": 43,
+        "32": 31,
+        "40": 32,
+        "41": 42,
+        "42": 40,
+        "43": 10
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40,
+        41
+      ],
+      "slots": [
+        {
+          "file": "96ba2460.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 1,
+          "level": 1,
+          "script_group_id": 905665606,
+          "replacement_type": 32
+        },
+        {
+          "file": "96ba2460.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 32,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 4131131121,
+          "replacement_type": 31
+        },
+        {
+          "file": "96ba2460.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 32,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 1300077491,
+          "replacement_type": 31
+        },
+        {
+          "file": "96ba2460.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 10,
+          "count": 18,
+          "level": 1,
+          "script_group_id": 3489120219,
+          "replacement_type": 41
+        },
+        {
+          "file": "96ba2460.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 2382074647,
+          "replacement_type": 32
+        },
+        {
+          "file": "96ba2460.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 40,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 1979419960,
+          "replacement_type": 32
+        },
+        {
+          "file": "96ba2460.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 41,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 729547404,
+          "replacement_type": 42
+        },
+        {
+          "file": "96ba2460.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 41,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 3715699117,
+          "replacement_type": 42
+        },
+        {
+          "file": "96ba2460.ene",
+          "record": 9,
+          "slot": 0,
+          "offset": 1088,
+          "original_type": 10,
+          "count": 6,
+          "level": 1,
+          "script_group_id": 2951888730,
+          "replacement_type": 41
+        },
+        {
+          "file": "96ba2460.ene",
+          "record": 10,
+          "slot": 0,
+          "offset": 1200,
+          "original_type": 32,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 4112951139,
+          "replacement_type": 31
+        },
+        {
+          "file": "96ba2460.ene",
+          "record": 11,
+          "slot": 0,
+          "offset": 1312,
+          "original_type": 32,
+          "count": 2,
+          "level": 1,
+          "script_group_id": 3594088168,
+          "replacement_type": 31
+        },
+        {
+          "file": "96ba2460.ene",
+          "record": 12,
+          "slot": 0,
+          "offset": 1424,
+          "original_type": 10,
+          "count": 10,
+          "level": 1,
+          "script_group_id": 3488526372,
+          "replacement_type": 41
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "ds01g",
+      "seed_family": [
+        "ds01",
+        "ds01g"
+      ],
+      "mapping": {
+        "10": 31,
+        "31": 41,
+        "32": 42,
+        "40": 43,
+        "41": 32,
+        "42": 10,
+        "43": 40
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40,
+        41
+      ],
+      "slots": [
+        {
+          "file": "63959606.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1125226311,
+          "replacement_type": 43
+        },
+        {
+          "file": "63959606.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 32,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 3843176393,
+          "replacement_type": 42
+        },
+        {
+          "file": "63959606.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 41,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1729148523,
+          "replacement_type": 32
+        },
+        {
+          "file": "63959606.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 41,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1898091149,
+          "replacement_type": 32
+        },
+        {
+          "file": "63959606.ene",
+          "record": 3,
+          "slot": 1,
+          "offset": 424,
+          "original_type": 32,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1898091149,
+          "replacement_type": 42
+        },
+        {
+          "file": "63959606.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 41,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 724990414,
+          "replacement_type": 32
+        },
+        {
+          "file": "63959606.ene",
+          "record": 4,
+          "slot": 1,
+          "offset": 536,
+          "original_type": 32,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 724990414,
+          "replacement_type": 42
+        },
+        {
+          "file": "63959606.ene",
+          "record": 5,
+          "slot": 1,
+          "offset": 648,
+          "original_type": 41,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1749422447,
+          "replacement_type": 32
+        },
+        {
+          "file": "63959606.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 41,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 1333270245,
+          "replacement_type": 32
+        },
+        {
+          "file": "63959606.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 32,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 2180847496,
+          "replacement_type": 42
+        },
+        {
+          "file": "63959606.ene",
+          "record": 7,
+          "slot": 1,
+          "offset": 872,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 2180847496,
+          "replacement_type": 43
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "af01g",
+      "seed_family": [
+        "af01",
+        "af01g"
+      ],
+      "mapping": {
+        "10": 40,
+        "31": 32,
+        "32": 41,
+        "40": 31,
+        "41": 42,
+        "42": 43,
+        "43": 10
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        32,
+        40
+      ],
+      "slots": [
+        {
+          "file": "75ce349e.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 105695926,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3075133107,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 307153588,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3594309237,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3058616158,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1983692639,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 4148737888,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3612001645,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 4132222836,
+          "replacement_type": 41
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 9,
+          "slot": 0,
+          "offset": 1088,
+          "original_type": 10,
+          "count": 4,
+          "level": 3,
+          "script_group_id": 3489603564,
+          "replacement_type": 40
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 10,
+          "slot": 0,
+          "offset": 1200,
+          "original_type": 10,
+          "count": 4,
+          "level": 3,
+          "script_group_id": 2952732589,
+          "replacement_type": 40
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 11,
+          "slot": 0,
+          "offset": 1312,
+          "original_type": 10,
+          "count": 4,
+          "level": 3,
+          "script_group_id": 1878990814,
+          "replacement_type": 40
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 12,
+          "slot": 0,
+          "offset": 1424,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 810283750,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 13,
+          "slot": 0,
+          "offset": 1536,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 2954622629,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 14,
+          "slot": 0,
+          "offset": 1648,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 2412501606,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 15,
+          "slot": 0,
+          "offset": 1760,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 1345042903,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 16,
+          "slot": 0,
+          "offset": 1872,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 3622557896,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 17,
+          "slot": 0,
+          "offset": 1984,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 3630937257,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 18,
+          "slot": 0,
+          "offset": 2096,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1165715187,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 19,
+          "slot": 0,
+          "offset": 2208,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1919647680,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 20,
+          "slot": 0,
+          "offset": 2320,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3395010305,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 21,
+          "slot": 0,
+          "offset": 2432,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 2122031922,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 22,
+          "slot": 0,
+          "offset": 2544,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3866847283,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 23,
+          "slot": 0,
+          "offset": 2656,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3044761652,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 24,
+          "slot": 0,
+          "offset": 2768,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1449885685,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 25,
+          "slot": 0,
+          "offset": 2880,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 2454430774,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 26,
+          "slot": 0,
+          "offset": 2992,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 240871543,
+          "replacement_type": 31
+        },
+        {
+          "file": "75ce349e.ene",
+          "record": 27,
+          "slot": 0,
+          "offset": 3104,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 108751032,
+          "replacement_type": 31
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "mf01c",
+      "seed_family": [
+        "mf01c"
+      ],
+      "mapping": {
+        "10": 41,
+        "31": 40,
+        "32": 31,
+        "40": 32,
+        "41": 42,
+        "42": 43,
+        "43": 10
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        31,
+        42
+      ],
+      "slots": [
+        {
+          "file": "c6f640a1.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 42,
+          "count": 6,
+          "level": 3,
+          "script_group_id": 2274096714,
+          "replacement_type": 43
+        },
+        {
+          "file": "c6f640a1.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 31,
+          "count": 6,
+          "level": 5,
+          "script_group_id": 3175004115,
+          "replacement_type": 40
+        },
+        {
+          "file": "c6f640a1.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 42,
+          "count": 6,
+          "level": 5,
+          "script_group_id": 872977283,
+          "replacement_type": 43
+        },
+        {
+          "file": "c6f640a1.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 42,
+          "count": 6,
+          "level": 5,
+          "script_group_id": 1264384039,
+          "replacement_type": 43
+        },
+        {
+          "file": "c6f640a1.ene",
+          "record": 4,
+          "slot": 0,
+          "offset": 528,
+          "original_type": 31,
+          "count": 3,
+          "level": 5,
+          "script_group_id": 3174479728,
+          "replacement_type": 40
+        },
+        {
+          "file": "c6f640a1.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 42,
+          "count": 3,
+          "level": 5,
+          "script_group_id": 3670945950,
+          "replacement_type": 43
+        },
+        {
+          "file": "c6f640a1.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 42,
+          "count": 3,
+          "level": 5,
+          "script_group_id": 2806832614,
+          "replacement_type": 43
+        },
+        {
+          "file": "c6f640a1.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 42,
+          "count": 3,
+          "level": 5,
+          "script_group_id": 810283750,
+          "replacement_type": 43
+        },
+        {
+          "file": "c6f640a1.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 42,
+          "count": 3,
+          "level": 5,
+          "script_group_id": 2954622629,
+          "replacement_type": 43
+        },
+        {
+          "file": "c6f640a1.ene",
+          "record": 9,
+          "slot": 0,
+          "offset": 1088,
+          "original_type": 31,
+          "count": 6,
+          "level": 5,
+          "script_group_id": 3040778047,
+          "replacement_type": 40
+        },
+        {
+          "file": "c6f640a1.ene",
+          "record": 10,
+          "slot": 0,
+          "offset": 1200,
+          "original_type": 31,
+          "count": 6,
+          "level": 6,
+          "script_group_id": 1761504195,
+          "replacement_type": 40
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "fr01c",
+      "seed_family": [
+        "fr01c"
+      ],
+      "mapping": {
+        "10": 32,
+        "31": 10,
+        "32": 42,
+        "40": 41,
+        "41": 43,
+        "42": 40,
+        "43": 31
+      },
+      "swarm_destination_blocked_for_actor_types": [
+        41
+      ],
+      "slots": [
+        {
+          "file": "29f05f9c.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 31,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 2163914517,
+          "replacement_type": 10
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 3468367730,
+          "replacement_type": 42
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 31,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 2029778763,
+          "replacement_type": 10
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 3514095414,
+          "replacement_type": 41
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 4,
+          "slot": 1,
+          "offset": 536,
+          "original_type": 32,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 1333270245,
+          "replacement_type": 42
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 5,
+          "slot": 0,
+          "offset": 640,
+          "original_type": 43,
+          "count": 1,
+          "level": 3,
+          "script_group_id": 1543526146,
+          "replacement_type": 31
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 5,
+          "slot": 1,
+          "offset": 648,
+          "original_type": 41,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1543526146,
+          "replacement_type": 43
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 6,
+          "slot": 0,
+          "offset": 752,
+          "original_type": 41,
+          "count": 3,
+          "level": 4,
+          "script_group_id": 2022057520,
+          "replacement_type": 43
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 7,
+          "slot": 0,
+          "offset": 864,
+          "original_type": 43,
+          "count": 1,
+          "level": 4,
+          "script_group_id": 1757917873,
+          "replacement_type": 31
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 7,
+          "slot": 1,
+          "offset": 872,
+          "original_type": 40,
+          "count": 1,
+          "level": 3,
+          "script_group_id": 1757917873,
+          "replacement_type": 41
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 8,
+          "slot": 0,
+          "offset": 976,
+          "original_type": 43,
+          "count": 1,
+          "level": 3,
+          "script_group_id": 1212575378,
+          "replacement_type": 31
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 8,
+          "slot": 1,
+          "offset": 984,
+          "original_type": 32,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 1212575378,
+          "replacement_type": 42
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 10,
+          "slot": 0,
+          "offset": 1200,
+          "original_type": 10,
+          "count": 12,
+          "level": 3,
+          "script_group_id": 1716596809,
+          "replacement_type": 32
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 11,
+          "slot": 0,
+          "offset": 1312,
+          "original_type": 10,
+          "count": 8,
+          "level": 5,
+          "script_group_id": 1431422234,
+          "replacement_type": 32
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 12,
+          "slot": 0,
+          "offset": 1424,
+          "original_type": 40,
+          "count": 3,
+          "level": 2,
+          "script_group_id": 3195777932,
+          "replacement_type": 41
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 13,
+          "slot": 1,
+          "offset": 1544,
+          "original_type": 41,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 2089621315,
+          "replacement_type": 43
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 14,
+          "slot": 0,
+          "offset": 1648,
+          "original_type": 40,
+          "count": 3,
+          "level": 3,
+          "script_group_id": 407904883,
+          "replacement_type": 41
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 15,
+          "slot": 0,
+          "offset": 1760,
+          "original_type": 40,
+          "count": 2,
+          "level": 2,
+          "script_group_id": 3194699211,
+          "replacement_type": 41
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 16,
+          "slot": 1,
+          "offset": 1880,
+          "original_type": 41,
+          "count": 1,
+          "level": 3,
+          "script_group_id": 3428781561,
+          "replacement_type": 43
+        },
+        {
+          "file": "29f05f9c.ene",
+          "record": 17,
+          "slot": 0,
+          "offset": 1984,
+          "original_type": 40,
+          "count": 2,
+          "level": 3,
+          "script_group_id": 602864271,
+          "replacement_type": 41
+        }
+      ],
+      "counts_and_levels_preserved": true
+    },
+    {
+      "stage": "am01f",
+      "seed_family": [
+        "am01f"
+      ],
+      "mapping": {
+        "10": 42,
+        "31": 41,
+        "32": 40,
+        "40": 32,
+        "41": 31,
+        "42": 43,
+        "43": 10
+      },
+      "swarm_destination_blocked_for_actor_types": [],
+      "slots": [
+        {
+          "file": "42a31a12.ene",
+          "record": 0,
+          "slot": 0,
+          "offset": 80,
+          "original_type": 43,
+          "count": 2,
+          "level": 6,
+          "script_group_id": 693122966,
+          "replacement_type": 10
+        },
+        {
+          "file": "42a31a12.ene",
+          "record": 0,
+          "slot": 1,
+          "offset": 88,
+          "original_type": 42,
+          "count": 2,
+          "level": 6,
+          "script_group_id": 693122966,
+          "replacement_type": 43
+        },
+        {
+          "file": "42a31a12.ene",
+          "record": 0,
+          "slot": 2,
+          "offset": 96,
+          "original_type": 31,
+          "count": 2,
+          "level": 6,
+          "script_group_id": 693122966,
+          "replacement_type": 41
+        },
+        {
+          "file": "42a31a12.ene",
+          "record": 1,
+          "slot": 0,
+          "offset": 192,
+          "original_type": 43,
+          "count": 6,
+          "level": 6,
+          "script_group_id": 1125226311,
+          "replacement_type": 10
+        },
+        {
+          "file": "42a31a12.ene",
+          "record": 2,
+          "slot": 0,
+          "offset": 304,
+          "original_type": 42,
+          "count": 6,
+          "level": 6,
+          "script_group_id": 2032187064,
+          "replacement_type": 43
+        },
+        {
+          "file": "42a31a12.ene",
+          "record": 3,
+          "slot": 0,
+          "offset": 416,
+          "original_type": 42,
+          "count": 6,
+          "level": 6,
+          "script_group_id": 3843176393,
+          "replacement_type": 43
+        }
+      ],
+      "counts_and_levels_preserved": true
+    }
+  ],
+  "unresolved_actor_selectors": [],
+  "script_only_spider_encounters_pending": true,
+  "archive_integrated": false,
+  "installed": false
+}

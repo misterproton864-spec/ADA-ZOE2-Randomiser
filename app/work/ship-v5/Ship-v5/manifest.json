@@ -1,0 +1,217 @@
+{
+  "original_music_banks": [
+    {
+      "file": "us00000016.bnk",
+      "sha256": "ae67bfd1097f4df8819bfc5ec50d9c950db252807c19fbcecceda13fac103217"
+    },
+    {
+      "file": "us000004b2.bnk",
+      "sha256": "062e3847455415feca297754bdeac3e7da4a08720a56829a67e9f7dc57b4f0e8"
+    },
+    {
+      "file": "us0000098e.bnk",
+      "sha256": "5339b5e80b9a1df7d6aadfe575729cc18339c40361aba3bec0e9ac3643867f2d"
+    },
+    {
+      "file": "us00002947.bnk",
+      "sha256": "083789cac1ea84e96f9450ab839d738d1c6752116146981f1ab79666c0b13e6d"
+    },
+    {
+      "file": "us00002c7e.bnk",
+      "sha256": "5d769d6c5d53f96088c6807ba8baf93e4c36ae76158fdcbd5ffed843163f2681"
+    },
+    {
+      "file": "us000035e4.bnk",
+      "sha256": "e1ce12051b5c9b8bc62f4d3f6b184cc0bcfffbe77bbfcdafeacb2f76143fbe58"
+    },
+    {
+      "file": "us00003dd6.bnk",
+      "sha256": "a75164029c96ea8d4166776680406e2880fe52ce763626aeb0e7c83111ce760e"
+    },
+    {
+      "file": "us0000450e.bnk",
+      "sha256": "a7d9f1921847fb6a506373ef20335fc9a015a1514430177cdf6dda25fc23676f"
+    },
+    {
+      "file": "us00004f31.bnk",
+      "sha256": "1e730b73da5d9b66457c1314474546fd89b334678183366dff0c8d391dcc9f01"
+    },
+    {
+      "file": "us00005c8f.bnk",
+      "sha256": "eae0a5ae905cc97bcc57dfe0f0cf338505f23494fb3ba56e4b2cd9fdb78ea23d"
+    },
+    {
+      "file": "us0000655e.bnk",
+      "sha256": "4e18d77973c4c614cab6966013c424a192cc16a7e04cdac75e8b781e4da118d0"
+    },
+    {
+      "file": "us00006f3d.bnk",
+      "sha256": "1dfafe0534679c31089d9135cc63bc0c959722428818eaf54ad6b6c5464b3b41"
+    },
+    {
+      "file": "us0000801a.bnk",
+      "sha256": "fc1d68dc02364a48879ae6dc295bb2cec0add969ecec63d466596289b463ff00"
+    },
+    {
+      "file": "us00008737.bnk",
+      "sha256": "fe8292f3d38eba2bff91f88f80579d9ac25374b099976739e3119ac4157d0dab"
+    },
+    {
+      "file": "us000097c6.bnk",
+      "sha256": "0b4e10b8d538078179af48e6b98a79576037e65a95e614c62fc175a8683fdd61"
+    },
+    {
+      "file": "us00009a16.bnk",
+      "sha256": "f7ce110d46844beddff1e3eaac50202475de3617be69dba94ba96bab4bbe65fa"
+    },
+    {
+      "file": "us0000a3dc.bnk",
+      "sha256": "e743c97df6ec2412a8ea36e3ce1ed168e426797a27f0ff720e24f020680e03dd"
+    },
+    {
+      "file": "us0000acaf.bnk",
+      "sha256": "9f3e598928cb8dae79143c77fab4eac998e5a7ff6848e3f91e837f1236eb8e20"
+    },
+    {
+      "file": "us0000b5f4.bnk",
+      "sha256": "b351a8784f78afe988707566a402527bb630f14ada09c1beabcfb0fe4191ba1d"
+    },
+    {
+      "file": "us0000bfe4.bnk",
+      "sha256": "7918be80fc384efb8ceecef71fe98402bd316a3066c5f8ddd90d3763e316b089"
+    },
+    {
+      "file": "us0000c88a.bnk",
+      "sha256": "1432c39cfb0d982c2f5c7b3a47827f101f35545d85e121aa3801529dc37a5dd0"
+    },
+    {
+      "file": "us0000d9bb.bnk",
+      "sha256": "4ba68e2084ec827770a25fc4373327e783ffbdf2e20adc4cc1112cdde42ce551"
+    },
+    {
+      "file": "us0000e2e5.bnk",
+      "sha256": "58d2f2b21033747fec33c7c50f05cbb12b00179b32042991085d7878830c3483"
+    },
+    {
+      "file": "us0000ec35.bnk",
+      "sha256": "9c6ab0da2e9e3dea3ecdab73aba118f60aa13dccaeda00e9d53f6d26c923eaeb"
+    },
+    {
+      "file": "us0000f28e.bnk",
+      "sha256": "84e0ac9d4008d134651d1feb6231896d0138c3b70c91d38d69efc749fdcef520"
+    },
+    {
+      "file": "us0000fa2e.bnk",
+      "sha256": "2e5fe3cc8c039203c9177395d9d6d88ac478eb26d251916e892cba0a2d89a8e2"
+    },
+    {
+      "file": "us00010eba.bnk",
+      "sha256": "d6acee32b666c67b71fae038a72711385e99fbd53b68eb805f2f787bf2c47fcf"
+    },
+    {
+      "file": "us00011815.bnk",
+      "sha256": "3469049b3d37b4b810778845517baca2ec9482016b4fb6700fa9bf0f9f851cca"
+    },
+    {
+      "file": "us00012d21.bnk",
+      "sha256": "168607313e88690b908a83391de31be4457ee808be1b0eae9ac7b7e75de2c06b"
+    },
+    {
+      "file": "us000136f3.bnk",
+      "sha256": "bd0e2cb483bb015f0fb98aa574916bdaf207d228861ee47efe0f4656f112ed42"
+    },
+    {
+      "file": "us00015606.bnk",
+      "sha256": "4bceafd45294ad33babf6f8a4978f506fe005e1c2b1d5529fcc9adccfcf018a2"
+    },
+    {
+      "file": "us0001bb76.bnk",
+      "sha256": "908465161f6a3109f3223c7ef6be2dc887d1d3731be9aa80073908f17fed56e5"
+    },
+    {
+      "file": "us0001c756.bnk",
+      "sha256": "15f5ba44bb871133b054bc55438ad8c28a0857e51bceb417ba84e34a13e6c76b"
+    },
+    {
+      "file": "us0001f436.bnk",
+      "sha256": "9ea0f3c340350c4a7acd2f829937d86e654372e0e5c519b3d42310f691e1efb8"
+    },
+    {
+      "file": "us0001fc41.bnk",
+      "sha256": "37ee48f1ba87eada4a2e05d48a8c17febbcabe28b002d70441973f97c6932e62"
+    },
+    {
+      "file": "us00020bfd.bnk",
+      "sha256": "e09bdc87e0f1c833c365956355528daf5b5b0e9e2ac21410c26d97b2156d85e5"
+    },
+    {
+      "file": "us00020f11.bnk",
+      "sha256": "f91588d236e8c917d25dc0caa036787812eaccfacabc9b043d906d5764ee8aa7"
+    },
+    {
+      "file": "us000218e8.bnk",
+      "sha256": "faff9ec015fab6cfdc64072c5c3b5237d62be57dd71113a6f17896adc7c17373"
+    },
+    {
+      "file": "us0002287f.bnk",
+      "sha256": "3701ccddf017b56d73ae5603b3ba5f5755c415600352867a17af2743f9482fb0"
+    },
+    {
+      "file": "us00022cf6.bnk",
+      "sha256": "882288fe0c41cfbb3d780525561aac89be749c3104010d8faee06306b7182e39"
+    },
+    {
+      "file": "us00023237.bnk",
+      "sha256": "c176d66cfbd3c0eb307136b1c6ad651079db3a47bb736258a2ca18ea1631a449"
+    },
+    {
+      "file": "us00023af9.bnk",
+      "sha256": "3439668ac0d52f98454c7ce9e798c264c3b0c201d0836299dada93b911bf7d33"
+    },
+    {
+      "file": "us0002430e.bnk",
+      "sha256": "8ecfc00c9a0b4378d0aaf9565a727b6a5ce44749211f7e8b4c40e87f0beb10d9"
+    },
+    {
+      "file": "us0002631a.bnk",
+      "sha256": "a6f5a57cd8b9d23ec1314f2564dffc7252130d4e36a396f8f5de708fc39e50dd"
+    },
+    {
+      "file": "us0002b2c6.bnk",
+      "sha256": "7f875a66d68fef1b15a51dbfd2494540e5926fad09b5d5d29952ab342560b7eb"
+    },
+    {
+      "file": "us0002c40e.bnk",
+      "sha256": "0c7e728ee1a9ae426bab069c5d18337cdf2f4d097f2648aa01157106340f0fcd"
+    },
+    {
+      "file": "us0002ccce.bnk",
+      "sha256": "0ff386872accb20ce683187fb477c3b0e4d572c0ad26e057e7773b3b6d4e9eba"
+    },
+    {
+      "file": "us0002d965.bnk",
+      "sha256": "3820d8ba556eb38cf7d33695dc4ac63a118e68efd7b42e6ee5d2ab197fcc037f"
+    },
+    {
+      "file": "us0002f1f8.bnk",
+      "sha256": "29551bfa45aa8ded9cc681e66ba252ced71e4c7b9244a03d71ed22afe5a50b6f"
+    }
+  ],
+  "baseline_game_executable_sha256": "b96c63f680712651d92933d896ec65aeb95788c19857dd7114526cf7ccdc3b92",
+  "settings": {
+    "randomise_normal_enemies": true,
+    "randomise_bosses": true,
+    "randomise_subweapons": true,
+    "start_with_gauntlet": false,
+    "no_level_up": false,
+    "increase_enemy_count": false,
+    "metatron_subweapon_chance_percent": 20,
+    "metatron_runtime_requires_attachment": true,
+    "mosquito_excluded": false,
+    "zakat_vanilla": true,
+    "infected_ardjet_2_vanilla": true,
+    "vector_cannon_guaranteed": true,
+    "randomise_spider_enemies": true,
+    "randomise_cellar_releases": true
+  }
+}

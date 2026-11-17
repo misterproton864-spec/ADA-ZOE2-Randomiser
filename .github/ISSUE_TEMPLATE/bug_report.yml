@@ -1,0 +1,41 @@
+name: Bug report
+description: Report an ADA crash, softlock, incorrect randomisation or other problem.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: ADA version
+      placeholder: 6.4.15-local.22
+    validations:
+      required: true
+  - type: input
+    id: seed
+    attributes:
+      label: Seed ID
+    validations:
+      required: true
+  - type: textarea
+    id: settings
+    attributes:
+      label: Options and game mode
+      description: Include difficulty, health multipliers and enabled mode/randomisation options.
+    validations:
+      required: true
+  - type: textarea
+    id: encounter
+    attributes:
+      label: Encounter and result
+      description: Name the host arena, replacement boss/enemies, phase and what happened. Say whether Attach was active.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps and expected result
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: Review ADA's exported bug report before attaching it. Do not attach game assets, saves or crash dumps publicly.

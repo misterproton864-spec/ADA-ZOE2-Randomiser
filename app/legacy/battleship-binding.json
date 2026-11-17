@@ -1,0 +1,141 @@
+{
+  "stage": "af01g",
+  "file": "ecf4abd1.scx",
+  "source_sha256": "b483033e670f3a1aa89160df50b0a07e228b2b87f45ee72dd6b72ce83a8fdde7",
+  "procedure_entry": 15223,
+  "procedure_end": 17014,
+  "variable": 85834,
+  "source_register": 1,
+  "source_value": 1,
+  "callers": [
+    {
+      "call": 11839,
+      "assignment_start": 11799,
+      "value_offset": 11810,
+      "original": 1
+    },
+    {
+      "call": 12101,
+      "assignment_start": 12061,
+      "value_offset": 12072,
+      "original": 1
+    },
+    {
+      "call": 13358,
+      "assignment_start": 13318,
+      "value_offset": 13329,
+      "original": 1
+    },
+    {
+      "call": 13417,
+      "assignment_start": 13377,
+      "value_offset": 13388,
+      "original": 1
+    },
+    {
+      "call": 13517,
+      "assignment_start": 13477,
+      "value_offset": 13488,
+      "original": 1
+    },
+    {
+      "call": 13580,
+      "assignment_start": 13540,
+      "value_offset": 13551,
+      "original": 1
+    },
+    {
+      "call": 14267,
+      "assignment_start": 14227,
+      "value_offset": 14238,
+      "original": 1
+    },
+    {
+      "call": 14381,
+      "assignment_start": 14341,
+      "value_offset": 14352,
+      "original": 1
+    },
+    {
+      "call": 14455,
+      "assignment_start": 14415,
+      "value_offset": 14426,
+      "original": 1
+    },
+    {
+      "call": 14569,
+      "assignment_start": 14529,
+      "value_offset": 14540,
+      "original": 1
+    },
+    {
+      "call": 14643,
+      "assignment_start": 14603,
+      "value_offset": 14614,
+      "original": 1
+    },
+    {
+      "call": 14757,
+      "assignment_start": 14717,
+      "value_offset": 14728,
+      "original": 1
+    },
+    {
+      "call": 14831,
+      "assignment_start": 14791,
+      "value_offset": 14802,
+      "original": 1
+    },
+    {
+      "call": 14945,
+      "assignment_start": 14905,
+      "value_offset": 14916,
+      "original": 1
+    },
+    {
+      "call": 15019,
+      "assignment_start": 14979,
+      "value_offset": 14990,
+      "original": 1
+    },
+    {
+      "call": 15133,
+      "assignment_start": 15093,
+      "value_offset": 15104,
+      "original": 1
+    },
+    {
+      "call": 15207,
+      "assignment_start": 15167,
+      "value_offset": 15178,
+      "original": 1
+    },
+    {
+      "call": 17159,
+      "assignment_start": 17119,
+      "value_offset": 17130,
+      "original": 1
+    }
+  ],
+  "read_offsets": [
+    15267,
+    15406,
+    15481,
+    15580,
+    15655,
+    15754,
+    15829,
+    15928,
+    16003,
+    16070,
+    16150,
+    16225,
+    16365,
+    16437,
+    16509
+  ],
+  "write_offsets": [
+    15232
+  ],
+  "gameplay_verified": false
+}

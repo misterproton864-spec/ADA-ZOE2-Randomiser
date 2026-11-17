@@ -1,0 +1,148 @@
+{
+  "donor": "ba02",
+  "target": "ca02",
+  "files": [
+    {
+      "key": "05325b66.mtl",
+      "name": "nep_flw.mtl",
+      "sha256": "fdb32b07fa9d11ee10daefced9ab03b2d77cf7dab07563d92f8279162ae799f5",
+      "size": 546992,
+      "in_original_ca02": false,
+      "target_identical": false
+    },
+    {
+      "key": "2199ce2c.tex",
+      "name": "nep_def.tex",
+      "size": 660576,
+      "sha256": "94ca2a3bd9d937ab615510dc9b7f687db8f2fc4a24fe53b72280b5556ee57365"
+    },
+    {
+      "key": "357af06f.mdz",
+      "name": "ring_def.mdz",
+      "sha256": "40d40936e5beeb212684e6c929d00d296b37bedb11e9749a139c3cadd32a41cf",
+      "size": 37248,
+      "in_original_ca02": false,
+      "target_identical": false
+    },
+    {
+      "key": "454c7d13.mts",
+      "name": "nephtis.mts",
+      "size": 1984,
+      "sha256": "2910f47b6829a7597e092c2ab90e5205498672e092f83379b5f5c7d2993e009f"
+    },
+    {
+      "key": "480bde8c.mtl",
+      "name": "nephtis.mtl",
+      "size": 648816,
+      "sha256": "01044b9a9cccd9559327b1feafc1c8efff526186fb4791d2c2758b7ece418978"
+    },
+    {
+      "key": "4a50ebf3.flw",
+      "name": "nep_red.flw",
+      "size": 528,
+      "sha256": "25197785ca9c09f4aefef76c2ffec263e5174a107b577addbbb151f1bc1ef55a"
+    },
+    {
+      "key": "57a763c0.tex",
+      "name": "embedded model texture",
+      "sha256": "28459b3cce4db45a724d432e6eaea79a7f44e019a255c07058de7cfd858b3038",
+      "size": 82480,
+      "in_original_ca02": false,
+      "target_identical": false
+    },
+    {
+      "key": "8c20bb03.flw",
+      "name": "nep_blue_r.flw",
+      "size": 160,
+      "sha256": "4e1d14b9cfb08e67fb6ab7e51725d89da7c40b3d2cd4e5544a31ef229c8d620e"
+    },
+    {
+      "key": "8cf40fe7.flw",
+      "name": "nep_yellow_r.flw",
+      "size": 160,
+      "sha256": "bdf4027cbce7aeb5b82a8abd3e7fab133d1bd6c3befabbf60ae2fb5bd598902b"
+    },
+    {
+      "key": "95757b75.mts",
+      "name": "nep_flw.mts",
+      "sha256": "bd0147945c968c7da13fe7f17c64143110cc0fd95dc9b1d44c1d1dc5596a2327",
+      "size": 1424,
+      "in_original_ca02": false,
+      "target_identical": false
+    },
+    {
+      "key": "9d2cefcf.flw",
+      "name": "nep_yellow.flw",
+      "size": 528,
+      "sha256": "d0bb2ffeb6f49d6169511752cf486a141395ffdeb8f9496310500462d0908f79"
+    },
+    {
+      "key": "9d410839.mdz",
+      "name": "nep_def.mdz",
+      "size": 173424,
+      "sha256": "469857dca57706a048ccd11923fb243efd2f53a2b8a3a931a88ed75b97972814"
+    },
+    {
+      "key": "bef79108.flw",
+      "name": "nep_blue.flw",
+      "size": 528,
+      "sha256": "d2fb4a1cb29c9d9bac1c225e5a9c714bba084d125b8a865932eca96740c8ee92"
+    },
+    {
+      "key": "f3d8477b.flw",
+      "name": "nep_red_r.flw",
+      "size": 160,
+      "sha256": "dd82b838fa449acf751151ed3fef5425016b6b3e6c5872c8d668635a7242baf1"
+    }
+  ],
+  "required_defaults": [
+    "nep_def.mdz",
+    "nephtis.mts",
+    "nep_blue.flw",
+    "nep_blue_r.flw"
+  ],
+  "missing": [],
+  "motion_libraries": [
+    {
+      "script": "454c7d13.mts",
+      "library": "nephtis.mtl",
+      "key": "480bde8c.mtl"
+    }
+  ],
+  "textures": [
+    "2199ce2c.tex"
+  ],
+  "imports": [
+    "05325b66.mtl",
+    "2199ce2c.tex",
+    "357af06f.mdz",
+    "454c7d13.mts",
+    "480bde8c.mtl",
+    "4a50ebf3.flw",
+    "57a763c0.tex",
+    "8c20bb03.flw",
+    "8cf40fe7.flw",
+    "95757b75.mts",
+    "9d2cefcf.flw",
+    "9d410839.mdz",
+    "bef79108.flw",
+    "f3d8477b.flw"
+  ],
+  "atlas_aliases": {
+    "main": {
+      "@ca02_2199ce2c.dat": "@ba02_2199ce2c.dat",
+      "@ca02_2199ce2c.tbl": "@ba02_2199ce2c.tbl",
+      "@ca02_57a763c0.dat": "@ba02_57a763c0.dat",
+      "@ca02_57a763c0.tbl": "@ba02_57a763c0.tbl"
+    },
+    "small": {
+      "@ca02_2199ce2c.dat": "@ba02_2199ce2c.dat",
+      "@ca02_2199ce2c.tbl": "@ba02_2199ce2c.tbl",
+      "@ca02_57a763c0.dat": "@ba02_57a763c0.dat",
+      "@ca02_57a763c0.tbl": "@ba02_57a763c0.tbl"
+    }
+  },
+  "atlas_missing": [],
+  "secondary_effect_closure_verified": false,
+  "gameplay_verified": false
+}

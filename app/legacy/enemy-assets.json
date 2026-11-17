@@ -1,0 +1,449 @@
+{
+  "Raptor": {
+    "type": 40,
+    "command": "869acfd7",
+    "prefix": "rap_",
+    "motion": "raptor",
+    "donor": "survival_enemy",
+    "files": [
+      {
+        "hash": "28032521.tex",
+        "name": null,
+        "size": 16496,
+        "sha256": "a369e53ccc1bcb5b307101833e56f41e915a8fbedb47df3c0afd858cc61f4391"
+      },
+      {
+        "hash": "8abe62fc.tex",
+        "name": "raptor_define.tex",
+        "size": 134336,
+        "sha256": "2b5b27b9a15bb7d6440669f0ef9428c5cab5a072567c26032488907c00083ec2"
+      },
+      {
+        "hash": "1ec91723.mdz",
+        "name": "rap_mid.mdz",
+        "size": 17680,
+        "sha256": "498570c3b8099a74c14acaa3c9d23e31fafbbc43e0defb2cfb63f7a962bb171f"
+      },
+      {
+        "hash": "519193be.mdz",
+        "name": "rap_rapier_l.mdz",
+        "size": 496,
+        "sha256": "a79659b10dc22fc502e73535e3f0f211f63adf1b3d356ca77963c2529ed04026"
+      },
+      {
+        "hash": "68ca1051.mdz",
+        "name": "rap_rapier_r.mdz",
+        "size": 496,
+        "sha256": "e64492a3578af3ef899ae208753190b12e783fc5b5426bf5111afc66cb8e2906"
+      },
+      {
+        "hash": "a4b02a48.mdz",
+        "name": "rap_def.mdz",
+        "size": 50528,
+        "sha256": "376dd2b4be6106350561c6f97e880faa4417a414fd881383869ba1eaaa8bf79b"
+      },
+      {
+        "hash": "8f3de09c.mtl",
+        "name": "raptor.mtl",
+        "size": 490000,
+        "sha256": "8d314b5c70c4a6f2ca35e75dfdd1f4f39ab07774ecb814d00f5364b829e01a33"
+      },
+      {
+        "hash": "247fe2d3.mts",
+        "name": "raptor.mts",
+        "size": 1728,
+        "sha256": "0f74dfd45ed209a9fb4375ad2157bc6864e217e02d936544dc0dd53cc1387158"
+      }
+    ],
+    "texture_ids": [
+      "28032521",
+      "8abe62fc"
+    ],
+    "missing_textures": [],
+    "motion_refs": [
+      {
+        "script": "247fe2d3.mts",
+        "library": "raptor.mtl",
+        "hash": "8f3de09c.mtl",
+        "included": true
+      }
+    ],
+    "gameplay_verified": false,
+    "verification_scope": null
+  },
+  "Mummyhead": {
+    "type": 32,
+    "command": "5525676a",
+    "prefix": "mum_",
+    "motion": "mumy",
+    "donor": "survival_enemy",
+    "files": [
+      {
+        "hash": "ba005743.tex",
+        "name": null,
+        "size": 529984,
+        "sha256": "07b24118a885db939b54668cf867c6db5ee473cd51b6eb9638389adc6cbcd35a"
+      },
+      {
+        "hash": "1a69c2b7.mdz",
+        "name": "mum_parts.mdz",
+        "size": 31552,
+        "sha256": "0939357d02846d3ffc3466be5e47f9f27ffb75fae4112108b2640bd2cc594b2d"
+      },
+      {
+        "hash": "53fab215.mdz",
+        "name": "mum_mid.mdz",
+        "size": 23984,
+        "sha256": "26dd54b29e06dfc0c5962f92db547f2e50c359a5b6c9caa02081cffb90dbfb84"
+      },
+      {
+        "hash": "b629caee.mdz",
+        "name": "mum_def.mdz",
+        "size": 77456,
+        "sha256": "26b390f407deea62beb354feffdc27ac14867107d04ca543602cdfdf9a83a730"
+      },
+      {
+        "hash": "74693c9b.mtl",
+        "name": "mumy.mtl",
+        "size": 191776,
+        "sha256": "6494e820b2d73e4ed2e22a895652d0690d8d5b1a144c92c8ad8a4149bc8f2c1f"
+      },
+      {
+        "hash": "b449b222.mts",
+        "name": "mumy.mts",
+        "size": 1184,
+        "sha256": "d2f42a072984cb6aaeacae455ddf00efb9f9989d1358ad846ae532c2db22da45"
+      },
+      {
+        "hash": "29622da1.flw",
+        "name": "mum_red.flw",
+        "size": 80,
+        "sha256": "0bc293ab5a1206552c46c44c260373762c460f67774c9c40c198084ecf8cb454"
+      },
+      {
+        "hash": "2c0c401f.flw",
+        "name": "mum_blue.flw",
+        "size": 80,
+        "sha256": "34328d6b62933e38eb78178b2570e6121daf94f618ff3e580bf9f99002abad34"
+      },
+      {
+        "hash": "bff82d96.flw",
+        "name": "mum_yellow.flw",
+        "size": 80,
+        "sha256": "bd3a5ba627d24a2d512cf527047d0a22170fe073d9de363cf5849af915684f4e"
+      }
+    ],
+    "texture_ids": [
+      "ba005743"
+    ],
+    "missing_textures": [],
+    "motion_refs": [
+      {
+        "script": "b449b222.mts",
+        "library": "mumy.mtl",
+        "hash": "74693c9b.mtl",
+        "included": true
+      }
+    ],
+    "gameplay_verified": false,
+    "verification_scope": null
+  },
+  "Narita": {
+    "type": 31,
+    "command": "f69f7524",
+    "prefix": "nrt_",
+    "motion": "narita",
+    "donor": "wn00",
+    "files": [
+      {
+        "hash": "73f3d352.tex",
+        "name": "nrt_fly_ef.tex",
+        "size": 24752,
+        "sha256": "3d8c0bf18869416f2f545f6f8f1e8bd579c550fee713fab0a11992dc80bf8b79"
+      },
+      {
+        "hash": "d8666b3f.tex",
+        "name": null,
+        "size": 395648,
+        "sha256": "7e68d42c2d1074c892b8a0f5894f4939742cbcbec74f880f149d1acb86ce7996"
+      },
+      {
+        "hash": "0e8897da.mdz",
+        "name": "nrt_fly_ef.mdz",
+        "size": 1200,
+        "sha256": "7786fbe96643a6aa33900f765b570644577426ebad036614956e4515009e8465"
+      },
+      {
+        "hash": "459b033a.mdz",
+        "name": "nrt_mid.mdz",
+        "size": 33456,
+        "sha256": "0047b6209003ffefc3c6108b76294978e1419c5c52c49d24e9ff4b22084953df"
+      },
+      {
+        "hash": "ebe4b876.mdz",
+        "name": "nrt_def.mdz",
+        "size": 79408,
+        "sha256": "95083a340746ffb0c8e5479a26261c066b884362a5267568961e3d3e2e478065"
+      },
+      {
+        "hash": "b7c95f8c.mtl",
+        "name": "narita.mtl",
+        "size": 284736,
+        "sha256": "c370714d259baf21840b576fde145bf64ce7beede003b5477a6a96ff913fda62"
+      },
+      {
+        "hash": "d7823993.mts",
+        "name": "narita.mts",
+        "size": 1344,
+        "sha256": "08ce77158d142b2b156e2abdccd6c4b563c175591b3288b07973915309c08c36"
+      },
+      {
+        "hash": "4e2013f6.flw",
+        "name": "nrt_yellow.flw",
+        "size": 176,
+        "sha256": "5c23f43dc2d5a0ade48e298a00a5057995e6f45724814343ab233d7ddd8b052a"
+      },
+      {
+        "hash": "c9de1c0e.flw",
+        "name": "nrt_red.flw",
+        "size": 176,
+        "sha256": "ebcb774b2b95cf7430b83579d25a24e733e5e344481d1cb3a8506ae0f2847618"
+      },
+      {
+        "hash": "df0d524b.flw",
+        "name": "nrt_blue.flw",
+        "size": 176,
+        "sha256": "1ea8873547b14fc52fb9f257387eeec9515167ec2c91774654ed03e9c23e0e2b"
+      }
+    ],
+    "texture_ids": [
+      "73f3d352",
+      "d8666b3f"
+    ],
+    "missing_textures": [],
+    "motion_refs": [
+      {
+        "script": "d7823993.mts",
+        "library": "narita.mtl",
+        "hash": "b7c95f8c.mtl",
+        "included": true
+      }
+    ],
+    "gameplay_verified": true,
+    "verification_scope": "ca01"
+  },
+  "Cyclops": {
+    "type": 41,
+    "command": "228def80",
+    "prefix": "cyc_",
+    "motion": "cycrops",
+    "donor": "survival_enemy",
+    "files": [
+      {
+        "hash": "7aac0c26.tex",
+        "name": null,
+        "size": 185360,
+        "sha256": "c200b712f3ae894aca89ea614d59c7af16f06cd9c9737e96919fa6d3d7bb2907"
+      },
+      {
+        "hash": "309b2cfe.mdz",
+        "name": "cyc_mid.mdz",
+        "size": 28176,
+        "sha256": "950c615f7233acbffc1a58829371d2c249c192853bc30faa2d483381e3cf04c9"
+      },
+      {
+        "hash": "e08d7589.mdz",
+        "name": "cyc_def.mdz",
+        "size": 75776,
+        "sha256": "b5704b63018de3e2fb928d01c5787ebcc33597c1a7af4dae6c2891c369e25202"
+      },
+      {
+        "hash": "de0cfcce.mtl",
+        "name": "cycrops.mtl",
+        "size": 375728,
+        "sha256": "0bf79105966e268fdd206587ae61a29de869d28013bfb3ae040df4a081be395a"
+      },
+      {
+        "hash": "fffd08d5.mts",
+        "name": "cycrops.mts",
+        "size": 1472,
+        "sha256": "f7e306df297dedf2fec2057e7fcec9bd9a56e54f2605028113fab54ce15a8e1d"
+      }
+    ],
+    "texture_ids": [
+      "7aac0c26"
+    ],
+    "missing_textures": [],
+    "motion_refs": [
+      {
+        "script": "fffd08d5.mts",
+        "library": "cycrops.mtl",
+        "hash": "de0cfcce.mtl",
+        "included": true
+      }
+    ],
+    "gameplay_verified": false,
+    "verification_scope": null
+  },
+  "Clod": {
+    "type": 43,
+    "command": "d1efc2e5",
+    "prefix": "cld_",
+    "motion": "clud",
+    "donor": "survival_enemy",
+    "files": [
+      {
+        "hash": "2b644f8f.tex",
+        "name": "cld_missile_far_cm.tex",
+        "size": 24688,
+        "sha256": "3d2f33126b0a442402606ffaf34bbde5e4e3ae7860731e9c51ed8d3eccd70878"
+      },
+      {
+        "hash": "88170285.tex",
+        "name": null,
+        "size": 693824,
+        "sha256": "3b118a93eecdbbb81319dc6a485b329b3dd6a5172598ab9b0b56a3ecf00bc283"
+      },
+      {
+        "hash": "2d3aa64a.mdz",
+        "name": "cld_missile_far_cm.mdz",
+        "size": 1456,
+        "sha256": "ef1e509dfdd3e851eb12b85062dc5a6389019cd754a91773cb797848c883e8e9"
+      },
+      {
+        "hash": "44e9d2e9.mdz",
+        "name": "cld_def.mdz",
+        "size": 97984,
+        "sha256": "c7e93dd7c9d6da27663b753a221f2a815bca5fdba39337567d7d6f2037443d21"
+      },
+      {
+        "hash": "6bc66a25.mdz",
+        "name": "cld_brk.mdz",
+        "size": 15904,
+        "sha256": "e9626840c514f5483b3739c216576a4911bc597689010d00c1819f4689004c73"
+      },
+      {
+        "hash": "e8de5942.mdz",
+        "name": "cld_mid.mdz",
+        "size": 31248,
+        "sha256": "a46b01fd1949b4cbee3e46ed73a497e4cad5c44808f7d7e70949ce3c927247ea"
+      },
+      {
+        "hash": "de47e90e.mtl",
+        "name": "clud.mtl",
+        "size": 764704,
+        "sha256": "2797598b6fea7959afdb063791e00374479b78b68d8555d87b8e4cfaf77d2ac8"
+      },
+      {
+        "hash": "5a77ad1d.mts",
+        "name": "clud.mts",
+        "size": 1968,
+        "sha256": "3e2aa1113c79366a0214bf51efdec6aa4a7c094577b827e72afd514253360b14"
+      },
+      {
+        "hash": "45b7d5cc.flw",
+        "name": "cld_yellow.flw",
+        "size": 176,
+        "sha256": "a32002daa4399a2d29d0b8ff91102311508351504c1199e9b84936570994fa82"
+      },
+      {
+        "hash": "7451f4c0.flw",
+        "name": "cld_red.flw",
+        "size": 176,
+        "sha256": "81e6fd0a3dd473488595611a4508727ed248609007481998e3a0da8beada1c00"
+      },
+      {
+        "hash": "856bee54.flw",
+        "name": "cld_blue.flw",
+        "size": 176,
+        "sha256": "f85c901b87c76458bd58e0fe2221fbe5177ff111f0547cb73dacc62f15a81c1c"
+      }
+    ],
+    "texture_ids": [
+      "2b644f8f",
+      "88170285"
+    ],
+    "missing_textures": [],
+    "motion_refs": [
+      {
+        "script": "5a77ad1d.mts",
+        "library": "clud.mtl",
+        "hash": "de47e90e.mtl",
+        "included": true
+      }
+    ],
+    "gameplay_verified": false,
+    "verification_scope": null
+  },
+  "Leopard": {
+    "type": 42,
+    "command": "17fa9160",
+    "prefix": "lpd_",
+    "motion": "leopardo",
+    "donor": "vs_am01_enemy",
+    "files": [
+      {
+        "hash": "e29eb390.tex",
+        "name": "leopardo_define.tex",
+        "size": 313488,
+        "sha256": "6f8dc62502850f1c730e0dcd3a08c8c9053129c41df4640bcbe60aaeec6ee094"
+      },
+      {
+        "hash": "3a35cd91.mdz",
+        "name": "lpd_def.mdz",
+        "size": 79600,
+        "sha256": "6494d34a35995a13b55fcf23127334fb45254c177f8cf6df8628b9ea6a722c08"
+      },
+      {
+        "hash": "943fc51f.mdz",
+        "name": "lpd_mid.mdz",
+        "size": 34256,
+        "sha256": "ed868790aad2c4c88f81df3eaea16cf4443e8edcda8fa303e15786206327c82f"
+      },
+      {
+        "hash": "d6aff33b.mtl",
+        "name": "leopardo.mtl",
+        "size": 784880,
+        "sha256": "9c9286c37b7590a3d7b446e6859bf072a5144f67794fa05d0cc208434d1cd186"
+      },
+      {
+        "hash": "bda8b082.mts",
+        "name": "leopardo.mts",
+        "size": 1872,
+        "sha256": "7447d1b3a9c7a6c71f074b990a99206b1c0c1792ad9f719c70e5322f0e063072"
+      },
+      {
+        "hash": "2100b023.flw",
+        "name": "lpd_red.flw",
+        "size": 416,
+        "sha256": "6647835a74a5978fa3eb32648effb645ce55650944735adb53c68d305efef7fb"
+      },
+      {
+        "hash": "28b8e94d.flw",
+        "name": "lpd_blue.flw",
+        "size": 416,
+        "sha256": "c8a79ad3455b93497a4ef6738176490170ecada31c162a1cc0f85acc1aca1a7f"
+      },
+      {
+        "hash": "9db0d368.flw",
+        "name": "lpd_yellow.flw",
+        "size": 416,
+        "sha256": "0a57aac267ba09dda6003f07d72a11b50b2825826c48d7bc4f7e15e1a2e0ea77"
+      }
+    ],
+    "texture_ids": [
+      "e29eb390"
+    ],
+    "missing_textures": [],
+    "motion_refs": [
+      {
+        "script": "bda8b082.mts",
+        "library": "leopardo.mtl",
+        "hash": "d6aff33b.mtl",
+        "included": true
+      }
+    ],
+    "gameplay_verified": false,
+    "verification_scope": null
+  }
+}

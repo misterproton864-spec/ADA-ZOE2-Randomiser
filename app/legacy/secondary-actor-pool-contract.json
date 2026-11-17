@@ -1,0 +1,261 @@
+{
+  "command": "ffff03b0",
+  "call": 28284,
+  "identity": "ffff6d46",
+  "capacity": 28,
+  "callback": 27826,
+  "variants": [
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        27866,
+        27873
+      ]
+    },
+    {
+      "first": 1,
+      "second": 2,
+      "offsets": [
+        27881,
+        27888
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        27896,
+        27903
+      ]
+    },
+    {
+      "first": 1,
+      "second": 2,
+      "offsets": [
+        27911,
+        27918
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        27926,
+        27933
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        27941,
+        27948
+      ]
+    },
+    {
+      "first": 1,
+      "second": 2,
+      "offsets": [
+        27956,
+        27963
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        27971,
+        27978
+      ]
+    },
+    {
+      "first": 1,
+      "second": 2,
+      "offsets": [
+        27986,
+        27993
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28001,
+        28008
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28016,
+        28023
+      ]
+    },
+    {
+      "first": 1,
+      "second": 2,
+      "offsets": [
+        28031,
+        28038
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28046,
+        28053
+      ]
+    },
+    {
+      "first": 1,
+      "second": 2,
+      "offsets": [
+        28061,
+        28068
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28076,
+        28083
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28091,
+        28098
+      ]
+    },
+    {
+      "first": 1,
+      "second": 2,
+      "offsets": [
+        28106,
+        28113
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28121,
+        28128
+      ]
+    },
+    {
+      "first": 1,
+      "second": 2,
+      "offsets": [
+        28136,
+        28143
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28151,
+        28158
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28166,
+        28173
+      ]
+    },
+    {
+      "first": 1,
+      "second": 2,
+      "offsets": [
+        28181,
+        28188
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28196,
+        28203
+      ]
+    },
+    {
+      "first": 1,
+      "second": 2,
+      "offsets": [
+        28211,
+        28218
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28226,
+        28233
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28241,
+        28248
+      ]
+    },
+    {
+      "first": 1,
+      "second": 2,
+      "offsets": [
+        28256,
+        28263
+      ]
+    },
+    {
+      "first": 1,
+      "second": 1,
+      "offsets": [
+        28271,
+        28278
+      ]
+    }
+  ],
+  "source_sha256": "4a68a071a9e2c623aa8a119dd39a2c4e66cf54265188cb4d796d27d6c1367348",
+  "native_adapter_required": true,
+  "replacement_ready": false,
+  "stage": "vc02",
+  "file": "75b8be48.scx",
+  "validation_cases": [
+    {
+      "case": "insufficient_options",
+      "rejection": "Native initialization would use missing or excess actor options"
+    },
+    {
+      "case": "excess_options",
+      "rejection": "Native initialization would use missing or excess actor options"
+    },
+    {
+      "case": "buffer_overflow",
+      "rejection": "Capacity exceeds observed native option buffers"
+    },
+    {
+      "case": "invalid_callback",
+      "rejection": "Invalid callback entry"
+    },
+    {
+      "case": "invalid_option",
+      "rejection": "Actor option truncation"
+    }
+  ],
+  "gameplay_verified": false
+}

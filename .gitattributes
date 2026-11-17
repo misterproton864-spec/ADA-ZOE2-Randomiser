@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.cs text eol=crlf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.exe binary
+*.obj binary
+# Keep the sealed Local.22 snapshot byte-for-byte across Windows/Linux checkouts.
+app/** -text

@@ -1,0 +1,336 @@
+{
+  "aliases": {
+    "Raptor": [
+      "869acfd7",
+      "dffe6d2f"
+    ],
+    "Mummyhead": [
+      "5525676a",
+      "ffff90db"
+    ],
+    "Narita": [
+      "f69f7524",
+      "ffff9c3f"
+    ],
+    "Cyclops": [
+      "228def80",
+      "3beb9bf3"
+    ],
+    "Clod": [
+      "d1efc2e5",
+      "ffff31a9"
+    ],
+    "Leopard": [
+      "7d6e9d45",
+      "17fa9160"
+    ]
+  },
+  "stages": {
+    "ca00": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "ce608b65.scx",
+        "offset": 2023
+      }
+    ],
+    "ca01": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "cccc8686.scx",
+        "offset": 6755
+      }
+    ],
+    "ba01": [
+      {
+        "enemy": "Mummyhead",
+        "hash": "5525676a",
+        "file": "ef1d2ddf.scx",
+        "offset": 3800
+      },
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "ef1d2ddf.scx",
+        "offset": 3815
+      },
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "ef1d2ddf.scx",
+        "offset": 4734
+      },
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "ef1d2ddf.scx",
+        "offset": 6300
+      }
+    ],
+    "ds00": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "f55e3667.scx",
+        "offset": 4066
+      },
+      {
+        "enemy": "Mummyhead",
+        "hash": "5525676a",
+        "file": "f55e3667.scx",
+        "offset": 4081
+      },
+      {
+        "enemy": "Cyclops",
+        "hash": "228def80",
+        "file": "f55e3667.scx",
+        "offset": 4096
+      }
+    ],
+    "ds01": [],
+    "ds02": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "4c9ba1b1.scx",
+        "offset": 9219
+      },
+      {
+        "enemy": "Cyclops",
+        "hash": "228def80",
+        "file": "4c9ba1b1.scx",
+        "offset": 9234
+      }
+    ],
+    "ds03": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "ff6016d3.scx",
+        "offset": 1099
+      }
+    ],
+    "wn00": [
+      {
+        "enemy": "Narita",
+        "hash": "f69f7524",
+        "file": "7b79b39a.scx",
+        "offset": 2040
+      },
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "7b79b39a.scx",
+        "offset": 2055
+      },
+      {
+        "enemy": "Mummyhead",
+        "hash": "5525676a",
+        "file": "7b79b39a.scx",
+        "offset": 2070
+      }
+    ],
+    "wn01": [],
+    "wn02": [
+      {
+        "enemy": "Narita",
+        "hash": "f69f7524",
+        "file": "b9c8ae4d.scx",
+        "offset": 2989
+      }
+    ],
+    "cy01": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "92262376.scx",
+        "offset": 17198
+      },
+      {
+        "enemy": "Mummyhead",
+        "hash": "5525676a",
+        "file": "92262376.scx",
+        "offset": 17213
+      },
+      {
+        "enemy": "Cyclops",
+        "hash": "228def80",
+        "file": "92262376.scx",
+        "offset": 17228
+      }
+    ],
+    "ex01": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "c760563a.scx",
+        "offset": 1420
+      },
+      {
+        "enemy": "Clod",
+        "hash": "d1efc2e5",
+        "file": "c760563a.scx",
+        "offset": 1435
+      },
+      {
+        "enemy": "Narita",
+        "hash": "f69f7524",
+        "file": "c760563a.scx",
+        "offset": 1450
+      },
+      {
+        "enemy": "Leopard",
+        "hash": "7d6e9d45",
+        "file": "c760563a.scx",
+        "offset": 1465
+      }
+    ],
+    "vc02": [],
+    "vc03": [],
+    "tr01": [
+      {
+        "enemy": "Narita",
+        "hash": "f69f7524",
+        "file": "75a1e290.scx",
+        "offset": 4203
+      },
+      {
+        "enemy": "Cyclops",
+        "hash": "228def80",
+        "file": "75a1e290.scx",
+        "offset": 4218
+      }
+    ],
+    "ef01": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "4c29378e.scx",
+        "offset": 6219
+      },
+      {
+        "enemy": "Clod",
+        "hash": "d1efc2e5",
+        "file": "4c29378e.scx",
+        "offset": 6234
+      }
+    ],
+    "ef03": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "1d5cfe90.scx",
+        "offset": 8439
+      },
+      {
+        "enemy": "Mummyhead",
+        "hash": "5525676a",
+        "file": "1d5cfe90.scx",
+        "offset": 8454
+      },
+      {
+        "enemy": "Clod",
+        "hash": "d1efc2e5",
+        "file": "1d5cfe90.scx",
+        "offset": 8469
+      }
+    ],
+    "ef04": [],
+    "he01": [
+      {
+        "enemy": "Cyclops",
+        "hash": "228def80",
+        "file": "4af208e6.scx",
+        "offset": 25451
+      },
+      {
+        "enemy": "Mummyhead",
+        "hash": "5525676a",
+        "file": "4af208e6.scx",
+        "offset": 25466
+      },
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "4af208e6.scx",
+        "offset": 25481
+      },
+      {
+        "enemy": "Clod",
+        "hash": "d1efc2e5",
+        "file": "4af208e6.scx",
+        "offset": 25496
+      }
+    ],
+    "fc01": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "cf32dc1d.scx",
+        "offset": 35188
+      },
+      {
+        "enemy": "Mummyhead",
+        "hash": "5525676a",
+        "file": "cf32dc1d.scx",
+        "offset": 35203
+      },
+      {
+        "enemy": "Leopard",
+        "hash": "7d6e9d45",
+        "file": "cf32dc1d.scx",
+        "offset": 35218
+      }
+    ],
+    "fr01": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "2ec89289.scx",
+        "offset": 5731
+      },
+      {
+        "enemy": "Mummyhead",
+        "hash": "5525676a",
+        "file": "2ec89289.scx",
+        "offset": 5746
+      },
+      {
+        "enemy": "Clod",
+        "hash": "d1efc2e5",
+        "file": "2ec89289.scx",
+        "offset": 5761
+      },
+      {
+        "enemy": "Cyclops",
+        "hash": "228def80",
+        "file": "2ec89289.scx",
+        "offset": 5776
+      }
+    ],
+    "af01": [],
+    "mf01": [
+      {
+        "enemy": "Raptor",
+        "hash": "869acfd7",
+        "file": "e5d52896.scx",
+        "offset": 9576
+      },
+      {
+        "enemy": "Mummyhead",
+        "hash": "5525676a",
+        "file": "e5d52896.scx",
+        "offset": 9591
+      },
+      {
+        "enemy": "Cyclops",
+        "hash": "228def80",
+        "file": "e5d52896.scx",
+        "offset": 9606
+      }
+    ],
+    "mf02": [],
+    "am01": []
+  }
+}

@@ -1,0 +1,467 @@
+[
+  {
+    "stage": "ca02",
+    "file": "17b93a02.scx",
+    "offset": 2564,
+    "hash": "fffedd53",
+    "source_sha256": "0f79e312db15feedeeda9be473295be078a0e82b8a1bde9a59761fa93f5c5601",
+    "contract": {
+      "boss": "Ardjet",
+      "actor_id": 4294892883,
+      "actor_type": 14,
+      "variant": 0,
+      "variant_explicit": true,
+      "script_callbacks": [
+        {
+          "offset": 1542,
+          "argument_offset": 2544,
+          "actor_field": "0x1480",
+          "purpose_verified": false,
+          "flow": {
+            "entry": 1542,
+            "states": 9,
+            "native_calls": [
+              {
+                "offset": 1558,
+                "hash": "ffffb011"
+              }
+            ],
+            "writes": [],
+            "return_states": 1,
+            "unresolved": [],
+            "conditions_evaluated": false,
+            "termination_proven": false
+          }
+        },
+        {
+          "offset": 1483,
+          "argument_offset": 2551,
+          "actor_field": "0x1484",
+          "purpose_verified": false,
+          "flow": {
+            "entry": 1483,
+            "states": 22,
+            "native_calls": [
+              {
+                "offset": 1518,
+                "hash": "ffffb011"
+              }
+            ],
+            "writes": [
+              {
+                "offset": 1531,
+                "opcode": 177,
+                "reference": 30194
+              }
+            ],
+            "return_states": 1,
+            "unresolved": [],
+            "conditions_evaluated": false,
+            "termination_proven": false
+          }
+        },
+        {
+          "offset": 1482,
+          "argument_offset": 2558,
+          "actor_field": "0x1488",
+          "purpose_verified": false,
+          "flow": {
+            "entry": 1482,
+            "states": 1,
+            "native_calls": [],
+            "writes": [],
+            "return_states": 1,
+            "unresolved": [],
+            "conditions_evaluated": false,
+            "termination_proven": false
+          }
+        }
+      ],
+      "arguments": [
+        {
+          "kind": 192,
+          "value": 4294892883,
+          "offset": 2502
+        },
+        {
+          "kind": 192,
+          "value": 0,
+          "offset": 2509
+        },
+        {
+          "kind": 193,
+          "value": 3325788160,
+          "offset": 2516
+        },
+        {
+          "kind": 193,
+          "value": 1148846080,
+          "offset": 2523
+        },
+        {
+          "kind": 192,
+          "value": 13000,
+          "offset": 2530
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 2537
+        },
+        {
+          "kind": 197,
+          "value": 1542,
+          "offset": 2544
+        },
+        {
+          "kind": 197,
+          "value": 1483,
+          "offset": 2551
+        },
+        {
+          "kind": 197,
+          "value": 1482,
+          "offset": 2558
+        }
+      ],
+      "replacement_ready": false
+    }
+  },
+  {
+    "stage": "fr02",
+    "file": "1df8525b.scx",
+    "offset": 939,
+    "hash": "bfd9f8ec",
+    "source_sha256": "f9d00d3eb78e0b19d2425b7918653494352d260a923622d095e1b9d17cd00cd0",
+    "contract": {
+      "boss": "Inhert",
+      "actor_id": 4294932111,
+      "actor_type": 12,
+      "variant": 1,
+      "source_initial_health_ratio": 0.5,
+      "script_callbacks": [
+        {
+          "offset": 856,
+          "argument_offset": 933,
+          "actor_field": "0x14f0",
+          "purpose_verified": false,
+          "flow": {
+            "entry": 856,
+            "states": 23,
+            "native_calls": [
+              {
+                "offset": 850,
+                "hash": "ffbc9566"
+              },
+              {
+                "offset": 864,
+                "hash": "fffff75a"
+              },
+              {
+                "offset": 877,
+                "hash": "7fbf2652"
+              }
+            ],
+            "writes": [
+              {
+                "offset": 837,
+                "opcode": 179,
+                "reference": 3065806290
+              }
+            ],
+            "return_states": 1,
+            "unresolved": [],
+            "conditions_evaluated": false,
+            "termination_proven": false
+          }
+        }
+      ],
+      "arguments": [
+        {
+          "kind": 192,
+          "value": 4294932111,
+          "offset": 891
+        },
+        {
+          "kind": 192,
+          "value": 12,
+          "offset": 898
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 905
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 912
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 919
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 926
+        },
+        {
+          "kind": 197,
+          "value": 856,
+          "offset": 933
+        }
+      ],
+      "replacement_ready": false,
+      "phase_end_health_rule": {
+        "verified": true,
+        "native_damage_handler": "0x146ad2570",
+        "threshold_ratio": 0,
+        "source_maximum_health": 1000,
+        "threshold_health": 0,
+        "callback_state_entry_mapping_verified": false
+      }
+    }
+  },
+  {
+    "stage": "fr02",
+    "file": "1df8525b.scx",
+    "offset": 12718,
+    "hash": "dfedfdb4",
+    "source_sha256": "f9d00d3eb78e0b19d2425b7918653494352d260a923622d095e1b9d17cd00cd0",
+    "contract": {
+      "boss": "Inhert",
+      "actor_id": 4294932111,
+      "actor_type": 12,
+      "variant": 0,
+      "source_initial_health_ratio": 1.0,
+      "script_callbacks": [
+        {
+          "offset": 12316,
+          "argument_offset": 12712,
+          "actor_field": "0x14f0",
+          "purpose_verified": false,
+          "flow": {
+            "entry": 12316,
+            "states": 19,
+            "native_calls": [
+              {
+                "offset": 11402,
+                "hash": "ffff511f"
+              },
+              {
+                "offset": 12324,
+                "hash": "fffff75a"
+              },
+              {
+                "offset": 12337,
+                "hash": "7fbf2652"
+              }
+            ],
+            "writes": [
+              {
+                "offset": 11397,
+                "opcode": 179,
+                "reference": 3065806290
+              }
+            ],
+            "return_states": 1,
+            "unresolved": [],
+            "conditions_evaluated": false,
+            "termination_proven": false
+          }
+        }
+      ],
+      "arguments": [
+        {
+          "kind": 192,
+          "value": 4294932111,
+          "offset": 12670
+        },
+        {
+          "kind": 192,
+          "value": 12,
+          "offset": 12677
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 12684
+        },
+        {
+          "kind": 193,
+          "value": 3306962944,
+          "offset": 12691
+        },
+        {
+          "kind": 193,
+          "value": 1157234688,
+          "offset": 12698
+        },
+        {
+          "kind": 193,
+          "value": 1127481344,
+          "offset": 12705
+        },
+        {
+          "kind": 197,
+          "value": 12316,
+          "offset": 12712
+        }
+      ],
+      "replacement_ready": false,
+      "phase_end_health_rule": {
+        "verified": true,
+        "native_damage_handler": "0x146ad2570",
+        "threshold_ratio": 0.5,
+        "source_maximum_health": 1000,
+        "threshold_health": 500,
+        "callback_state_entry_mapping_verified": false
+      }
+    }
+  },
+  {
+    "stage": "ef02g",
+    "file": "3ca5296d.scx",
+    "offset": 1364,
+    "hash": "fffedd53",
+    "source_sha256": "954694f05228743c49e85f27bb588696cdae3cc9810560e71a3ca5aaddc71756",
+    "contract": {
+      "boss": "Ardjet",
+      "actor_id": 4294892883,
+      "actor_type": 14,
+      "variant": 1,
+      "variant_explicit": true,
+      "script_callbacks": [
+        {
+          "offset": 1277,
+          "argument_offset": 1344,
+          "actor_field": "0x1480",
+          "purpose_verified": false,
+          "flow": {
+            "entry": 1277,
+            "states": 9,
+            "native_calls": [
+              {
+                "offset": 1293,
+                "hash": "ffffb011"
+              }
+            ],
+            "writes": [],
+            "return_states": 1,
+            "unresolved": [],
+            "conditions_evaluated": false,
+            "termination_proven": false
+          }
+        },
+        {
+          "offset": 1263,
+          "argument_offset": 1351,
+          "actor_field": "0x1484",
+          "purpose_verified": false,
+          "flow": {
+            "entry": 1263,
+            "states": 6,
+            "native_calls": [
+              {
+                "offset": 1271,
+                "hash": "d1f9be9f"
+              }
+            ],
+            "writes": [],
+            "return_states": 1,
+            "unresolved": [],
+            "conditions_evaluated": false,
+            "termination_proven": false
+          }
+        },
+        {
+          "offset": 1257,
+          "argument_offset": 1358,
+          "actor_field": "0x1488",
+          "purpose_verified": false,
+          "flow": {
+            "entry": 1257,
+            "states": 55,
+            "native_calls": [
+              {
+                "offset": 1023,
+                "hash": "4f9c88c1"
+              },
+              {
+                "offset": 1049,
+                "hash": "7fbf2652"
+              },
+              {
+                "offset": 1054,
+                "hash": "144505ad"
+              },
+              {
+                "offset": 1095,
+                "hash": "dfd46208"
+              },
+              {
+                "offset": 1144,
+                "hash": "ffcc3307"
+              }
+            ],
+            "writes": [],
+            "return_states": 1,
+            "unresolved": [],
+            "conditions_evaluated": false,
+            "termination_proven": false
+          }
+        }
+      ],
+      "arguments": [
+        {
+          "kind": 192,
+          "value": 4294892883,
+          "offset": 1302
+        },
+        {
+          "kind": 192,
+          "value": 1,
+          "offset": 1309
+        },
+        {
+          "kind": 193,
+          "value": 0,
+          "offset": 1316
+        },
+        {
+          "kind": 193,
+          "value": 1159479296,
+          "offset": 1323
+        },
+        {
+          "kind": 193,
+          "value": 1168277504,
+          "offset": 1330
+        },
+        {
+          "kind": 193,
+          "value": 3266576384,
+          "offset": 1337
+        },
+        {
+          "kind": 197,
+          "value": 1277,
+          "offset": 1344
+        },
+        {
+          "kind": 197,
+          "value": 1263,
+          "offset": 1351
+        },
+        {
+          "kind": 197,
+          "value": 1257,
+          "offset": 1358
+        }
+      ],
+      "replacement_ready": false
+    }
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "stage": "wn01",
+  "file": "d9faacf7.scx",
+  "offset": 1479,
+  "hash": "7fed7b0b",
+  "source_sha256": "f28982d837f886a7208bc7913868f2177ada473e9fe75b06b8fc19a6bcf6b4f4",
+  "contract": {
+    "boss": "Vic Viper",
+    "actor_id": 2146269963,
+    "actor_type": 13,
+    "actor_type_implicit": true,
+    "source_maximum_health": 10000,
+    "arguments": [
+      {
+        "kind": 192,
+        "value": 2146269963,
+        "offset": 1430
+      },
+      {
+        "kind": 193,
+        "value": 0,
+        "offset": 1437
+      },
+      {
+        "kind": 193,
+        "value": 1134559232,
+        "offset": 1444
+      },
+      {
+        "kind": 193,
+        "value": 1157234688,
+        "offset": 1451
+      },
+      {
+        "kind": 193,
+        "value": 1127481344,
+        "offset": 1458
+      },
+      {
+        "kind": 192,
+        "value": 10000,
+        "offset": 1465
+      },
+      {
+        "kind": 223,
+        "value": null,
+        "offset": null
+      },
+      {
+        "kind": 197,
+        "value": 1231,
+        "offset": 1473
+      }
+    ],
+    "script_callbacks": [
+      {
+        "offset": 1231,
+        "argument_offset": 1473,
+        "actor_field": "0x164c",
+        "purpose_verified": false,
+        "flow": {
+          "entry": 1231,
+          "states": 19,
+          "native_calls": [
+            {
+              "offset": 1207,
+              "hash": "7fbf2652"
+            },
+            {
+              "offset": 1225,
+              "hash": "ffff511f"
+            },
+            {
+              "offset": 1239,
+              "hash": "7fbf2652"
+            }
+          ],
+          "writes": [
+            {
+              "offset": 1220,
+              "opcode": 179,
+              "reference": 3065806290
+            }
+          ],
+          "return_states": 1,
+          "unresolved": [],
+          "conditions_evaluated": false,
+          "termination_proven": false
+        }
+      }
+    ],
+    "replacement_ready": false
+  }
+}

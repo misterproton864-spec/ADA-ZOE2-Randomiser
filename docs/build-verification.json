@@ -1,0 +1,13 @@
+{
+  "version": "6.4.15-local.22",
+  "seed": "zoe2-e74c794de3243cb0",
+  "archive_sha256": "4b749787296399ff8d3da11d39d364d48b5cb82cd0b38ab1aeb67b5b583358cf",
+  "installable": true,
+  "boss_phases": 18,
+  "survival_stages": 6,
+  "boss_sequence_encounters": 8,
+  "extra_mission_stages": 6,
+  "gameplay_verified": false,
+  "viper_ai_repaired_in_game": false,
+  "boss_hud_repaired_in_game": false
+}

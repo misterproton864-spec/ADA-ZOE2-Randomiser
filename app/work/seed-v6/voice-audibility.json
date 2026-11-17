@@ -1,0 +1,3007 @@
+{
+  "format": 1,
+  "source": "Pristine cached native media; full vgmstream decode to PCM",
+  "threshold": {
+    "minimum_rms": 32,
+    "minimum_peak": 256
+  },
+  "files": {
+    "English(US)/138389.wem": {
+      "sha256": "2331df49599fc4e495f88ed6997aadff91f03c2ac749d6c89c0e758ed6864608",
+      "decode_ok": true,
+      "seconds": 3.0882539682539685,
+      "rms": 3440,
+      "peak": 22629,
+      "audible": true,
+      "cue": "vcc06202.wav"
+    },
+    "English(US)/6480762.wem": {
+      "sha256": "80a20344a5deacb8073e46df169a4c6262c977f0d8483317901906575835157f",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 3085,
+      "peak": 19983,
+      "audible": true,
+      "cue": "vca0200e.wav"
+    },
+    "English(US)/7202093.wem": {
+      "sha256": "7909864f20639c2e954f2e860fe565f78ecf22561d461aee89b95cbb84f82269",
+      "decode_ok": true,
+      "seconds": 3.250793650793651,
+      "rms": 3996,
+      "peak": 20504,
+      "audible": true,
+      "cue": "vca0501a.wav"
+    },
+    "English(US)/11036886.wem": {
+      "sha256": "ce3f56b36fa6ca799c31cbb7622f29b9fdaab8412f238437dff084e3de818c21",
+      "decode_ok": true,
+      "seconds": 1.787936507936508,
+      "rms": 3667,
+      "peak": 20225,
+      "audible": true,
+      "cue": "vca05035.wav"
+    },
+    "English(US)/14666566.wem": {
+      "sha256": "88886e0b2f07f56faa7225bfa274a5115f08ec09aa8ed8af86edd1ab5f2d4e7f",
+      "decode_ok": true,
+      "seconds": 1.7066666666666668,
+      "rms": 3770,
+      "peak": 21718,
+      "audible": true,
+      "cue": "vca0c018.wav"
+    },
+    "English(US)/14955284.wem": {
+      "sha256": "4eb776404167e6e1db792e760dec1deb55346fb4694c249d31912df3faf1fa0f",
+      "decode_ok": true,
+      "seconds": 0.7314285714285714,
+      "rms": 2051,
+      "peak": 25454,
+      "audible": true,
+      "cue": "vca0d20a.wav"
+    },
+    "English(US)/18652634.wem": {
+      "sha256": "093d9e106d915e3f4583992ff0bca3e6b0505ae8b3f5ac45306c7646a7ed5839",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3773,
+      "peak": 20401,
+      "audible": true,
+      "cue": "vca0a01b.wav"
+    },
+    "English(US)/19777525.wem": {
+      "sha256": "7fd4b19bfb3ef4e92154c4bba0e2484754f09286af8b35bf439b6a6ec037256b",
+      "decode_ok": true,
+      "seconds": 2.4380952380952383,
+      "rms": 4637,
+      "peak": 19799,
+      "audible": true,
+      "cue": "vca0c017.wav"
+    },
+    "English(US)/21393862.wem": {
+      "sha256": "adf109d377d57af838eec9c59e3a8b5d418ed573295a0de8c23404da80a2efcb",
+      "decode_ok": true,
+      "seconds": 2.4380952380952383,
+      "rms": 4234,
+      "peak": 30964,
+      "audible": true,
+      "cue": "vca0d100.wav"
+    },
+    "English(US)/26415436.wem": {
+      "sha256": "d0277b58782069c1413ff04c0d0edef2c65bb5c57c2143961d5c7d5717fda72e",
+      "decode_ok": true,
+      "seconds": 6.021700680272109,
+      "rms": 3964,
+      "peak": 27024,
+      "audible": true,
+      "cue": "vca0a001_eng_360.wav"
+    },
+    "English(US)/28491670.wem": {
+      "sha256": "13863ce019253959f9b5a2b3091d44f3d4d4a410ae0d65c2b4c4f03fce1efb00",
+      "decode_ok": true,
+      "seconds": 1.6253968253968254,
+      "rms": 2743,
+      "peak": 17415,
+      "audible": true,
+      "cue": "vca0c01b.wav"
+    },
+    "English(US)/30735937.wem": {
+      "sha256": "b27cdf7267d4cb0dabe9522e35782205e46d75aee0ea8f08a50e19f352946f49",
+      "decode_ok": true,
+      "seconds": 4.876190476190477,
+      "rms": 3905,
+      "peak": 23179,
+      "audible": true,
+      "cue": "vca05073.wav"
+    },
+    "English(US)/35120517.wem": {
+      "sha256": "77c60f85979ed09c68aaaefd0b60c0e84f112e6bb0b234efcc07677d328fd0bd",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3403,
+      "peak": 22063,
+      "audible": true,
+      "cue": "vca01001.wav"
+    },
+    "English(US)/36126091.wem": {
+      "sha256": "0e43ae51c6630ec99b96941cc47d28d9901ae583fea61fa44ae0413f901687fc",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 3587,
+      "peak": 19663,
+      "audible": true,
+      "cue": "vca0100a.wav"
+    },
+    "English(US)/42462615.wem": {
+      "sha256": "62db8201ad6701380c96d5f4fa36eb220983aa914717514c5ccbd5131816c12e",
+      "decode_ok": true,
+      "seconds": 3.4946031746031747,
+      "rms": 3895,
+      "peak": 20864,
+      "audible": true,
+      "cue": "vca01015.wav"
+    },
+    "English(US)/44221574.wem": {
+      "sha256": "c94857f0034aa30c2553d140e792b8ca51a60f077608aef8e38916218cf0113f",
+      "decode_ok": true,
+      "seconds": 3.332063492063492,
+      "rms": 3714,
+      "peak": 21245,
+      "audible": true,
+      "cue": "vca0500f.wav"
+    },
+    "English(US)/48188072.wem": {
+      "sha256": "2b109685278ffbd6f0b92815151d6d8df71238a30dcbdc7b1697d5164e6bb587",
+      "decode_ok": true,
+      "seconds": 3.250793650793651,
+      "rms": 3699,
+      "peak": 19781,
+      "audible": true,
+      "cue": "vca05022.wav"
+    },
+    "English(US)/50306537.wem": {
+      "sha256": "02c14fe02baaa826a680e78fccbb16dbc5c4e2d1c8db66d692679bfcb7489583",
+      "decode_ok": true,
+      "seconds": 2.2755555555555556,
+      "rms": 3960,
+      "peak": 19679,
+      "audible": true,
+      "cue": "vca0a002.wav"
+    },
+    "English(US)/54043404.wem": {
+      "sha256": "c2fc947224d45c60802750886fb41697f89259a60151279f21b87419533d08f8",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3763,
+      "peak": 20079,
+      "audible": true,
+      "cue": "vca05023.wav"
+    },
+    "English(US)/54416158.wem": {
+      "sha256": "df23ce57e8e3b91b8b049c8383de218c3dfb0a54d1b4c2ab055661e6b69f9fc4",
+      "decode_ok": true,
+      "seconds": 13.4349375,
+      "rms": 856,
+      "peak": 9481,
+      "audible": true,
+      "cue": "vc076ffe_eng_360_ada.wav"
+    },
+    "English(US)/55598381.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca05081.wav"
+    },
+    "English(US)/57288993.wem": {
+      "sha256": "a8f193e579e49aa5097dcfbf5a9f88fffc752a69a91a06caebc181e083e3cb1a",
+      "decode_ok": true,
+      "seconds": 0.9752380952380952,
+      "rms": 3540,
+      "peak": 18662,
+      "audible": true,
+      "cue": "vca0506c.wav"
+    },
+    "English(US)/57896838.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca0300a.wav"
+    },
+    "English(US)/57965601.wem": {
+      "sha256": "0922d4922d63210579308e7dde21cc179ce32c977e0fff32cbe51182c0e0e596",
+      "decode_ok": true,
+      "seconds": 10.112708333333334,
+      "rms": 774,
+      "peak": 10079,
+      "audible": true,
+      "cue": "vc112ffc_eng_360_pp_ada.wav"
+    },
+    "English(US)/58271720.wem": {
+      "sha256": "781224c6d8bf3066dbf5ef6f838de25e344e49d81a357f19f69c9d172b86a5e8",
+      "decode_ok": true,
+      "seconds": 1.4628571428571429,
+      "rms": 3046,
+      "peak": 20629,
+      "audible": true,
+      "cue": "vca02001.wav"
+    },
+    "English(US)/59791487.wem": {
+      "sha256": "433fa474f22b733e259905c38f4b845f7e6448699c5b9ea590c443013af30185",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3607,
+      "peak": 23358,
+      "audible": true,
+      "cue": "vca05071.wav"
+    },
+    "English(US)/60182530.wem": {
+      "sha256": "843526046fa0b927ae7af9b16515d4348399a61eee3ff4dc80a053b017873626",
+      "decode_ok": true,
+      "seconds": 1.7066666666666668,
+      "rms": 3305,
+      "peak": 18823,
+      "audible": true,
+      "cue": "vca0f01c.wav"
+    },
+    "English(US)/60329907.wem": {
+      "sha256": "ca75d0065a1c178885c36f13ea857400f70c89ac964963c8deca7cb7db157910",
+      "decode_ok": true,
+      "seconds": 1.8692063492063493,
+      "rms": 4017,
+      "peak": 18554,
+      "audible": true,
+      "cue": "vca08002.wav"
+    },
+    "English(US)/62463396.wem": {
+      "sha256": "ca7f29147a7706ed1250e9e24952628a4bf9e06decd33c11e006bfd8a2ffbd05",
+      "decode_ok": true,
+      "seconds": 4.307301587301588,
+      "rms": 4192,
+      "peak": 21472,
+      "audible": true,
+      "cue": "vca05041.wav"
+    },
+    "English(US)/67517573.wem": {
+      "sha256": "bc737d66085802e6cbb6983a2cae319d650c52649529955aa795982d6503ee65",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 4672,
+      "peak": 25738,
+      "audible": true,
+      "cue": "vca0d205.wav"
+    },
+    "English(US)/68749913.wem": {
+      "sha256": "7161ecb6e15e3f7e52f35475945afc0354f5bf976ca4830a7a69be49346c96de",
+      "decode_ok": true,
+      "seconds": 3.1695238095238096,
+      "rms": 3897,
+      "peak": 21646,
+      "audible": true,
+      "cue": "vca05011.wav"
+    },
+    "English(US)/71398045.wem": {
+      "sha256": "666e45d173935da196d80dcf8c78b4fee7ecc3dd54e4d7df94dff72a51cc482d",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3897,
+      "peak": 21372,
+      "audible": true,
+      "cue": "vca03004.wav"
+    },
+    "English(US)/73795734.wem": {
+      "sha256": "a92a3dcef8b593f28850e7f23b66e2c978455f09260ccac8cc0696793b608de9",
+      "decode_ok": true,
+      "seconds": 4.2260317460317465,
+      "rms": 3631,
+      "peak": 18498,
+      "audible": true,
+      "cue": "vca01023.wav"
+    },
+    "English(US)/76621863.wem": {
+      "sha256": "7220a84ade02ec8fa767a50525725ad03cc341454a95e802d0f5dd03a2e95cd4",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3739,
+      "peak": 11010,
+      "audible": true,
+      "cue": "vca0d005.wav"
+    },
+    "English(US)/78199971.wem": {
+      "sha256": "7c4fd245f7cf34c23d311ce7811a7a24d1dece6b94652b9c5bed38a4f8625e1c",
+      "decode_ok": true,
+      "seconds": 2.8444444444444446,
+      "rms": 3468,
+      "peak": 22946,
+      "audible": true,
+      "cue": "vca0a003.wav"
+    },
+    "English(US)/87206605.wem": {
+      "sha256": "ee2da25e2d4bb97cf6d84846ad3b0ce3f7f904ae34145f2ca1d91076d5e7f7ef",
+      "decode_ok": true,
+      "seconds": 3.1695238095238096,
+      "rms": 3831,
+      "peak": 11339,
+      "audible": true,
+      "cue": "vca0d001.wav"
+    },
+    "English(US)/94327488.wem": {
+      "sha256": "7605104a021b5ea2ed2ca79a4b958b497ae3dd5c81f7316074b2406d06eac5d2",
+      "decode_ok": true,
+      "seconds": 2.1130158730158732,
+      "rms": 4775,
+      "peak": 27442,
+      "audible": true,
+      "cue": "vca0d212.wav"
+    },
+    "English(US)/107952152.wem": {
+      "sha256": "c4b85c42874b6058335b4ff67f757f9fe3ca36e4ed5017b29449294018854b14",
+      "decode_ok": true,
+      "seconds": 2.1130158730158732,
+      "rms": 3202,
+      "peak": 22108,
+      "audible": true,
+      "cue": "vca05063.wav"
+    },
+    "English(US)/118788475.wem": {
+      "sha256": "bf75e36f9c527ed27b8f8fbeb1459f5163fed42207764bfcecb9322f377a37fe",
+      "decode_ok": true,
+      "seconds": 1.8692063492063493,
+      "rms": 4012,
+      "peak": 22723,
+      "audible": true,
+      "cue": "vca0502f.wav"
+    },
+    "English(US)/124135918.wem": {
+      "sha256": "96f21cceed40faf70c1bb24ed1d9bc7e9d29262889ae5788023bdc67b1a69033",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3484,
+      "peak": 19788,
+      "audible": true,
+      "cue": "vca05045.wav"
+    },
+    "English(US)/128023143.wem": {
+      "sha256": "13a0888185267603de43180701347a2327d2ddec1cad4f5b2eeaab8b2f36efa9",
+      "decode_ok": true,
+      "seconds": 2.6006349206349206,
+      "rms": 3867,
+      "peak": 20083,
+      "audible": true,
+      "cue": "vca05047.wav"
+    },
+    "English(US)/128600565.wem": {
+      "sha256": "70822dbe96681e76d65d2311ba62a17361d8b162a84784daf79aa0da855780cb",
+      "decode_ok": true,
+      "seconds": 0.893968253968254,
+      "rms": 3299,
+      "peak": 19726,
+      "audible": true,
+      "cue": "vca09005.wav"
+    },
+    "English(US)/139211882.wem": {
+      "sha256": "3f6942d9d41ed369bd234d4dfac1679ab80746b0f673a4e43342e9a99e37a0e0",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 3837,
+      "peak": 19438,
+      "audible": true,
+      "cue": "vcad3001.wav"
+    },
+    "English(US)/140309377.wem": {
+      "sha256": "f82b2915b02c88442264921225e7e4c4bf9c86e310f1f247e68db3dd07638df3",
+      "decode_ok": true,
+      "seconds": 1.2190476190476192,
+      "rms": 3114,
+      "peak": 10964,
+      "audible": true,
+      "cue": "vca0d00a.wav"
+    },
+    "English(US)/142108649.wem": {
+      "sha256": "3b615e9befb861364eda80f44421fa4584aa972d2b34d2779f407abff2fd355a",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 4005,
+      "peak": 21332,
+      "audible": true,
+      "cue": "vca0c009.wav"
+    },
+    "English(US)/143574240.wem": {
+      "sha256": "6f4f0659537686a31b613ab742598117d640482b82201dfef40a57c42a437552",
+      "decode_ok": true,
+      "seconds": 3.1695238095238096,
+      "rms": 3884,
+      "peak": 22128,
+      "audible": true,
+      "cue": "vca05021.wav"
+    },
+    "English(US)/148536346.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca05078.wav"
+    },
+    "English(US)/150632259.wem": {
+      "sha256": "3285fc51690144555e95fbec6893361f9853b6eb3bd287e15564ff66fa617e68",
+      "decode_ok": true,
+      "seconds": 2.5193650793650795,
+      "rms": 3822,
+      "peak": 22731,
+      "audible": true,
+      "cue": "vca01006.wav"
+    },
+    "English(US)/155802759.wem": {
+      "sha256": "8a3556a700fb1224b0a81b51a30bb025e08799f1384aae32eb96177c2b2bdfa9",
+      "decode_ok": true,
+      "seconds": 1.6253968253968254,
+      "rms": 3670,
+      "peak": 21039,
+      "audible": true,
+      "cue": "vca02007.wav"
+    },
+    "English(US)/156605626.wem": {
+      "sha256": "6526a46dd599d98d7cfe953d46f79c81fbe8a8037b66f6924e979b1c61d757b9",
+      "decode_ok": true,
+      "seconds": 3.4946031746031747,
+      "rms": 3884,
+      "peak": 19800,
+      "audible": true,
+      "cue": "vca05018.wav"
+    },
+    "English(US)/157196157.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca05082.wav"
+    },
+    "English(US)/160236610.wem": {
+      "sha256": "8e50233d4ee97f3e243f7824c13f35dea2193bf09a4ce48cd7ae825be9896ac7",
+      "decode_ok": true,
+      "seconds": 2.2755555555555556,
+      "rms": 3283,
+      "peak": 11648,
+      "audible": true,
+      "cue": "vca0d006.wav"
+    },
+    "English(US)/161015959.wem": {
+      "sha256": "f3052e68b6598e356afe7f870bda9507aacc1d906245a51bceb6ea51b78106ed",
+      "decode_ok": true,
+      "seconds": 2.8444444444444446,
+      "rms": 4300,
+      "peak": 21319,
+      "audible": true,
+      "cue": "vca05065.wav"
+    },
+    "English(US)/163356746.wem": {
+      "sha256": "7f297a57ae5eb71f5ed695ef4d634300664792c5e27a4ab8cf76e2d47d3a4f7c",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3332,
+      "peak": 20949,
+      "audible": true,
+      "cue": "vca07003.wav"
+    },
+    "English(US)/166051727.wem": {
+      "sha256": "ad6c09d79d60777aef3a31bdd1b0898f5a63c91d3ff070f5d18a5787dae3d881",
+      "decode_ok": true,
+      "seconds": 2.1130158730158732,
+      "rms": 3996,
+      "peak": 22874,
+      "audible": true,
+      "cue": "vca05019.wav"
+    },
+    "English(US)/166833789.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca0c00a.wav"
+    },
+    "English(US)/167906526.wem": {
+      "sha256": "b74a949183147d97313f8a4aae06149c4f314759ada123700adc82cd766c5315",
+      "decode_ok": true,
+      "seconds": 1.7066666666666668,
+      "rms": 3733,
+      "peak": 20414,
+      "audible": true,
+      "cue": "vca08003.wav"
+    },
+    "English(US)/168444559.wem": {
+      "sha256": "0fdada1beb896cacdb153ed43aa561361119767d8db0a0c465c5734fbf59adb2",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 3761,
+      "peak": 20085,
+      "audible": true,
+      "cue": "vca05006.wav"
+    },
+    "English(US)/169809256.wem": {
+      "sha256": "b81d42a02c0b5fd55ca4c85ace5bd9c4f806dd81f4c00f103ece71647b6b2343",
+      "decode_ok": true,
+      "seconds": 1.787936507936508,
+      "rms": 3942,
+      "peak": 22151,
+      "audible": true,
+      "cue": "vca05037.wav"
+    },
+    "English(US)/173908537.wem": {
+      "sha256": "4f92c4a907f8c25cddf287d3c7e97f9901927f8f0f3e8a98c2c3e73810b458d2",
+      "decode_ok": true,
+      "seconds": 1.8692063492063493,
+      "rms": 3800,
+      "peak": 20302,
+      "audible": true,
+      "cue": "vca04009.wav"
+    },
+    "English(US)/175158589.wem": {
+      "sha256": "a003b5cd2ec3199f394eb7436475d0b92a4089d3c820a6a1e23c5b117a6237a1",
+      "decode_ok": true,
+      "seconds": 1.787936507936508,
+      "rms": 3932,
+      "peak": 22216,
+      "audible": true,
+      "cue": "vca0600c.wav"
+    },
+    "English(US)/178518075.wem": {
+      "sha256": "737c9cd60bb76fb4397297f0aa30906306066efa1395f6010559aba9567f1c50",
+      "decode_ok": true,
+      "seconds": 1.0565079365079366,
+      "rms": 0,
+      "peak": 2,
+      "audible": false,
+      "cue": "vca06004.wav"
+    },
+    "English(US)/181119322.wem": {
+      "sha256": "771e244b2e38cc6ef5e042118ef14356f20b6dea1a3148bddcf634df4c1d0b7c",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3433,
+      "peak": 20228,
+      "audible": true,
+      "cue": "vca0101f.wav"
+    },
+    "English(US)/181382895.wem": {
+      "sha256": "091c214b5e8fb5ea22bc1056ed8211d7d1ad93624f2d4aa6cfa65014eed449d3",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 3997,
+      "peak": 21237,
+      "audible": true,
+      "cue": "vca0503a.wav"
+    },
+    "English(US)/184397805.wem": {
+      "sha256": "52e511c1bd7b485adc8f62ee95c1e766304b9fd153a01170bd486634e3fb52df",
+      "decode_ok": true,
+      "seconds": 13.411854166666666,
+      "rms": 655,
+      "peak": 8004,
+      "audible": true,
+      "cue": "vc076ffe_eng_360_pp_ada.wav"
+    },
+    "English(US)/187834759.wem": {
+      "sha256": "33a24a042a98ea029af7b12facc1a7c30f70a886812cf24d18e4688f0f02c236",
+      "decode_ok": true,
+      "seconds": 5.363809523809524,
+      "rms": 3990,
+      "peak": 22688,
+      "audible": true,
+      "cue": "vca0500a.wav"
+    },
+    "English(US)/200058957.wem": {
+      "sha256": "5613edae9430195a00f7376715ea3da19f99d23f52a05973b25fa80324d07f88",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3875,
+      "peak": 18660,
+      "audible": true,
+      "cue": "vca0c003.wav"
+    },
+    "English(US)/202620079.wem": {
+      "sha256": "ecc3f0081ee5d5166e80eb6e0cdc835b1d4ca7a5c841f1bf224ebcec68573e1f",
+      "decode_ok": true,
+      "seconds": 4.307301587301588,
+      "rms": 4221,
+      "peak": 27546,
+      "audible": true,
+      "cue": "vca0d101.wav"
+    },
+    "English(US)/203137564.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca05080.wav"
+    },
+    "English(US)/207344389.wem": {
+      "sha256": "60d82c0e54344ac1c02facd075152eae9fe289d315a62d5957938629c66ed138",
+      "decode_ok": true,
+      "seconds": 2.3568253968253967,
+      "rms": 3725,
+      "peak": 19528,
+      "audible": true,
+      "cue": "vca07002.wav"
+    },
+    "English(US)/209102765.wem": {
+      "sha256": "6f07195017be20cd969c348e9610a52592a90a50e32b1c107805f4dc6c7a28fa",
+      "decode_ok": true,
+      "seconds": 3.4946031746031747,
+      "rms": 3627,
+      "peak": 21667,
+      "audible": true,
+      "cue": "vca0101a.wav"
+    },
+    "English(US)/209119834.wem": {
+      "sha256": "fa400aed95e14c92587606956d57bf2eaaf6300b568bed5512a3d1421eabf81a",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 3658,
+      "peak": 22268,
+      "audible": true,
+      "cue": "vcad2002.wav"
+    },
+    "English(US)/210221775.wem": {
+      "sha256": "fcfa16c09f839ca3e07b46e739e7dfcf28e42341a6e7c600cbba687f8335bd64",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 2963,
+      "peak": 17785,
+      "audible": true,
+      "cue": "vca02012.wav"
+    },
+    "English(US)/212483796.wem": {
+      "sha256": "7e823fd23be8878a25d4fda35fce9a4faa7b0777b6ccfb6c5ba3d8dd5d113245",
+      "decode_ok": true,
+      "seconds": 3.0882539682539685,
+      "rms": 4243,
+      "peak": 21125,
+      "audible": true,
+      "cue": "vca05044.wav"
+    },
+    "English(US)/212987493.wem": {
+      "sha256": "f7593f0b433cc62ed4be6b70adaac20918d28e2fb6234de3cb47fda7e38444bd",
+      "decode_ok": true,
+      "seconds": 2.6006349206349206,
+      "rms": 3703,
+      "peak": 21274,
+      "audible": true,
+      "cue": "vca05049.wav"
+    },
+    "English(US)/213863633.wem": {
+      "sha256": "7f496b6391bc5c8c59a99914f2ec13924f8a57b1668fc279e69ea58fc795cf5d",
+      "decode_ok": true,
+      "seconds": 6.664126984126984,
+      "rms": 3913,
+      "peak": 21099,
+      "audible": true,
+      "cue": "vca0c00b.wav"
+    },
+    "English(US)/216532472.wem": {
+      "sha256": "29a7ff777009e19b8b4f2358fc7bbef60482cbd8be8e7d0e9d3e43837cc23920",
+      "decode_ok": true,
+      "seconds": 5.5036054421768705,
+      "rms": 3787,
+      "peak": 25366,
+      "audible": true,
+      "cue": "vca05086_eng_360.wav"
+    },
+    "English(US)/222510596.wem": {
+      "sha256": "737c9cd60bb76fb4397297f0aa30906306066efa1395f6010559aba9567f1c50",
+      "decode_ok": true,
+      "seconds": 1.0565079365079366,
+      "rms": 0,
+      "peak": 2,
+      "audible": false,
+      "cue": "vca0c01c.wav"
+    },
+    "English(US)/227093942.wem": {
+      "sha256": "feb42654aa760688fe1af1cbe1cb587b29e2b6bb25b020051ae09e4897f65dea",
+      "decode_ok": true,
+      "seconds": 3.332063492063492,
+      "rms": 4039,
+      "peak": 22969,
+      "audible": true,
+      "cue": "vca05017.wav"
+    },
+    "English(US)/229153047.wem": {
+      "sha256": "82c973d88bef11b3869260b47357d87e58dc437ab6d1eca7794b74706556d1a4",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 2919,
+      "peak": 24118,
+      "audible": true,
+      "cue": "vca0d105.wav"
+    },
+    "English(US)/232374928.wem": {
+      "sha256": "f87a44279544f3252e3aa4bfd8cd5e158228f48273c3dc23d26b6d60de68189f",
+      "decode_ok": true,
+      "seconds": 2.2755555555555556,
+      "rms": 3698,
+      "peak": 20387,
+      "audible": true,
+      "cue": "vca05024.wav"
+    },
+    "English(US)/232968367.wem": {
+      "sha256": "f1c4741b5eec632d797d82b3010e7efd1861f53f66d007d99f9625d90a4577ae",
+      "decode_ok": true,
+      "seconds": 3.4946031746031747,
+      "rms": 3703,
+      "peak": 12566,
+      "audible": true,
+      "cue": "vca0d003.wav"
+    },
+    "English(US)/233760339.wem": {
+      "sha256": "d7a626133e005b076eb9a120f0c8d21f5eb7cc43d26af899b5e6c52047807bc3",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 4030,
+      "peak": 25457,
+      "audible": true,
+      "cue": "vca0c011.wav"
+    },
+    "English(US)/235291880.wem": {
+      "sha256": "5b1faff964a919503c80708ad2ace0c90ca8678660128c6d982c7722018e082f",
+      "decode_ok": true,
+      "seconds": 3.900952380952381,
+      "rms": 3723,
+      "peak": 21487,
+      "audible": true,
+      "cue": "vca0102a.wav"
+    },
+    "English(US)/235675269.wem": {
+      "sha256": "49b2478b5ac9eecefab23306dd0f0affdc69c4143c03a386916d89b18aacb245",
+      "decode_ok": true,
+      "seconds": 3.250793650793651,
+      "rms": 3706,
+      "peak": 19944,
+      "audible": true,
+      "cue": "vca0102d.wav"
+    },
+    "English(US)/237134641.wem": {
+      "sha256": "997f7c29a287d45e39f810641d6ee8bcc9ac7a78d4df58803e0bf5c538110425",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3532,
+      "peak": 18256,
+      "audible": true,
+      "cue": "vca0200a.wav"
+    },
+    "English(US)/244113715.wem": {
+      "sha256": "cc2d080c953158494dcbbed7f00a93fda98218743d63ca98a4371dd4f8cc1a4b",
+      "decode_ok": true,
+      "seconds": 5.445079365079365,
+      "rms": 3091,
+      "peak": 20784,
+      "audible": true,
+      "cue": "vca0902a.wav"
+    },
+    "English(US)/250607820.wem": {
+      "sha256": "749eb82283e2587625dee778677f7e4f76f3a4e7f9cd44010f6b274609bf7602",
+      "decode_ok": true,
+      "seconds": 1.4628571428571429,
+      "rms": 3429,
+      "peak": 19251,
+      "audible": true,
+      "cue": "vca0c015.wav"
+    },
+    "English(US)/251284017.wem": {
+      "sha256": "56fabcf5010bde64aefae78f3ce5739563fab6009a80160b1a9307a387d54c3f",
+      "decode_ok": true,
+      "seconds": 1.5441269841269842,
+      "rms": 3503,
+      "peak": 20171,
+      "audible": true,
+      "cue": "vca02008.wav"
+    },
+    "English(US)/255292987.wem": {
+      "sha256": "8c1b17f5424aa78a826775a4d5dfbe1c1818303b843e7f9e9d8bb7d0c9d56737",
+      "decode_ok": true,
+      "seconds": 3.982222222222222,
+      "rms": 3942,
+      "peak": 12692,
+      "audible": true,
+      "cue": "vca0d009.wav"
+    },
+    "English(US)/255991641.wem": {
+      "sha256": "8834e9ce98c030cbcd2637680d07740ce8c219bd3d69c98d76521cad8303ac96",
+      "decode_ok": true,
+      "seconds": 2.8444444444444446,
+      "rms": 3960,
+      "peak": 24102,
+      "audible": true,
+      "cue": "vca01018.wav"
+    },
+    "English(US)/256641831.wem": {
+      "sha256": "f1587e70f8730d1c9c4cd5e72d23545fc18dd9e22e3d08293da18e9dca52607f",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 3618,
+      "peak": 18825,
+      "audible": true,
+      "cue": "vca0100d.wav"
+    },
+    "English(US)/259541278.wem": {
+      "sha256": "ea03d3c5a251a98ccc1469d1c51d954d8735a4b78159189c42e78c1f32cb5dd8",
+      "decode_ok": true,
+      "seconds": 3.982222222222222,
+      "rms": 3881,
+      "peak": 22674,
+      "audible": true,
+      "cue": "vca0a018.wav"
+    },
+    "English(US)/259777593.wem": {
+      "sha256": "9fb2c9f249eb0cc6e0dbd8b66a6a284a869882c760b5a23e81fde5b07cd79043",
+      "decode_ok": true,
+      "seconds": 4.745600907029479,
+      "rms": 3471,
+      "peak": 22032,
+      "audible": true,
+      "cue": "vca0507b_eng_360.wav"
+    },
+    "English(US)/260102942.wem": {
+      "sha256": "70e1239e05d373c343a234c7ab173fde538c9d9fe779ef3d9713acc1b08e0231",
+      "decode_ok": true,
+      "seconds": 2.5193650793650795,
+      "rms": 4190,
+      "peak": 20577,
+      "audible": true,
+      "cue": "vca0c002.wav"
+    },
+    "English(US)/269135016.wem": {
+      "sha256": "ca1b3b2cd487ac6abe9206bbe0990a2e281fcc2343ba8998041768f7f8ed092f",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 5328,
+      "peak": 27335,
+      "audible": true,
+      "cue": "vca0d209.wav"
+    },
+    "English(US)/273836417.wem": {
+      "sha256": "41c1bffee6d1995ff70e945a662518501e7a642c48b203c2b47ea7e907e6dba0",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 3447,
+      "peak": 18896,
+      "audible": true,
+      "cue": "vca0100b.wav"
+    },
+    "English(US)/286176740.wem": {
+      "sha256": "ffdd76b1097ecb9b3ab401a4fa0477325e15995d74426e733cdf58647c88579d",
+      "decode_ok": true,
+      "seconds": 1.787936507936508,
+      "rms": 3493,
+      "peak": 20244,
+      "audible": true,
+      "cue": "vcad2001.wav"
+    },
+    "English(US)/286222366.wem": {
+      "sha256": "80079d450efcb72d9e61e748eb0fb9922379e427dc6dbb2d41f9e2c422b58600",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 4109,
+      "peak": 22757,
+      "audible": true,
+      "cue": "vca05032.wav"
+    },
+    "English(US)/292277831.wem": {
+      "sha256": "9a7b1eb2b74cabc4e34774eadbdc0738d22ed92ce152da4327f47a2dc9684589",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3948,
+      "peak": 20915,
+      "audible": true,
+      "cue": "vca0c005.wav"
+    },
+    "English(US)/294479206.wem": {
+      "sha256": "84883f0ab3221f107c40e9b88892727c0aacdbd1b5af6d752a96ae40bc2a4ee8",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3581,
+      "peak": 19231,
+      "audible": true,
+      "cue": "vca0503f.wav"
+    },
+    "English(US)/294807420.wem": {
+      "sha256": "38e6825e88e6000b863debff491457ebfdeed821c577279b3d6edf8bcdd00193",
+      "decode_ok": true,
+      "seconds": 2.7631746031746034,
+      "rms": 3929,
+      "peak": 20984,
+      "audible": true,
+      "cue": "vca0500b.wav"
+    },
+    "English(US)/298703100.wem": {
+      "sha256": "5dd79ecacc4713caee4ec6b5b52e4f4373b844d565fbe885166829fb27086df3",
+      "decode_ok": true,
+      "seconds": 3.4946031746031747,
+      "rms": 3804,
+      "peak": 20356,
+      "audible": true,
+      "cue": "vca01014.wav"
+    },
+    "English(US)/298789103.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca0507e.wav"
+    },
+    "English(US)/299268012.wem": {
+      "sha256": "703b6a07675b3babc5959f4cba7110596c32b0803f4e92b4108c8a440831dd65",
+      "decode_ok": true,
+      "seconds": 1.6253968253968254,
+      "rms": 3478,
+      "peak": 19943,
+      "audible": true,
+      "cue": "vca02005.wav"
+    },
+    "English(US)/301636179.wem": {
+      "sha256": "7795c8ad7b276cee3fe070d35e6cf00f679e6af241398b0e791300fc140153ba",
+      "decode_ok": true,
+      "seconds": 0.9752380952380952,
+      "rms": 2773,
+      "peak": 18839,
+      "audible": true,
+      "cue": "vca0506e.wav"
+    },
+    "English(US)/305949335.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca06015.wav"
+    },
+    "English(US)/310774052.wem": {
+      "sha256": "ae7fce4bd1b6c15ca8646bd1da123f77ed57338f9086b5e41f27390e032a25c1",
+      "decode_ok": true,
+      "seconds": 3.81968253968254,
+      "rms": 3419,
+      "peak": 19845,
+      "audible": true,
+      "cue": "vca0502c.wav"
+    },
+    "English(US)/311147019.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca05087.wav"
+    },
+    "English(US)/325022547.wem": {
+      "sha256": "6979245298a3b58ebbc7cd20b3660cc2430258c1cc60c19f793f91ad4f853f0d",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3537,
+      "peak": 18843,
+      "audible": true,
+      "cue": "vca04003.wav"
+    },
+    "English(US)/328204233.wem": {
+      "sha256": "6979245298a3b58ebbc7cd20b3660cc2430258c1cc60c19f793f91ad4f853f0d",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3537,
+      "peak": 18843,
+      "audible": true,
+      "cue": "vca0a01c.wav"
+    },
+    "English(US)/328401525.wem": {
+      "sha256": "75e5c90b30339e1728a9324b3f3390bb4aec41c712915351d1692591c2db7242",
+      "decode_ok": true,
+      "seconds": 2.7631746031746034,
+      "rms": 4135,
+      "peak": 20155,
+      "audible": true,
+      "cue": "vca0503b.wav"
+    },
+    "English(US)/330137891.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca0501f.wav"
+    },
+    "English(US)/337073176.wem": {
+      "sha256": "b789132d746c8263042218abe359e8cc39cfc8942c7dac852dc46297cd6a5a5b",
+      "decode_ok": true,
+      "seconds": 2.1130158730158732,
+      "rms": 4136,
+      "peak": 19351,
+      "audible": true,
+      "cue": "vca05013.wav"
+    },
+    "English(US)/337544251.wem": {
+      "sha256": "2b8b741c264a138f8639be17ef464748370f6b6151eb9f9679f0dae33d44919f",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 3970,
+      "peak": 20163,
+      "audible": true,
+      "cue": "vca05034.wav"
+    },
+    "English(US)/338198222.wem": {
+      "sha256": "601c55ab65773e42b22c1faf6436456593e4ed4bd0f412370c80c8e392b9c307",
+      "decode_ok": true,
+      "seconds": 4.713650793650793,
+      "rms": 3678,
+      "peak": 22594,
+      "audible": true,
+      "cue": "vca01029.wav"
+    },
+    "English(US)/341389127.wem": {
+      "sha256": "11a19ccfbda5772e94014358019bf212a0f84920a4a2b814db8bd54723006606",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 3362,
+      "peak": 21130,
+      "audible": true,
+      "cue": "vca0101e.wav"
+    },
+    "English(US)/345378314.wem": {
+      "sha256": "094bc3592eb3ab764e8cda48cba9587698cc668b6e62aada7fc0302f34434809",
+      "decode_ok": true,
+      "seconds": 1.787936507936508,
+      "rms": 4407,
+      "peak": 22052,
+      "audible": true,
+      "cue": "vca0502e.wav"
+    },
+    "English(US)/346115689.wem": {
+      "sha256": "637f19ba7b7242c13a2250604faae1c3efa458a03341090bc6ed4d53759fe4a4",
+      "decode_ok": true,
+      "seconds": 0.9752380952380952,
+      "rms": 2520,
+      "peak": 17205,
+      "audible": true,
+      "cue": "vca0506d.wav"
+    },
+    "English(US)/348709399.wem": {
+      "sha256": "9f32e431b7df7b23398f0142e54f4e94917c5a77093701544c33bd48cd9cd778",
+      "decode_ok": true,
+      "seconds": 5.818526077097506,
+      "rms": 3800,
+      "peak": 26001,
+      "audible": true,
+      "cue": "vca05084_eng_360_pp.wav"
+    },
+    "English(US)/351858239.wem": {
+      "sha256": "2a11dc7ae8e6c2b336f542726398d684ce4b2dafaa98f52001d4dde1a804ac46",
+      "decode_ok": true,
+      "seconds": 2.5193650793650795,
+      "rms": 3419,
+      "peak": 22428,
+      "audible": true,
+      "cue": "vca0c013.wav"
+    },
+    "English(US)/352068736.wem": {
+      "sha256": "968007661a8fcc483402002f92145cb4253a1aff38d95a3f4bcd1e5919c7d638",
+      "decode_ok": true,
+      "seconds": 3.81968253968254,
+      "rms": 3711,
+      "peak": 21763,
+      "audible": true,
+      "cue": "vca05012.wav"
+    },
+    "English(US)/357233458.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca0d103.wav"
+    },
+    "English(US)/360109603.wem": {
+      "sha256": "8436f2aac269e301aa65627ff1ebed208cf570596d0cb5fb10646f0aff535687",
+      "decode_ok": true,
+      "seconds": 2.2755555555555556,
+      "rms": 3824,
+      "peak": 23348,
+      "audible": true,
+      "cue": "vca09003.wav"
+    },
+    "English(US)/366244524.wem": {
+      "sha256": "2a29538977dc495a80dbfd3dafbe107f2f2e8b296133f0ed169e17315754beaa",
+      "decode_ok": true,
+      "seconds": 2.2755555555555556,
+      "rms": 3817,
+      "peak": 21941,
+      "audible": true,
+      "cue": "vca0c00e.wav"
+    },
+    "English(US)/370192520.wem": {
+      "sha256": "272e5ae377c1e8770b5bb757792eb68d9307a7132a97722226af06f147e9110f",
+      "decode_ok": true,
+      "seconds": 1.4628571428571429,
+      "rms": 3493,
+      "peak": 20003,
+      "audible": true,
+      "cue": "vca02006.wav"
+    },
+    "English(US)/373765880.wem": {
+      "sha256": "95ea8ac0b27207a79057d31c7bcc167776a69404673ee615bb42bf2129230466",
+      "decode_ok": true,
+      "seconds": 3.7384126984126986,
+      "rms": 3768,
+      "peak": 22464,
+      "audible": true,
+      "cue": "vca0501b.wav"
+    },
+    "English(US)/375441453.wem": {
+      "sha256": "32951d92669229a51d2bd1e741423deb07d5f9b9255697e2d50ab360cc0a8b47",
+      "decode_ok": true,
+      "seconds": 1.8692063492063493,
+      "rms": 3826,
+      "peak": 21306,
+      "audible": true,
+      "cue": "vca05033.wav"
+    },
+    "English(US)/377435342.wem": {
+      "sha256": "d28a6f70bff9d43d98b193a72f06076d425e6a579f6d793c4e549a23236a143d",
+      "decode_ok": true,
+      "seconds": 3.1695238095238096,
+      "rms": 3282,
+      "peak": 18037,
+      "audible": true,
+      "cue": "vca0100f.wav"
+    },
+    "English(US)/378691639.wem": {
+      "sha256": "f934aa1f5e3ee86f61cdf63601faafd4406991860f513683c0675d9faac79805",
+      "decode_ok": true,
+      "seconds": 2.3568253968253967,
+      "rms": 3584,
+      "peak": 20559,
+      "audible": true,
+      "cue": "vca0502b.wav"
+    },
+    "English(US)/379343530.wem": {
+      "sha256": "d00f1842a8a1906c55e7ba2dea7f87fac233c66197b6e94f5d3933ca8be457b5",
+      "decode_ok": true,
+      "seconds": 1.6253968253968254,
+      "rms": 4755,
+      "peak": 26022,
+      "audible": true,
+      "cue": "vca0d204.wav"
+    },
+    "English(US)/381870471.wem": {
+      "sha256": "9a2d98a342e728998867e8f2cf48f498ccf9043959fb77522b7313dc98a4bbfe",
+      "decode_ok": true,
+      "seconds": 1.5441269841269842,
+      "rms": 3480,
+      "peak": 19274,
+      "audible": true,
+      "cue": "vca02003.wav"
+    },
+    "English(US)/382017097.wem": {
+      "sha256": "5f9037c1d55f3d7ad946f48484b48f4e4d7878fc7741665a7c674742e67d7580",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3449,
+      "peak": 18872,
+      "audible": true,
+      "cue": "vca04006.wav"
+    },
+    "English(US)/387320050.wem": {
+      "sha256": "71d18c51c9f0ba144b4d37c37411672237011a31455534843601fb1a3a263ad2",
+      "decode_ok": true,
+      "seconds": 1.787936507936508,
+      "rms": 3086,
+      "peak": 20702,
+      "audible": true,
+      "cue": "vca0c00f.wav"
+    },
+    "English(US)/395079353.wem": {
+      "sha256": "cf0a2c52080d62cf9b845a4f47ae7d4988e8ebd4f5f5d6c0ab76976991eaef70",
+      "decode_ok": true,
+      "seconds": 1.0565079365079366,
+      "rms": 2358,
+      "peak": 17369,
+      "audible": true,
+      "cue": "vca01003.wav"
+    },
+    "English(US)/399469323.wem": {
+      "sha256": "872be141f010b633396cae95a39a7d0691f970d44c4d1a4937fbe845b19efafa",
+      "decode_ok": true,
+      "seconds": 2.7631746031746034,
+      "rms": 3448,
+      "peak": 20460,
+      "audible": true,
+      "cue": "vca05074.wav"
+    },
+    "English(US)/403016661.wem": {
+      "sha256": "aa681bcfdfec6edd17b834a53e872c285bd1a31135a6a4f6eff880c75e24f932",
+      "decode_ok": true,
+      "seconds": 3.250793650793651,
+      "rms": 3673,
+      "peak": 19312,
+      "audible": true,
+      "cue": "vca03007.wav"
+    },
+    "English(US)/405653043.wem": {
+      "sha256": "29084fb33623df09394e9427c64327a874f58b9d9ab60f1d59eb1410c6214c60",
+      "decode_ok": true,
+      "seconds": 2.4380952380952383,
+      "rms": 4705,
+      "peak": 25637,
+      "audible": true,
+      "cue": "vca0d20b.wav"
+    },
+    "English(US)/407228454.wem": {
+      "sha256": "040d8168208b82c5c6fb4d2034bb91e85d9df3eaf81003fa1f5b07968d2c9863",
+      "decode_ok": true,
+      "seconds": 3.982222222222222,
+      "rms": 4458,
+      "peak": 22977,
+      "audible": true,
+      "cue": "vca05026.wav"
+    },
+    "English(US)/409937667.wem": {
+      "sha256": "d22fdefcd9f10c7b73bd25ef4bf21460d532bc6d71a8723606e3c278d53b2d53",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 3357,
+      "peak": 19628,
+      "audible": true,
+      "cue": "vca02013.wav"
+    },
+    "English(US)/410436773.wem": {
+      "sha256": "4bad6232c0503dbd06232490b9e3c06dee30efa72129130cd2d4e5c7eb8cae47",
+      "decode_ok": true,
+      "seconds": 0.9752380952380952,
+      "rms": 5040,
+      "peak": 28543,
+      "audible": true,
+      "cue": "vca0d210.wav"
+    },
+    "English(US)/414222081.wem": {
+      "sha256": "ab42644c14ea9cb9e89e427ffffb617e67f7c7c512b5916255775dff18217aea",
+      "decode_ok": true,
+      "seconds": 4.307301587301588,
+      "rms": 4095,
+      "peak": 22904,
+      "audible": true,
+      "cue": "vca0500c.wav"
+    },
+    "English(US)/415148834.wem": {
+      "sha256": "41faf8055e8b547389aa8165eed376095802b12b9685892567a34d5629941b32",
+      "decode_ok": true,
+      "seconds": 2.7631746031746034,
+      "rms": 3822,
+      "peak": 20406,
+      "audible": true,
+      "cue": "vca06009.wav"
+    },
+    "English(US)/423570602.wem": {
+      "sha256": "d332082e1777e2d68740184b4155c0c63b044e68dc4d850ad0a247a472fcc9a3",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3671,
+      "peak": 22135,
+      "audible": true,
+      "cue": "vca06003.wav"
+    },
+    "English(US)/433832682.wem": {
+      "sha256": "7c04bf8af5731f79a8826a373405f7c9fb52dcbf3be9817662c1cb052c50239d",
+      "decode_ok": true,
+      "seconds": 3.657142857142857,
+      "rms": 3509,
+      "peak": 18109,
+      "audible": true,
+      "cue": "vca01007.wav"
+    },
+    "English(US)/436572225.wem": {
+      "sha256": "65a28900544da7af285610bf236d1542054327c5fae7d297a856cde29bfc36e7",
+      "decode_ok": true,
+      "seconds": 3.006984126984127,
+      "rms": 3688,
+      "peak": 11938,
+      "audible": true,
+      "cue": "vca0d002.wav"
+    },
+    "English(US)/437092963.wem": {
+      "sha256": "b8781e38e44896649eb73d0e5aa29530f3f2f62e8cbd5993c8b561695c3e201e",
+      "decode_ok": true,
+      "seconds": 2.681904761904762,
+      "rms": 3195,
+      "peak": 25071,
+      "audible": true,
+      "cue": "vca0d207.wav"
+    },
+    "English(US)/443081215.wem": {
+      "sha256": "498eba3355b2a36d23fbf6b9dfddb3650eb245d399aa185da13506da38655f53",
+      "decode_ok": true,
+      "seconds": 1.0565079365079366,
+      "rms": 2996,
+      "peak": 18371,
+      "audible": true,
+      "cue": "vca01002.wav"
+    },
+    "English(US)/443939152.wem": {
+      "sha256": "6c54f395b9646c48ba35502ffe5bd96f02e970f0bfe419ac1b4b00fe0ee7181c",
+      "decode_ok": true,
+      "seconds": 4.388571428571429,
+      "rms": 4140,
+      "peak": 22773,
+      "audible": true,
+      "cue": "vca05015.wav"
+    },
+    "English(US)/449378560.wem": {
+      "sha256": "df23ce57e8e3b91b8b049c8383de218c3dfb0a54d1b4c2ab055661e6b69f9fc4",
+      "decode_ok": true,
+      "seconds": 13.4349375,
+      "rms": 856,
+      "peak": 9481,
+      "audible": true,
+      "cue": "vc057ffe_360_ada.wav"
+    },
+    "English(US)/449923542.wem": {
+      "sha256": "1f6ef2d42884366b2ce58c94d4811605906f3015e5b41d2062db79c3e6caaaf2",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 4041,
+      "peak": 23743,
+      "audible": true,
+      "cue": "vca05039.wav"
+    },
+    "English(US)/451185995.wem": {
+      "sha256": "093d9e106d915e3f4583992ff0bca3e6b0505ae8b3f5ac45306c7646a7ed5839",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3773,
+      "peak": 20401,
+      "audible": true,
+      "cue": "vca04004.wav"
+    },
+    "English(US)/452949092.wem": {
+      "sha256": "0399ec7255502b261c999be4b6ada154df8413953eddb4f35e6d0b9f41217381",
+      "decode_ok": true,
+      "seconds": 2.6006349206349206,
+      "rms": 3694,
+      "peak": 20487,
+      "audible": true,
+      "cue": "vca0c004.wav"
+    },
+    "English(US)/456224512.wem": {
+      "sha256": "94e45c86de9db2fd822085311d35c21c17e245d312a063e862084c87fb74e752",
+      "decode_ok": true,
+      "seconds": 1.3003174603174603,
+      "rms": 3621,
+      "peak": 20067,
+      "audible": true,
+      "cue": "vca01005.wav"
+    },
+    "English(US)/462063095.wem": {
+      "sha256": "ab16a9656bf0110c7567ce7c4d67eac10bdf7e7565282ee50126b5e8b00a3e8c",
+      "decode_ok": true,
+      "seconds": 1.3003174603174603,
+      "rms": 4250,
+      "peak": 25805,
+      "audible": true,
+      "cue": "vca0d202.wav"
+    },
+    "English(US)/467015056.wem": {
+      "sha256": "e765e85a0b97275fdf605814965d2d11c8c31430141a836107e276e153677b78",
+      "decode_ok": true,
+      "seconds": 3.250793650793651,
+      "rms": 3542,
+      "peak": 19675,
+      "audible": true,
+      "cue": "vca01010.wav"
+    },
+    "English(US)/469256233.wem": {
+      "sha256": "67ffaa836ad68323ad97206bb4473c674077065261f0915b53e724e9995680c8",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 3719,
+      "peak": 21726,
+      "audible": true,
+      "cue": "vca0200b.wav"
+    },
+    "English(US)/469472493.wem": {
+      "sha256": "eeabf20c3368d75270fa7ac08505ed5b0da67bc9adfc18b362e19016986375e9",
+      "decode_ok": true,
+      "seconds": 1.4628571428571429,
+      "rms": 3800,
+      "peak": 19284,
+      "audible": true,
+      "cue": "vcad1001.wav"
+    },
+    "English(US)/470528465.wem": {
+      "sha256": "e90de816225184040f750fc16172b48df38bdb5a9f39702a95fee344f5e17a03",
+      "decode_ok": true,
+      "seconds": 2.2755555555555556,
+      "rms": 3870,
+      "peak": 25566,
+      "audible": true,
+      "cue": "vca0d20e.wav"
+    },
+    "English(US)/479850247.wem": {
+      "sha256": "9e06a731532ad5ee2c7331ec798e0a2c609994494f489c5e08b02b2a26a4e0c6",
+      "decode_ok": true,
+      "seconds": 3.214126984126984,
+      "rms": 3744,
+      "peak": 27382,
+      "audible": true,
+      "cue": "vca0507a_eng_360.wav"
+    },
+    "English(US)/482936291.wem": {
+      "sha256": "ed26d46f300ced0d8e3df3d91af5fd4566d6da158aef472537a06dce3767dfac",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 3634,
+      "peak": 26897,
+      "audible": true,
+      "cue": "vca0d102.wav"
+    },
+    "English(US)/484842048.wem": {
+      "sha256": "b11cda3750a2213ad5c28591febb8b1a5afbe218fa36a0de1eefbd3d60d24134",
+      "decode_ok": true,
+      "seconds": 2.6006349206349206,
+      "rms": 3615,
+      "peak": 19657,
+      "audible": true,
+      "cue": "vca0600e.wav"
+    },
+    "English(US)/485235140.wem": {
+      "sha256": "dfe4a3a717e7fb262db9ea73b99807e5afc6e30e463965e99566020824eb724a",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 3546,
+      "peak": 20089,
+      "audible": true,
+      "cue": "vca0c008.wav"
+    },
+    "English(US)/489958926.wem": {
+      "sha256": "26b0a20a86da6581c15c62220d7e08f44aa119346da9b983e3863d237d8e892d",
+      "decode_ok": true,
+      "seconds": 4.307301587301588,
+      "rms": 4108,
+      "peak": 20192,
+      "audible": true,
+      "cue": "vca05075.wav"
+    },
+    "English(US)/496828355.wem": {
+      "sha256": "5e7220e492a8c8ed7fe0a07be013a74593fd5e600185edbff776d3a647300d60",
+      "decode_ok": true,
+      "seconds": 1.8692063492063493,
+      "rms": 4384,
+      "peak": 25869,
+      "audible": true,
+      "cue": "vca0d20d.wav"
+    },
+    "English(US)/501725587.wem": {
+      "sha256": "5a6854a1f5b04e0a757f407f82e250d491b846ca3fb366a578e35a03938dd172",
+      "decode_ok": true,
+      "seconds": 1.6253968253968254,
+      "rms": 3962,
+      "peak": 20056,
+      "audible": true,
+      "cue": "vca03009.wav"
+    },
+    "English(US)/504246963.wem": {
+      "sha256": "c245edf515c9c3a4888ea51bcdcf8fdae2e07bd522db9240da4d92c1857231e3",
+      "decode_ok": true,
+      "seconds": 6.021700680272109,
+      "rms": 3818,
+      "peak": 27024,
+      "audible": true,
+      "cue": "vca0a001_eng_360_pp.wav"
+    },
+    "English(US)/507121980.wem": {
+      "sha256": "14677769b92a26bcd4ec10e71e4e264dfed9409307cd796cf1ab42e7a08ea509",
+      "decode_ok": true,
+      "seconds": 1.787936507936508,
+      "rms": 3174,
+      "peak": 21301,
+      "audible": true,
+      "cue": "vca0c01a.wav"
+    },
+    "English(US)/507749015.wem": {
+      "sha256": "f0d7904cbe2b924c735a2e56df9eda3eb176dcf275067a0e23f9456766eaaf27",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 4134,
+      "peak": 24676,
+      "audible": true,
+      "cue": "vca01016.wav"
+    },
+    "English(US)/509306551.wem": {
+      "sha256": "2ad6e1e4eeff94cc777e771b8afe74468325eee171244aeb1a75086b9813d394",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 3576,
+      "peak": 18135,
+      "audible": true,
+      "cue": "vca0200f.wav"
+    },
+    "English(US)/511997508.wem": {
+      "sha256": "e16829d30eaacc1dc1c6ab239f5001a241d3b3af8ea775a231ec0167c3defb0a",
+      "decode_ok": true,
+      "seconds": 1.7066666666666668,
+      "rms": 3734,
+      "peak": 21906,
+      "audible": true,
+      "cue": "vca0504a.wav"
+    },
+    "English(US)/515599790.wem": {
+      "sha256": "b018644eb6c2ab0195d50b2ebb5239a396733fcf378b89bb05a1607c3f4cef9f",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 3416,
+      "peak": 18944,
+      "audible": true,
+      "cue": "vca03008.wav"
+    },
+    "English(US)/516307699.wem": {
+      "sha256": "c9b42c9a506588e6f6c83f4f4dfb3493f3cc8002c2748eaa6c30e2089f4d6345",
+      "decode_ok": true,
+      "seconds": 2.4380952380952383,
+      "rms": 3748,
+      "peak": 23033,
+      "audible": true,
+      "cue": "vca06002.wav"
+    },
+    "English(US)/527096292.wem": {
+      "sha256": "a8423bad82955ea4a099ca0a6c61448f8f58db6f5c5cfd30052254101b8941cf",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 3814,
+      "peak": 20015,
+      "audible": true,
+      "cue": "vca05007.wav"
+    },
+    "English(US)/530669970.wem": {
+      "sha256": "1b9ee178ea3fc5330bea68c32a830495db8837b6bc876ce6341a18cdc4a749a4",
+      "decode_ok": true,
+      "seconds": 3.900952380952381,
+      "rms": 4038,
+      "peak": 23169,
+      "audible": true,
+      "cue": "vca03002.wav"
+    },
+    "English(US)/531496609.wem": {
+      "sha256": "334d6bb4d88ba2a491709396001b2877f4f93074341686e43d2ac8ca593dced9",
+      "decode_ok": true,
+      "seconds": 1.6253968253968254,
+      "rms": 3834,
+      "peak": 23614,
+      "audible": true,
+      "cue": "vca08001.wav"
+    },
+    "English(US)/534385416.wem": {
+      "sha256": "734a6a8915d60203f8dc905738cab2c108e754f9c5243dea6c438bc9f9f40246",
+      "decode_ok": true,
+      "seconds": 4.307301587301588,
+      "rms": 3405,
+      "peak": 20936,
+      "audible": true,
+      "cue": "vca0500d.wav"
+    },
+    "English(US)/538226303.wem": {
+      "sha256": "d2c93d6aed71eadaf0c4f57ceaaf5b9572285b1c9abef806145a044532ea93e2",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3519,
+      "peak": 20045,
+      "audible": true,
+      "cue": "vca06001.wav"
+    },
+    "English(US)/542485851.wem": {
+      "sha256": "0e6023c41e9daeb40d01b2d1c041dfaeaffb9a14e0dea25725e030cefa785be4",
+      "decode_ok": true,
+      "seconds": 2.6006349206349206,
+      "rms": 4081,
+      "peak": 10881,
+      "audible": true,
+      "cue": "vca0d008.wav"
+    },
+    "English(US)/543902976.wem": {
+      "sha256": "6d4a2c09eca60acbd58b9cd88b34078526ad8988b7b300e92dc1baea7f5f0dc1",
+      "decode_ok": true,
+      "seconds": 1.4628571428571429,
+      "rms": 3405,
+      "peak": 18578,
+      "audible": true,
+      "cue": "vca0c014.wav"
+    },
+    "English(US)/544349942.wem": {
+      "sha256": "c1ce82b3f14349c9875d126ba7ae827cc819d108e8caa821b5d509761c2c218a",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 3763,
+      "peak": 21233,
+      "audible": true,
+      "cue": "vca01013.wav"
+    },
+    "English(US)/546545912.wem": {
+      "sha256": "12434cbca2d11411e2b90c4ddb6300f8f0d7712c0aec3fc9fb00b53d38fbdb31",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3593,
+      "peak": 21076,
+      "audible": true,
+      "cue": "vca0c00c.wav"
+    },
+    "English(US)/548898739.wem": {
+      "sha256": "6379aa5c7589331726ccc833493612bb028a1f460e91efecad59fb1c42ab65a3",
+      "decode_ok": true,
+      "seconds": 5.142925170068027,
+      "rms": 3673,
+      "peak": 23167,
+      "audible": true,
+      "cue": "vca0507c_eng_360.wav"
+    },
+    "English(US)/550970335.wem": {
+      "sha256": "20dbddc25a1007536a6967ba4aad6929e3b06b042b3f0454ad72f5f7513ea365",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 4278,
+      "peak": 21480,
+      "audible": true,
+      "cue": "vca05027.wav"
+    },
+    "English(US)/551849936.wem": {
+      "sha256": "10cf0bd75d956f427fa7739ba416484aefa9151bd0a45a520982407b5a4b453e",
+      "decode_ok": true,
+      "seconds": 3.982222222222222,
+      "rms": 3741,
+      "peak": 22257,
+      "audible": true,
+      "cue": "vca05048.wav"
+    },
+    "English(US)/552741800.wem": {
+      "sha256": "a98925f171517fa19a8b159cae3d2ffead7f8a69d8754373f1f349a3365a89cd",
+      "decode_ok": true,
+      "seconds": 1.7066666666666668,
+      "rms": 4101,
+      "peak": 19379,
+      "audible": true,
+      "cue": "vca05046.wav"
+    },
+    "English(US)/555574247.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca06014.wav"
+    },
+    "English(US)/565582998.wem": {
+      "sha256": "3ce68319c62cb02534037e4fc77a37a1932b97acdc0291a3f95ffce614f5e7f4",
+      "decode_ok": true,
+      "seconds": 2.9257142857142857,
+      "rms": 3797,
+      "peak": 20526,
+      "audible": true,
+      "cue": "vca01027.wav"
+    },
+    "English(US)/571250476.wem": {
+      "sha256": "1efc184fa6a1d54614ead5a63e6d41bd6f1d4eeea56204d23e166058e7fca626",
+      "decode_ok": true,
+      "seconds": 1.8692063492063493,
+      "rms": 3866,
+      "peak": 21473,
+      "audible": true,
+      "cue": "vca05031.wav"
+    },
+    "English(US)/571967244.wem": {
+      "sha256": "1691d64b84b4d29c54f07a77c9596c6678fdc62726b6a719c12cb0be9a9564ea",
+      "decode_ok": true,
+      "seconds": 1.4628571428571429,
+      "rms": 3170,
+      "peak": 20816,
+      "audible": true,
+      "cue": "vca02010.wav"
+    },
+    "English(US)/575849379.wem": {
+      "sha256": "b81fd58daa653aa2f2b35abc37c13432b239e751e54cd06aabf1e3601a5a890f",
+      "decode_ok": true,
+      "seconds": 1.6253968253968254,
+      "rms": 3826,
+      "peak": 19961,
+      "audible": true,
+      "cue": "vca05016.wav"
+    },
+    "English(US)/577457986.wem": {
+      "sha256": "86dd21525659f47adb961eeefcc39c993799929c62d8d711a3b77d2467cf25c7",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3685,
+      "peak": 20655,
+      "audible": true,
+      "cue": "vca05064.wav"
+    },
+    "English(US)/577912308.wem": {
+      "sha256": "2d0a68e36fd700a6cca2df5224bb812b024846b601970953d1779c2fa9b89b33",
+      "decode_ok": true,
+      "seconds": 2.5193650793650795,
+      "rms": 3177,
+      "peak": 18605,
+      "audible": true,
+      "cue": "vca02002.wav"
+    },
+    "English(US)/578225536.wem": {
+      "sha256": "4c8ef91dcd3e299b867cbee1fefafbb63213dee223e2c22204358facae3cd417",
+      "decode_ok": true,
+      "seconds": 0.9752380952380952,
+      "rms": 3222,
+      "peak": 21988,
+      "audible": true,
+      "cue": "vca09004.wav"
+    },
+    "English(US)/578357149.wem": {
+      "sha256": "1193de1705cb8f28b22b100ee6664d48f6c30bf921916ff6df38950c140f4769",
+      "decode_ok": true,
+      "seconds": 2.3568253968253967,
+      "rms": 4448,
+      "peak": 22353,
+      "audible": true,
+      "cue": "vca05066.wav"
+    },
+    "English(US)/582923687.wem": {
+      "sha256": "6105ab20582f4236eb61ae749e9a4e615a509081b982a8be9553e4bd8230ea4d",
+      "decode_ok": true,
+      "seconds": 3.0882539682539685,
+      "rms": 3742,
+      "peak": 23163,
+      "audible": true,
+      "cue": "vca0400c.wav"
+    },
+    "English(US)/590355837.wem": {
+      "sha256": "bff9deae5cf4a275c31f968b79852a5d9b67127d4574242acaec1043417b6f67",
+      "decode_ok": true,
+      "seconds": 0.893968253968254,
+      "rms": 2635,
+      "peak": 20806,
+      "audible": true,
+      "cue": "vca0c019.wav"
+    },
+    "English(US)/600802597.wem": {
+      "sha256": "6e588e42f12c2db8512d006cb02e2b86da7b37cc1554b93afa6cabdf48541987",
+      "decode_ok": true,
+      "seconds": 13.434916666666666,
+      "rms": 650,
+      "peak": 7875,
+      "audible": true,
+      "cue": "vc076ffd_360_pp_ada.wav"
+    },
+    "English(US)/606053510.wem": {
+      "sha256": "13c680af6618a6bec1488bdeeff2c5aa6c36f414ca77a09d43c765334cae31d5",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3712,
+      "peak": 22374,
+      "audible": true,
+      "cue": "vca05004.wav"
+    },
+    "English(US)/612182572.wem": {
+      "sha256": "aee08dd00563efd35ace113eff8357dcda889084938c8ab70049fa50d35fd438",
+      "decode_ok": true,
+      "seconds": 1.2190476190476192,
+      "rms": 3495,
+      "peak": 25592,
+      "audible": true,
+      "cue": "vca0d203.wav"
+    },
+    "English(US)/612342438.wem": {
+      "sha256": "3fd84c551e21cf80961ba1bacd62bd50bbb2b61350ad9ef7c17d92a8fae92a6a",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 3986,
+      "peak": 20413,
+      "audible": true,
+      "cue": "vca03003.wav"
+    },
+    "English(US)/614774799.wem": {
+      "sha256": "1fb15fd11214c3d8fffee13a4ce6b2d901304fbd6809c06dab1b576f0fc0ac4a",
+      "decode_ok": true,
+      "seconds": 2.3568253968253967,
+      "rms": 4120,
+      "peak": 21847,
+      "audible": true,
+      "cue": "vca05061.wav"
+    },
+    "English(US)/615453720.wem": {
+      "sha256": "35329a11815776cf22d61ad9a10ba3ba4c7ffa51819b588f7ad5089f4240e836",
+      "decode_ok": true,
+      "seconds": 1.2190476190476192,
+      "rms": 2737,
+      "peak": 17197,
+      "audible": true,
+      "cue": "vca0b003.wav"
+    },
+    "English(US)/624430064.wem": {
+      "sha256": "c9dad9420e7123a56ecf3dae5b27ddc4913b58350ffe9af93e0320a03068db8a",
+      "decode_ok": true,
+      "seconds": 2.1130158730158732,
+      "rms": 4536,
+      "peak": 21321,
+      "audible": true,
+      "cue": "vca02009.wav"
+    },
+    "English(US)/625096324.wem": {
+      "sha256": "ff5c46a696ee40250700c75c50960ec666893e725fe14d49208e0a0022191996",
+      "decode_ok": true,
+      "seconds": 1.5441269841269842,
+      "rms": 3556,
+      "peak": 22735,
+      "audible": true,
+      "cue": "vca01004.wav"
+    },
+    "English(US)/629979289.wem": {
+      "sha256": "9657cf5b020633b82bc10311a17577deadb541bc4d72c0e32801702db6363a90",
+      "decode_ok": true,
+      "seconds": 3.006984126984127,
+      "rms": 3866,
+      "peak": 23659,
+      "audible": true,
+      "cue": "vca05009.wav"
+    },
+    "English(US)/633911907.wem": {
+      "sha256": "7095f9a8bcc438e7ddcfc41b6afb61d883c6de93b1a8d9094721301e90a4f686",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3406,
+      "peak": 25772,
+      "audible": true,
+      "cue": "vca0d106.wav"
+    },
+    "English(US)/643792929.wem": {
+      "sha256": "e94a1177c2488ed08adbe3f9863e1261d40f6824607a26252e8ec29d40d8eba0",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3592,
+      "peak": 25252,
+      "audible": true,
+      "cue": "vca04007.wav"
+    },
+    "English(US)/644073248.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca05089.wav"
+    },
+    "English(US)/646582506.wem": {
+      "sha256": "0ea8af0d6f2055d3fd5cc7c12de3faf3944f9fae4f3424e526572ff735ecca2f",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 4016,
+      "peak": 24263,
+      "audible": true,
+      "cue": "vca05036.wav"
+    },
+    "English(US)/651280229.wem": {
+      "sha256": "3617efad72bbab87fbfea6b612f58d01011d1d708676a64c1f7f3c4439500902",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 3687,
+      "peak": 19303,
+      "audible": true,
+      "cue": "vca0600d.wav"
+    },
+    "English(US)/652035452.wem": {
+      "sha256": "d3a9985c75a19271abebdd7dec07a3d1421351f868766a11f41d85589ec236ba",
+      "decode_ok": true,
+      "seconds": 3.332063492063492,
+      "rms": 4173,
+      "peak": 20555,
+      "audible": true,
+      "cue": "vca05042.wav"
+    },
+    "English(US)/652148862.wem": {
+      "sha256": "fa75f03c003a0ff779c6e6a5d9a220128bd045c0d0ccbaf04e3e3d9103af1796",
+      "decode_ok": true,
+      "seconds": 2.4380952380952383,
+      "rms": 4095,
+      "peak": 19713,
+      "audible": true,
+      "cue": "vca06006.wav"
+    },
+    "English(US)/658168594.wem": {
+      "sha256": "781748a08411f99cb500d281253ac7b5969187cfd9fe7c2a7a36094b31c163cd",
+      "decode_ok": true,
+      "seconds": 2.9257142857142857,
+      "rms": 3819,
+      "peak": 21738,
+      "audible": true,
+      "cue": "vca0502a.wav"
+    },
+    "English(US)/663231807.wem": {
+      "sha256": "f73a0cbcfab07decdbd5126c588cdf5f23aa99ffaaa40cd773049789911bb666",
+      "decode_ok": true,
+      "seconds": 2.6006349206349206,
+      "rms": 4520,
+      "peak": 19742,
+      "audible": true,
+      "cue": "vca06005.wav"
+    },
+    "English(US)/671108836.wem": {
+      "sha256": "1862ae3039ecffaa2a2802004d717f278aeb8f5d81c15e8116872d80ee697cbb",
+      "decode_ok": true,
+      "seconds": 2.6006349206349206,
+      "rms": 3714,
+      "peak": 19765,
+      "audible": true,
+      "cue": "vca09002.wav"
+    },
+    "English(US)/672791854.wem": {
+      "sha256": "13095c57dd22bf135122743a3a48dfcd81a860b3a1d5df63734d31c1f6a64490",
+      "decode_ok": true,
+      "seconds": 1.787936507936508,
+      "rms": 3426,
+      "peak": 11353,
+      "audible": true,
+      "cue": "vca0d004.wav"
+    },
+    "English(US)/674561224.wem": {
+      "sha256": "392e37d659414a7bf035948142bee4644cdc7234877196dba2cdad6e73fad2ff",
+      "decode_ok": true,
+      "seconds": 2.8444444444444446,
+      "rms": 3769,
+      "peak": 18170,
+      "audible": true,
+      "cue": "vca05010.wav"
+    },
+    "English(US)/678549136.wem": {
+      "sha256": "448ef96a6843b9b5c896b89ce44500dd9d84f69ab0a8bca44b17119e5c28cc4b",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 2795,
+      "peak": 17750,
+      "audible": true,
+      "cue": "vca02011.wav"
+    },
+    "English(US)/684166566.wem": {
+      "sha256": "650ea952a2bc1750e92bf79cb2199d91be2ed452cbc0df4665ba30869961086f",
+      "decode_ok": true,
+      "seconds": 1.3003174603174603,
+      "rms": 4952,
+      "peak": 27415,
+      "audible": true,
+      "cue": "vca0d20c.wav"
+    },
+    "English(US)/684787809.wem": {
+      "sha256": "cc55e3479dd2b060ce1b09e16df1dcf29a2c78006f58a59d9c6935409ab235c5",
+      "decode_ok": true,
+      "seconds": 3.4946031746031747,
+      "rms": 3345,
+      "peak": 20567,
+      "audible": true,
+      "cue": "vca01009.wav"
+    },
+    "English(US)/689108594.wem": {
+      "sha256": "52e511c1bd7b485adc8f62ee95c1e766304b9fd153a01170bd486634e3fb52df",
+      "decode_ok": true,
+      "seconds": 13.411854166666666,
+      "rms": 655,
+      "peak": 8004,
+      "audible": true,
+      "cue": "vc057ffe_360_pp_ada.wav"
+    },
+    "English(US)/695767924.wem": {
+      "sha256": "a8fe4c1acd05feb35803bb52c24e0c975b9f7e5d4b8d3cf6d60d7483b914f7b2",
+      "decode_ok": true,
+      "seconds": 0.893968253968254,
+      "rms": 2259,
+      "peak": 13118,
+      "audible": true,
+      "cue": "vca0506a.wav"
+    },
+    "English(US)/697241934.wem": {
+      "sha256": "fffbd8142b9310d4d8143219dab168899a0da3349a83d05ee8f5c7aa71438f61",
+      "decode_ok": true,
+      "seconds": 1.3003174603174603,
+      "rms": 3443,
+      "peak": 21216,
+      "audible": true,
+      "cue": "vca0504b.wav"
+    },
+    "English(US)/700998728.wem": {
+      "sha256": "705658c5b4fbd5e5f4d3a7d430f5bcb22c72d6bbe9bc7fad16b2a692e3d1313a",
+      "decode_ok": true,
+      "seconds": 4.957460317460318,
+      "rms": 3561,
+      "peak": 23224,
+      "audible": true,
+      "cue": "vca0a019.wav"
+    },
+    "English(US)/709004212.wem": {
+      "sha256": "a38ec57bbd4ad2ba952b649ae3dc57611ca8b20c2be1c6bae1a9db8b26f2962e",
+      "decode_ok": true,
+      "seconds": 3.657142857142857,
+      "rms": 4089,
+      "peak": 20767,
+      "audible": true,
+      "cue": "vca0501c.wav"
+    },
+    "English(US)/714707610.wem": {
+      "sha256": "a85eafeea6df3cb2416b02c3b6ed64cd81fa6b8dee61f7d496a8253f964dbf08",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 4115,
+      "peak": 21029,
+      "audible": true,
+      "cue": "vca0600b.wav"
+    },
+    "English(US)/719727939.wem": {
+      "sha256": "bfe65e77f2c864a0b0a85697722314442e09ebf536e6ca9bb95302c656148e0a",
+      "decode_ok": true,
+      "seconds": 4.794920634920635,
+      "rms": 3276,
+      "peak": 20896,
+      "audible": true,
+      "cue": "vca0101d.wav"
+    },
+    "English(US)/723709411.wem": {
+      "sha256": "c0f9c2349ae33a88ae8706170ae44de12b2280915e3be131bd7a119c4626f850",
+      "decode_ok": true,
+      "seconds": 2.4380952380952383,
+      "rms": 3632,
+      "peak": 21688,
+      "audible": true,
+      "cue": "vca0503d.wav"
+    },
+    "English(US)/724741297.wem": {
+      "sha256": "5ce1fee37d30651b1ff0b36182d196e301328232b13a663a3881ffa7737968d3",
+      "decode_ok": true,
+      "seconds": 9.869333333333334,
+      "rms": 555,
+      "peak": 7306,
+      "audible": true,
+      "cue": "vc081fff_eng_360_pp_ada.wav"
+    },
+    "English(US)/728123589.wem": {
+      "sha256": "ac3e40af4ae4f67a272cf5f22d2cb059bc221f66240fa0d86673cd59082d6225",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3960,
+      "peak": 18961,
+      "audible": true,
+      "cue": "vca0c016.wav"
+    },
+    "English(US)/728247427.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca06013.wav"
+    },
+    "English(US)/730144168.wem": {
+      "sha256": "325d28a3a4a43d2f264f96e64548b24d3420bfd68ea76b73b2477927b4677a70",
+      "decode_ok": true,
+      "seconds": 2.1130158730158732,
+      "rms": 4038,
+      "peak": 23917,
+      "audible": true,
+      "cue": "vca05025.wav"
+    },
+    "English(US)/732544602.wem": {
+      "sha256": "496a71be937d0f933be3a64bc6e763c235f66b9c49ebb2fafea8ec470753926e",
+      "decode_ok": true,
+      "seconds": 1.5441269841269842,
+      "rms": 3936,
+      "peak": 20532,
+      "audible": true,
+      "cue": "vca0c012.wav"
+    },
+    "English(US)/734433325.wem": {
+      "sha256": "09209441eca5e2c8d1324babf7a438122f6b4449c6b2423d63ab0d5667aa659e",
+      "decode_ok": true,
+      "seconds": 3.0882539682539685,
+      "rms": 3355,
+      "peak": 19927,
+      "audible": true,
+      "cue": "vca05062.wav"
+    },
+    "English(US)/738035803.wem": {
+      "sha256": "9231c5bb80c21cc0a71d0778cb2610ad28cbad72de9a4486eceea7148dca24a9",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 6536,
+      "peak": 25931,
+      "audible": true,
+      "cue": "vca0d208.wav"
+    },
+    "English(US)/742059019.wem": {
+      "sha256": "0ae1ab16394d0c176621e11ecc0bca02ca449de413d392e75407fd500b679560",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 3653,
+      "peak": 18938,
+      "audible": true,
+      "cue": "vcad1002.wav"
+    },
+    "English(US)/743917348.wem": {
+      "sha256": "3bf690061de2276716a6e2e828d875c1ee6b22a0652f8eabff34fb9656a3fb51",
+      "decode_ok": true,
+      "seconds": 0.8126984126984127,
+      "rms": 2295,
+      "peak": 20140,
+      "audible": true,
+      "cue": "vca0506f.wav"
+    },
+    "English(US)/747210007.wem": {
+      "sha256": "b226db1e389b4658172e85d630dbc0e0a627a531363e493a484ea4fba12a8fc7",
+      "decode_ok": true,
+      "seconds": 2.5193650793650795,
+      "rms": 3899,
+      "peak": 22021,
+      "audible": true,
+      "cue": "vca0503c.wav"
+    },
+    "English(US)/750033864.wem": {
+      "sha256": "8f1135ef02cfb105d2730f1fcdd03f58b584f9bb03918dd0d67063c08bd86f08",
+      "decode_ok": true,
+      "seconds": 2.2755555555555556,
+      "rms": 4093,
+      "peak": 21278,
+      "audible": true,
+      "cue": "vca0400b.wav"
+    },
+    "English(US)/750910079.wem": {
+      "sha256": "2a47f347b25ea444e7dac15c488a1c58870d1adf74747d3d7237a10b316458ad",
+      "decode_ok": true,
+      "seconds": 2.8444444444444446,
+      "rms": 3408,
+      "peak": 19804,
+      "audible": true,
+      "cue": "vca05003.wav"
+    },
+    "English(US)/751706633.wem": {
+      "sha256": "ca9acfb325c4e80ca4f09317a38acdae6d306e463fd9922cc3c8acb299895eb8",
+      "decode_ok": true,
+      "seconds": 1.787936507936508,
+      "rms": 4010,
+      "peak": 20395,
+      "audible": true,
+      "cue": "vca05040.wav"
+    },
+    "English(US)/751719632.wem": {
+      "sha256": "5cf8f52d32f5ba994a79e350cb03ba567ff865fe00e9515074b0abda7bad6aea",
+      "decode_ok": true,
+      "seconds": 0.893968253968254,
+      "rms": 2944,
+      "peak": 24467,
+      "audible": true,
+      "cue": "vca05068.wav"
+    },
+    "English(US)/751913083.wem": {
+      "sha256": "d7b78ff14ed223e7cabba12bcc0420ba1d26a3f6b606884303ec987e40e949e6",
+      "decode_ok": true,
+      "seconds": 3.657142857142857,
+      "rms": 3540,
+      "peak": 18984,
+      "audible": true,
+      "cue": "vca0b002.wav"
+    },
+    "English(US)/752955919.wem": {
+      "sha256": "01ebab03ccf32bd4b637314292eb4ff8faca9f4328058d0e8722c7882584b583",
+      "decode_ok": true,
+      "seconds": 2.7631746031746034,
+      "rms": 2700,
+      "peak": 28125,
+      "audible": true,
+      "cue": "vca0d211.wav"
+    },
+    "English(US)/755821965.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca05076.wav"
+    },
+    "English(US)/755867173.wem": {
+      "sha256": "f32085dfe271185e7980d0014bcd7bdb22563d583ecf41ed6344d469d86fac0c",
+      "decode_ok": true,
+      "seconds": 3.548321995464853,
+      "rms": 3389,
+      "peak": 20601,
+      "audible": true,
+      "cue": "vca05079_eng_360.wav"
+    },
+    "English(US)/759267872.wem": {
+      "sha256": "f924ddb7542529c02809d486539fe9c133debe669ce4656010e029a19918865f",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 3352,
+      "peak": 21483,
+      "audible": true,
+      "cue": "vcad3002.wav"
+    },
+    "English(US)/760017012.wem": {
+      "sha256": "3f58774a723182edb66251f1eef2e931d35988bb319089ec70f66dc8092962fd",
+      "decode_ok": true,
+      "seconds": 3.0882539682539685,
+      "rms": 3928,
+      "peak": 21614,
+      "audible": true,
+      "cue": "vca01012.wav"
+    },
+    "English(US)/768314009.wem": {
+      "sha256": "00032e9b9327d1f15181c93a1d339f61a6026c03ff9986e2f26d0fdc79a1a7d7",
+      "decode_ok": true,
+      "seconds": 1.4628571428571429,
+      "rms": 5142,
+      "peak": 25965,
+      "audible": true,
+      "cue": "vca0d201.wav"
+    },
+    "English(US)/769344685.wem": {
+      "sha256": "59a88af0d55896edbb2ea033b99218a9a4626b08d00a0a1ac154416c5c4aaffd",
+      "decode_ok": true,
+      "seconds": 1.4628571428571429,
+      "rms": 4143,
+      "peak": 19731,
+      "audible": true,
+      "cue": "vca07004.wav"
+    },
+    "English(US)/770149993.wem": {
+      "sha256": "47e9a7fd8973c3f6d54dda75a9822b181873628eedbf75f0333b29eba2c8ceed",
+      "decode_ok": true,
+      "seconds": 4.388571428571429,
+      "rms": 3823,
+      "peak": 21713,
+      "audible": true,
+      "cue": "vca0102b.wav"
+    },
+    "English(US)/784103390.wem": {
+      "sha256": "8362877d1bc775d71b54d725caa0c7551d1ac37abb699fef27885dfd029804bf",
+      "decode_ok": true,
+      "seconds": 6.42031746031746,
+      "rms": 3757,
+      "peak": 20861,
+      "audible": true,
+      "cue": "vca0101b.wav"
+    },
+    "English(US)/790609356.wem": {
+      "sha256": "0f0fde3ed27b30b3e49675e47bfea8675a30864fca6a32ae90e05faa5df183aa",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 3872,
+      "peak": 22748,
+      "audible": true,
+      "cue": "vca05020.wav"
+    },
+    "English(US)/794288662.wem": {
+      "sha256": "fdb5eef8a0fece0c089cb14a3bf54ed4dbad44f4bd7c53acf0037672257d3f71",
+      "decode_ok": true,
+      "seconds": 2.681904761904762,
+      "rms": 6519,
+      "peak": 26451,
+      "audible": true,
+      "cue": "vca0d20f.wav"
+    },
+    "English(US)/794323038.wem": {
+      "sha256": "a8ce7b90af8a571e1a6367e90b5b886cbbd74c7dbbb9d7a33ff27eb6ee3f4875",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3596,
+      "peak": 20893,
+      "audible": true,
+      "cue": "vca0503e.wav"
+    },
+    "English(US)/801441431.wem": {
+      "sha256": "55f2fb8b0acd5c792fe1eb83731bdc97e52feff34d44e17f29f610caf0e870ba",
+      "decode_ok": true,
+      "seconds": 2.2755555555555556,
+      "rms": 3807,
+      "peak": 20594,
+      "audible": true,
+      "cue": "vca0200c.wav"
+    },
+    "English(US)/809614906.wem": {
+      "sha256": "f62a6d2ac95964f91f609ad99a47c0834baa55df631c8e30b57e5a92926e3e92",
+      "decode_ok": true,
+      "seconds": 2.8444444444444446,
+      "rms": 3672,
+      "peak": 19656,
+      "audible": true,
+      "cue": "vca05001.wav"
+    },
+    "English(US)/810010799.wem": {
+      "sha256": "6afc154ed572b34a4c1c30534e0a37b67715ad1b6bfc79dcfcbf48509ea9a861",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 3524,
+      "peak": 11447,
+      "audible": true,
+      "cue": "vca0d007.wav"
+    },
+    "English(US)/813037530.wem": {
+      "sha256": "b5d902219642251b5a004731f566c07a5936782a170d719240e3106b204212d9",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 3540,
+      "peak": 22301,
+      "audible": true,
+      "cue": "vca0100c.wav"
+    },
+    "English(US)/819103198.wem": {
+      "sha256": "37e0b781294ae1f03fd0bc9df0e43f4555312bca3f01f043e2487cee10ae70cb",
+      "decode_ok": true,
+      "seconds": 1.0565079365079366,
+      "rms": 2736,
+      "peak": 18887,
+      "audible": true,
+      "cue": "vca0c010.wav"
+    },
+    "English(US)/828630200.wem": {
+      "sha256": "42ad3d1d1c365d598db9a64a39d61ef7836cd6fc23f258263bdf5d7a82f3ce3f",
+      "decode_ok": true,
+      "seconds": 2.3568253968253967,
+      "rms": 3677,
+      "peak": 20337,
+      "audible": true,
+      "cue": "vca04008.wav"
+    },
+    "English(US)/829971792.wem": {
+      "sha256": "4951386456e33cd280f7cacda623aa4fe145969183cb50c4a88d632bece08ff2",
+      "decode_ok": true,
+      "seconds": 2.2755555555555556,
+      "rms": 3462,
+      "peak": 19335,
+      "audible": true,
+      "cue": "vca0400a.wav"
+    },
+    "English(US)/832997310.wem": {
+      "sha256": "bd03eb08251c8e790fd2e16231a9aebcdefc275daa20dcb9f3819136229224ef",
+      "decode_ok": true,
+      "seconds": 2.8444444444444446,
+      "rms": 4003,
+      "peak": 22190,
+      "audible": true,
+      "cue": "vca01017.wav"
+    },
+    "English(US)/835002829.wem": {
+      "sha256": "83e286c67339d74a8fe23d81c6fcae37a2f525155fdfe32e859a54af4b940b4e",
+      "decode_ok": true,
+      "seconds": 3.982222222222222,
+      "rms": 3543,
+      "peak": 21726,
+      "audible": true,
+      "cue": "vca0500e.wav"
+    },
+    "English(US)/841345388.wem": {
+      "sha256": "c22c151ac6bd5af1c1fb7e8bda74e0b91ebea074369e48fc4cd2e877667b27ae",
+      "decode_ok": true,
+      "seconds": 6.42031746031746,
+      "rms": 3801,
+      "peak": 21017,
+      "audible": true,
+      "cue": "vca01024.wav"
+    },
+    "English(US)/844865481.wem": {
+      "sha256": "6159513b079e23bac007d91745ccbd83f7d9a2285415a98f9028928b8e6c35ce",
+      "decode_ok": true,
+      "seconds": 1.7066666666666668,
+      "rms": 4087,
+      "peak": 21403,
+      "audible": true,
+      "cue": "vca05067.wav"
+    },
+    "English(US)/850753620.wem": {
+      "sha256": "9584bfd47547b719433de916ac2e978cf2356f96b28420f90ecb0ec51b871026",
+      "decode_ok": true,
+      "seconds": 2.6460997732426303,
+      "rms": 4140,
+      "peak": 27709,
+      "audible": true,
+      "cue": "vca05085_eng_360.wav"
+    },
+    "English(US)/850798346.wem": {
+      "sha256": "e7bef9115ac98014b52511f294333d316f8aaabc83858c71f91f6ff9eb0c8025",
+      "decode_ok": true,
+      "seconds": 2.2755555555555556,
+      "rms": 3880,
+      "peak": 19211,
+      "audible": true,
+      "cue": "vca01028.wav"
+    },
+    "English(US)/857334627.wem": {
+      "sha256": "c1d84a3580e2db7fc7c1fd735cdddb1c60a3556ddb708b21874d7a17b9315031",
+      "decode_ok": true,
+      "seconds": 2.2755555555555556,
+      "rms": 3341,
+      "peak": 21357,
+      "audible": true,
+      "cue": "vca01020.wav"
+    },
+    "English(US)/857998471.wem": {
+      "sha256": "337e934a61744d0faa67da21d6df3facb8818427e4f593d1ce5b420d7852720b",
+      "decode_ok": true,
+      "seconds": 2.6006349206349206,
+      "rms": 3883,
+      "peak": 20357,
+      "audible": true,
+      "cue": "vca05072.wav"
+    },
+    "English(US)/858897995.wem": {
+      "sha256": "7920f941774022fd3310b117f05a78e55c2c339d2d2b0363ad66a5d7933d8671",
+      "decode_ok": true,
+      "seconds": 1.4628571428571429,
+      "rms": 3275,
+      "peak": 19396,
+      "audible": true,
+      "cue": "vca01025.wav"
+    },
+    "English(US)/869903302.wem": {
+      "sha256": "b260ad182cc52f8a54983f2243111f91ef10522e8a621f79fd06ebe38c742ece",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 4060,
+      "peak": 25440,
+      "audible": true,
+      "cue": "vca0d206.wav"
+    },
+    "English(US)/870450329.wem": {
+      "sha256": "635adf47c50a1b5cbfe38f893a91ea1adfba15491a5575ea4582bffe088a1bb8",
+      "decode_ok": true,
+      "seconds": 1.4628571428571429,
+      "rms": 2865,
+      "peak": 17464,
+      "audible": true,
+      "cue": "vca0200d.wav"
+    },
+    "English(US)/876059834.wem": {
+      "sha256": "75c97b138488ab4237a5a0a28c917f8285351fff50006fe47216b73a11869f93",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 4418,
+      "peak": 21203,
+      "audible": true,
+      "cue": "vca05029.wav"
+    },
+    "English(US)/882593225.wem": {
+      "sha256": "4752c2dc10393fae32f8077d149623faabda0bf39a283069c8b9a2b850ff8c2b",
+      "decode_ok": true,
+      "seconds": 2.1130158730158732,
+      "rms": 3900,
+      "peak": 21006,
+      "audible": true,
+      "cue": "vca05028.wav"
+    },
+    "English(US)/887035507.wem": {
+      "sha256": "7e57ed25676ea550b0f05b0b9f76afead6b68a59cd50b07d42a786129be8d037",
+      "decode_ok": true,
+      "seconds": 5.12,
+      "rms": 5855,
+      "peak": 32768,
+      "audible": true,
+      "cue": "vca0504f.wav"
+    },
+    "English(US)/890780558.wem": {
+      "sha256": "c91b05683bfee3e93f8c6d495a2f319c4030a1c1451d64fe5340e8acc6d7f8da",
+      "decode_ok": true,
+      "seconds": 0.893968253968254,
+      "rms": 2415,
+      "peak": 14341,
+      "audible": true,
+      "cue": "vca05069.wav"
+    },
+    "English(US)/893149872.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca06010.wav"
+    },
+    "English(US)/905752272.wem": {
+      "sha256": "313d09cda51433f7fe2cc6d86cdaec1cd98db9f05b5a76296d593635bd5af9a9",
+      "decode_ok": true,
+      "seconds": 6.745396825396825,
+      "rms": 3771,
+      "peak": 19982,
+      "audible": true,
+      "cue": "vca0101c.wav"
+    },
+    "English(US)/906249181.wem": {
+      "sha256": "076eec3bfe017eb1516306a1a190c1f6199d3be5ac4f7e083a0e1ec92e68bd57",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 3253,
+      "peak": 18830,
+      "audible": true,
+      "cue": "vca04005.wav"
+    },
+    "English(US)/910382702.wem": {
+      "sha256": "3550c9d660e0f99e2014e4867b53214d0c9a953a98e72a5173acd9c8c35be8d5",
+      "decode_ok": true,
+      "seconds": 3.332063492063492,
+      "rms": 3142,
+      "peak": 20174,
+      "audible": true,
+      "cue": "vca01008.wav"
+    },
+    "English(US)/911345992.wem": {
+      "sha256": "6743536cad8b8c956d0bf42f78165723bc7b9f03ed1a5c5782f92710cc15cb9e",
+      "decode_ok": true,
+      "seconds": 2.7631746031746034,
+      "rms": 3771,
+      "peak": 19378,
+      "audible": true,
+      "cue": "vca03001.wav"
+    },
+    "English(US)/912150586.wem": {
+      "sha256": "ee26bce812cf9b40b3c680f70306354b64f33d9f0be6f6842b975c143f3b9875",
+      "decode_ok": true,
+      "seconds": 3.250793650793651,
+      "rms": 3247,
+      "peak": 18869,
+      "audible": true,
+      "cue": "vca0100e.wav"
+    },
+    "English(US)/912784694.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca06012.wav"
+    },
+    "English(US)/914044153.wem": {
+      "sha256": "90a79de1b7bb9d3d76bdb66e4c948b8d66ccb9a98fbe532f0136c66c68b031d3",
+      "decode_ok": true,
+      "seconds": 10.112708333333334,
+      "rms": 824,
+      "peak": 10648,
+      "audible": true,
+      "cue": "vc112ffc_360_ada.wav"
+    },
+    "English(US)/915293565.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca05088.wav"
+    },
+    "English(US)/918623073.wem": {
+      "sha256": "75f5aa5099f9dbdda65d09ea53bc84aea02e33ab813ef6763965b479e138b3e9",
+      "decode_ok": true,
+      "seconds": 5.201269841269841,
+      "rms": 4304,
+      "peak": 22102,
+      "audible": true,
+      "cue": "vca0501e.wav"
+    },
+    "English(US)/920792929.wem": {
+      "sha256": "9f987284c04f3563bbb23d26e7d3b50ebf70a741919abecdea13dbe36102eb52",
+      "decode_ok": true,
+      "seconds": 3.250793650793651,
+      "rms": 3784,
+      "peak": 22482,
+      "audible": true,
+      "cue": "vca0102c.wav"
+    },
+    "English(US)/922380190.wem": {
+      "sha256": "a206c5d7694b504b75cbc0fe50a35526ef9266e64f8f9faadb97037e132e5271",
+      "decode_ok": true,
+      "seconds": 2.9257142857142857,
+      "rms": 3268,
+      "peak": 20344,
+      "audible": true,
+      "cue": "vca05002.wav"
+    },
+    "English(US)/926351876.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca0300b.wav"
+    },
+    "English(US)/927829111.wem": {
+      "sha256": "2e97b93e274f04762dcdd49e64a1964e95e379df13512d787383cba3fb535d6d",
+      "decode_ok": true,
+      "seconds": 17.87936507936508,
+      "rms": 2621,
+      "peak": 22200,
+      "audible": true,
+      "cue": "vca0c007.wav"
+    },
+    "English(US)/932013755.wem": {
+      "sha256": "916230f20a9449cfb586465405cd5659d9a6efb6b95cedc3da3dface046a7db2",
+      "decode_ok": true,
+      "seconds": 3.4133333333333336,
+      "rms": 3718,
+      "peak": 20964,
+      "audible": true,
+      "cue": "vca01019.wav"
+    },
+    "English(US)/933258147.wem": {
+      "sha256": "d515137f91fb0b268c2840df00026098a44e2039df40eb819c4049e68a550111",
+      "decode_ok": true,
+      "seconds": 3.900952380952381,
+      "rms": 2922,
+      "peak": 25697,
+      "audible": true,
+      "cue": "vca0d104.wav"
+    },
+    "English(US)/933491701.wem": {
+      "sha256": "92e4291166f56e94261c3ea99323d7337429da8738f7646c5e9d27b1de723382",
+      "decode_ok": true,
+      "seconds": 3.575873015873016,
+      "rms": 4064,
+      "peak": 24781,
+      "audible": true,
+      "cue": "vca0b001.wav"
+    },
+    "English(US)/937509971.wem": {
+      "sha256": "95fc2b2e39eb078acf7faea90b434f0088438bf364dacddd73a3aee5b890a2ec",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3382,
+      "peak": 22922,
+      "audible": true,
+      "cue": "vca0c001.wav"
+    },
+    "English(US)/943939764.wem": {
+      "sha256": "4ce3c3f0e017b534e9ac38b49bc50a26ead86e946ab47de81618c3ade6e5c82f",
+      "decode_ok": true,
+      "seconds": 2.4380952380952383,
+      "rms": 3879,
+      "peak": 22920,
+      "audible": true,
+      "cue": "vca05005.wav"
+    },
+    "English(US)/950307967.wem": {
+      "sha256": "d0976b626142e7165aa26b48a9d0a892e5ea42f55a574c5faffc011c2f5648cb",
+      "decode_ok": true,
+      "seconds": 4.794920634920635,
+      "rms": 3571,
+      "peak": 20508,
+      "audible": true,
+      "cue": "vca01022.wav"
+    },
+    "English(US)/950909659.wem": {
+      "sha256": "5d6deadac8ac3b5594a637fec9e301417effa4365c9ae9cbf5771947d323aa53",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 3059,
+      "peak": 21235,
+      "audible": true,
+      "cue": "vca06007.wav"
+    },
+    "English(US)/952013316.wem": {
+      "sha256": "0020b1f80a13c5dcda783170ac9ff86428911f84a5b9f5594981e752a91369ba",
+      "decode_ok": true,
+      "seconds": 1.5441269841269842,
+      "rms": 4141,
+      "peak": 22730,
+      "audible": true,
+      "cue": "vca09001.wav"
+    },
+    "English(US)/952798995.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca05083.wav"
+    },
+    "English(US)/954709624.wem": {
+      "sha256": "bc93592158a62fe4ac757c47b23a43cc075da65d0e8d8d04bd0deb60494188a4",
+      "decode_ok": true,
+      "seconds": 5.607619047619048,
+      "rms": 3789,
+      "peak": 20449,
+      "audible": true,
+      "cue": "vca01026.wav"
+    },
+    "English(US)/956013681.wem": {
+      "sha256": "162c0a8be4481ed42850a6161868c0969807a3060f71f3d139330a147e4a1018",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3653,
+      "peak": 18961,
+      "audible": true,
+      "cue": "vca03005.wav"
+    },
+    "English(US)/979268543.wem": {
+      "sha256": "73169f882a15f184c006af526390f26ccf1577c6e66f6c0d79145aef22338162",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 6662,
+      "peak": 27387,
+      "audible": true,
+      "cue": "vca0d200.wav"
+    },
+    "English(US)/979367084.wem": {
+      "sha256": "7393595de4c4a62580eec82cf71e5f61a1b5d199644ee88ee2cfc8bc0bdee57d",
+      "decode_ok": true,
+      "seconds": 3.0882539682539685,
+      "rms": 3662,
+      "peak": 21717,
+      "audible": true,
+      "cue": "vca03006.wav"
+    },
+    "English(US)/992827591.wem": {
+      "sha256": "1fa6029d02bd0c9fd747a6134e93f35d2ac67d34daf8bd091899210f77a47010",
+      "decode_ok": true,
+      "seconds": 1.6253968253968254,
+      "rms": 3471,
+      "peak": 20392,
+      "audible": true,
+      "cue": "vca02004.wav"
+    },
+    "English(US)/994815502.wem": {
+      "sha256": "4685738e525cb179451e7c59ac7e2be0e062bc66cdd2a61228843ac9152a83f4",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 3937,
+      "peak": 21517,
+      "audible": true,
+      "cue": "vca05038.wav"
+    },
+    "English(US)/996887029.wem": {
+      "sha256": "1bdee24a5c21b3caa7a10370b313b65371554ac138cdfe6840de53598ece64fa",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3669,
+      "peak": 19106,
+      "audible": true,
+      "cue": "vca04001.wav"
+    },
+    "English(US)/1001994096.wem": {
+      "sha256": "4fb2c286effc9eb53612174e33542036aefccd117d92558a8d2ae6b5de1ad93e",
+      "decode_ok": true,
+      "seconds": 3.81968253968254,
+      "rms": 4077,
+      "peak": 21626,
+      "audible": true,
+      "cue": "vca0c00d.wav"
+    },
+    "English(US)/1002253018.wem": {
+      "sha256": "04f3e22b4cfcc9ed531ca24cc717da0fa5328d65aa17609992140523609469cc",
+      "decode_ok": true,
+      "seconds": 4.551111111111111,
+      "rms": 3688,
+      "peak": 22727,
+      "audible": true,
+      "cue": "vca0502d.wav"
+    },
+    "English(US)/1009787684.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca06011.wav"
+    },
+    "English(US)/1015075549.wem": {
+      "sha256": "25deecc07eb262bfe480cdc7e4b5ac1ff9eddcbd02e9c7746d43b5c343135f2e",
+      "decode_ok": true,
+      "seconds": 4.876190476190477,
+      "rms": 3389,
+      "peak": 21724,
+      "audible": true,
+      "cue": "vca01021.wav"
+    },
+    "English(US)/1022138546.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca0507d.wav"
+    },
+    "English(US)/1023237156.wem": {
+      "sha256": "6685da50e7b12131ff0857cbe90e1ddf6bb8d28ff9dbec5270ccc48b3a2d3f5b",
+      "decode_ok": true,
+      "seconds": 4.46984126984127,
+      "rms": 4409,
+      "peak": 21371,
+      "audible": true,
+      "cue": "vca0501d.wav"
+    },
+    "English(US)/1023593275.wem": {
+      "sha256": "73c80e1b375d9dfde69b9adb6cddaa6b05aed251e69a03fd0ca97044fcf15309",
+      "decode_ok": true,
+      "seconds": 0.893968253968254,
+      "rms": 2708,
+      "peak": 21593,
+      "audible": true,
+      "cue": "vca0506b.wav"
+    },
+    "English(US)/1027431509.wem": {
+      "sha256": "e59df29efc056e93495c3d71d979d365a445062682ed87c289c6adeddd181104",
+      "decode_ok": true,
+      "seconds": 0.9752380952380952,
+      "rms": 3255,
+      "peak": 19283,
+      "audible": true,
+      "cue": "vca05070.wav"
+    },
+    "English(US)/1027596146.wem": {
+      "sha256": "3602b374595c0db1b3791446ece60ddba3a2c21de8b4e856288bd10ebc17500c",
+      "decode_ok": true,
+      "seconds": 2.5193650793650795,
+      "rms": 4123,
+      "peak": 20594,
+      "audible": true,
+      "cue": "vca0600a.wav"
+    },
+    "English(US)/1028446757.wem": {
+      "sha256": "868cec4e58c908a70eff59ee513910d28c273823b551e9248e109653cfc73abe",
+      "decode_ok": true,
+      "seconds": 13.4349375,
+      "rms": 846,
+      "peak": 9512,
+      "audible": true,
+      "cue": "vc076ffd_360_ada.wav"
+    },
+    "English(US)/1032388025.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca05077.wav"
+    },
+    "English(US)/1035731243.wem": {
+      "sha256": "d076958c457a040e7d60dcaa9f3d61a0acd73a705f7d6c6d265d48c58d3db424",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3602,
+      "peak": 20187,
+      "audible": true,
+      "cue": "vca0c006.wav"
+    },
+    "English(US)/1037779309.wem": {
+      "sha256": "26d6a0c708e13908b406ef21838d23e4d0dea13877cb9a5dfc9db1b971f7bae6",
+      "decode_ok": true,
+      "seconds": 3.982222222222222,
+      "rms": 4408,
+      "peak": 21622,
+      "audible": true,
+      "cue": "vca05014.wav"
+    },
+    "English(US)/1040392819.wem": {
+      "sha256": "c69c10cded0462afb8a453dd64c8d6226d6a33f1293af788c5df0a4c09a0d17f",
+      "decode_ok": true,
+      "seconds": 2.6460997732426303,
+      "rms": 3222,
+      "peak": 27709,
+      "audible": true,
+      "cue": "vca05085_eng_360_pp.wav"
+    },
+    "English(US)/1041810593.wem": {
+      "sha256": "f5504f8e2d50b3995ec8f1a51db81d4937812a0ec28ff10a74d7abca2d155131",
+      "decode_ok": true,
+      "seconds": 1.3815873015873017,
+      "rms": 4505,
+      "peak": 19258,
+      "audible": true,
+      "cue": "vca07001.wav"
+    },
+    "English(US)/1046177723.wem": {
+      "sha256": "5881c9faf702b11d2191783ef6b81e857cb9c824538184229abdebdbd9beed42",
+      "decode_ok": true,
+      "seconds": 2.4380952380952383,
+      "rms": 4026,
+      "peak": 19023,
+      "audible": true,
+      "cue": "vca05043.wav"
+    },
+    "English(US)/1050169986.wem": {
+      "sha256": "dafb349a9a91bdfcc728098d90d8972c3512c99090f765d9563d1512a610d039",
+      "decode_ok": true,
+      "seconds": 4.713650793650793,
+      "rms": 3695,
+      "peak": 24411,
+      "audible": true,
+      "cue": "vca0a01a.wav"
+    },
+    "English(US)/1056881113.wem": {
+      "sha256": "4bd06047de523254331dd752e021b86f956471ea281589252523f0dd967ee837",
+      "decode_ok": true,
+      "seconds": 9.749333333333333,
+      "rms": 573,
+      "peak": 7476,
+      "audible": true,
+      "cue": "vc081fff_eng_360_ada.wav"
+    },
+    "English(US)/1058133213.wem": {
+      "sha256": "17dd7f33f61aadee203a621e3afa1bfccd073e98a1f7bda496003f3ab39d5900",
+      "decode_ok": true,
+      "seconds": 2.0317460317460316,
+      "rms": 3837,
+      "peak": 22481,
+      "audible": true,
+      "cue": "vca05030.wav"
+    },
+    "English(US)/1064336346.wem": {
+      "sha256": "314230c3a308ac5c8d92ab2e5a794cbdbac6df950114d7aa755c1f5b1c7f704e",
+      "decode_ok": true,
+      "seconds": 3.900952380952381,
+      "rms": 3732,
+      "peak": 22877,
+      "audible": true,
+      "cue": "vca05008.wav"
+    },
+    "English(US)/1067670423.wem": {
+      "sha256": "8bc85b832897973d6b2378e2bb55985e2d1f6db12b27738adcaa55794d9445c1",
+      "decode_ok": true,
+      "seconds": 5.818526077097506,
+      "rms": 3473,
+      "peak": 26004,
+      "audible": true,
+      "cue": "vca05084_eng_360.wav"
+    },
+    "English(US)/1067891971.wem": {
+      "sha256": "9519c9b428cd3b807b48116fddd380250411fe98c55b9f069a8d991a7cb8f76e",
+      "decode_ok": true,
+      "seconds": 3.332063492063492,
+      "rms": 3292,
+      "peak": 18756,
+      "audible": true,
+      "cue": "vca01011.wav"
+    },
+    "English(US)/1067896957.wem": {
+      "sha256": "5077835147898f96cb7c6ecb0710de9cb35e8c3ca8dd1afb5a164ca709dc5b79",
+      "decode_ok": true,
+      "seconds": 2.1942857142857144,
+      "rms": 3379,
+      "peak": 21634,
+      "audible": true,
+      "cue": "vca06008.wav"
+    },
+    "English(US)/1070127798.wem": {
+      "sha256": "97e03683915acbc913cfdb2089f93d4a79cd2062fc77abe17613a4861dac6ffd",
+      "decode_ok": true,
+      "seconds": 0.5,
+      "rms": 0,
+      "peak": 0,
+      "audible": false,
+      "cue": "vca0507f.wav"
+    },
+    "English(US)/1072408828.wem": {
+      "sha256": "1dea70025b9d2338d2113b70654d2a3d6803585242185bf698fe5b78276881a5",
+      "decode_ok": true,
+      "seconds": 1.9504761904761905,
+      "rms": 3548,
+      "peak": 18397,
+      "audible": true,
+      "cue": "vca04002.wav"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "format": 2,
+  "bank_sha256": "9262fb849953fdc9879123a0d9a51023f0c6be7e0af00768e4dd3613b05fefb2",
+  "reference_parser": "Prior independent wwiser contract retained; only root gain changed and bank bytes compared against pinned original.",
+  "objects": [
+    {
+      "name": "CAkMusicTrack",
+      "fields": [
+        {
+          "name": "eHircType",
+          "offset": 40,
+          "type": "u8",
+          "value": 11
+        },
+        {
+          "name": "numSources",
+          "offset": 50,
+          "type": "u32",
+          "value": 1
+        },
+        {
+          "name": "sourceID",
+          "offset": 59,
+          "type": "tid",
+          "value": 1965101901
+        },
+        {
+          "name": "numPlaylistItem",
+          "offset": 68,
+          "type": "u32",
+          "value": 1
+        },
+        {
+          "name": "sourceID",
+          "offset": 76,
+          "type": "tid",
+          "value": 1965101901
+        },
+        {
+          "name": "fPlayAt",
+          "offset": 80,
+          "type": "d64",
+          "value": -0.0
+        },
+        {
+          "name": "fBeginTrimOffset",
+          "offset": 88,
+          "type": "d64",
+          "value": 0.0
+        },
+        {
+          "name": "fEndTrimOffset",
+          "offset": 96,
+          "type": "d64",
+          "value": 0.0
+        },
+        {
+          "name": "fSrcDuration",
+          "offset": 104,
+          "type": "d64",
+          "value": 337188.0
+        }
+      ],
+      "volume_fields": [
+        {
+          "name": "pID",
+          "offset": 133,
+          "type": "u8",
+          "value": 0
+        },
+        {
+          "name": "pValue",
+          "offset": 135,
+          "type": "f32",
+          "value": -15.300000190734863
+        }
+      ]
+    },
+    {
+      "name": "CAkMusicSegment",
+      "fields": [
+        {
+          "name": "eHircType",
+          "offset": 161,
+          "type": "u8",
+          "value": 10
+        },
+        {
+          "name": "fDuration",
+          "offset": 232,
+          "type": "d64",
+          "value": 337188.0
+        }
+      ]
+    },
+    {
+      "name": "CAkMusicTrack",
+      "fields": [
+        {
+          "name": "eHircType",
+          "offset": 276,
+          "type": "u8",
+          "value": 11
+        },
+        {
+          "name": "numSources",
+          "offset": 286,
+          "type": "u32",
+          "value": 1
+        },
+        {
+          "name": "sourceID",
+          "offset": 295,
+          "type": "tid",
+          "value": 1965101901
+        },
+        {
+          "name": "numPlaylistItem",
+          "offset": 304,
+          "type": "u32",
+          "value": 1
+        },
+        {
+          "name": "sourceID",
+          "offset": 312,
+          "type": "tid",
+          "value": 1965101901
+        },
+        {
+          "name": "fPlayAt",
+          "offset": 316,
+          "type": "d64",
+          "value": -0.0
+        },
+        {
+          "name": "fBeginTrimOffset",
+          "offset": 324,
+          "type": "d64",
+          "value": 0.0
+        },
+        {
+          "name": "fEndTrimOffset",
+          "offset": 332,
+          "type": "d64",
+          "value": 0.0
+        },
+        {
+          "name": "fSrcDuration",
+          "offset": 340,
+          "type": "d64",
+          "value": 337188.0
+        }
+      ],
+      "volume_fields": [
+        {
+          "name": "pID",
+          "offset": 369,
+          "type": "u8",
+          "value": 0
+        },
+        {
+          "name": "pValue",
+          "offset": 372,
+          "type": "f32",
+          "value": -15.300000190734863
+        }
+      ]
+    },
+    {
+      "name": "CAkMusicSegment",
+      "fields": [
+        {
+          "name": "eHircType",
+          "offset": 402,
+          "type": "u8",
+          "value": 10
+        },
+        {
+          "name": "fDuration",
+          "offset": 473,
+          "type": "d64",
+          "value": 337188.0
+        }
+      ]
+    },
+    {
+      "name": "CAkMusicRanSeqCntr",
+      "fields": [
+        {
+          "name": "eHircType",
+          "offset": 517,
+          "type": "u8",
+          "value": 13
+        }
+      ],
+      "volume_fields": [
+        {
+          "name": "pID",
+          "offset": 540,
+          "type": "u8",
+          "value": 0
+        },
+        {
+          "name": "pValue",
+          "offset": 541,
+          "type": "f32",
+          "value": 9.064249992370605
+        }
+      ]
+    }
+  ]
+}

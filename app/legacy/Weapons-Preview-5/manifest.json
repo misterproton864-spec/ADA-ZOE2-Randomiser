@@ -1,0 +1,266 @@
+{
+  "seed": "branch-mixed-9",
+  "status": "eleven-weapon script preview only; not installed",
+  "mapping": {
+    "1": 7,
+    "2": 12,
+    "3": 2,
+    "4": 3,
+    "6": 9,
+    "7": 8,
+    "8": 4,
+    "9": 6,
+    "10": 11,
+    "11": 1,
+    "12": 10
+  },
+  "verified_acquisition_ids": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "files": [
+    {
+      "stage": "af02",
+      "file": "d17ef12b.scx",
+      "source_sha256": "39a9ccf1a80f50dbdcecbfbb7b3687995d4f90c231a688245be09431ef93a3b6",
+      "patched_sha256": "51381d605d976cfc2349184c465c0df2e6ae89749bf7b2133309bfe5b55c087a",
+      "edits": [
+        {
+          "offset": 3682,
+          "original": 8,
+          "replacement": 4,
+          "operation": "0x8b",
+          "value": 1
+        },
+        {
+          "offset": 4328,
+          "original": 8,
+          "replacement": 4,
+          "operation": "0x8b",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "stage": "cf01",
+      "file": "c35210a6.scx",
+      "source_sha256": "05a895e9d5f9df9dc134836fac276d33ccb181d289837ce07073063ae993e370",
+      "patched_sha256": "c285dea885a760b197c345cf7cc13343576ea026b86e2a56fa76fdb92ace1854",
+      "edits": [
+        {
+          "offset": 25523,
+          "original": 9,
+          "replacement": 6,
+          "operation": "0x8b",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "stage": "cy01",
+      "file": "92262376.scx",
+      "source_sha256": "3ef735cf27a0fff3c4496e34e25d1d1d6725f43e4e9386efbd8f8caa45299989",
+      "patched_sha256": "a6a415cfa43d5243205cd870457bb29dfbbdca5908d929502bc84d306c15bafa",
+      "edits": [
+        {
+          "offset": 2898,
+          "original": 10,
+          "replacement": 11,
+          "operation": "0x8b",
+          "value": 1
+        },
+        {
+          "offset": 20700,
+          "original": 10,
+          "replacement": 11,
+          "operation": "0x8b",
+          "value": 1
+        },
+        {
+          "offset": 21174,
+          "original": 10,
+          "replacement": 11,
+          "operation": "0x8b",
+          "value": 1
+        },
+        {
+          "offset": 22137,
+          "original": 10,
+          "replacement": 11,
+          "operation": "0x8b",
+          "value": 0
+        },
+        {
+          "offset": 2860,
+          "original": 10,
+          "replacement": 11,
+          "operation": "0x8a",
+          "value": null
+        }
+      ]
+    },
+    {
+      "stage": "ds01",
+      "file": "7b0eaddf.scx",
+      "source_sha256": "3711dc643b085bf778a48e19684bfe14299998838f05340c8b9436be74bec06d",
+      "patched_sha256": "895407a150131b729a595d5dbb68395f51cb3df3cc8cf3ed86745e185308350a",
+      "edits": [
+        {
+          "offset": 8483,
+          "original": 1,
+          "replacement": 7,
+          "operation": "0x8b",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "stage": "ef03",
+      "file": "1d5cfe90.scx",
+      "source_sha256": "55e7b5845087adfa00b64396f69627a73813b206a622f5693b1e6bb2d0f2f158",
+      "patched_sha256": "b596dd8132fcbe260a79b123f1cfa3f1aa88ea82308b69b600b22f2bf28358c3",
+      "edits": [
+        {
+          "offset": 9150,
+          "original": 7,
+          "replacement": 8,
+          "operation": "0x8b",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "stage": "fc01",
+      "file": "cf32dc1d.scx",
+      "source_sha256": "fd398ed297e489310975696411bdeb9cdecdd72d7960e5d918786203e4fcca50",
+      "patched_sha256": "ad8d4e35f01c008e756734939e8937c77af531e2c01415e026193a7c35541cac",
+      "edits": [
+        {
+          "offset": 23810,
+          "original": 12,
+          "replacement": 10,
+          "operation": "0x8b",
+          "value": 1
+        },
+        {
+          "offset": 23772,
+          "original": 12,
+          "replacement": 10,
+          "operation": "0x8a",
+          "value": null
+        }
+      ]
+    },
+    {
+      "stage": "fr03",
+      "file": "52d57eae.scx",
+      "source_sha256": "5cfba42bb15a8ea035dcd2a3cdea646eac713055203ee9c5802613e21ac24497",
+      "patched_sha256": "f2aff545fced2525fe445fd7f264f77930344a212398fd19503178332db112a0",
+      "edits": [
+        {
+          "offset": 1007,
+          "original": 6,
+          "replacement": 9,
+          "operation": "0x8b",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "stage": "he01",
+      "file": "4af208e6.scx",
+      "source_sha256": "4958cbf10dc5c50a50e87cdb3b8292a81fbcdac9a826f510391379067ee7b3ba",
+      "patched_sha256": "6f2f89fc8aa9900b6208d325359ac8582fbd9af753bd012d7ec40cffb3a14521",
+      "edits": [
+        {
+          "offset": 4299,
+          "original": 11,
+          "replacement": 1,
+          "operation": "0x8b",
+          "value": 1
+        },
+        {
+          "offset": 13759,
+          "original": 11,
+          "replacement": 1,
+          "operation": "0x8b",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "stage": "tr02",
+      "file": "46dffeda.scx",
+      "source_sha256": "1719a55a4fc005a41ff0e42ceba08f04d397bff9a2594fac44b17d14c4da408e",
+      "patched_sha256": "c39cbbec466bd580c097bd22a41dad5ec401b79c3e7a78c4980ef9d711e967ca",
+      "edits": [
+        {
+          "offset": 1347,
+          "original": 4,
+          "replacement": 3,
+          "operation": "0x8b",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "stage": "vc01",
+      "file": "17303f25.scx",
+      "source_sha256": "06f8f044f6febce5c5e83c6e5601804612e4de02fde14996c667b2d1056adc7c",
+      "patched_sha256": "03a3d0feabcbb24281b2dd9c2499c552ae326841154f32637147ff46f4a70b88",
+      "edits": [
+        {
+          "offset": 5066,
+          "original": 2,
+          "replacement": 12,
+          "operation": "0x8b",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "stage": "wn01",
+      "file": "d9faacf7.scx",
+      "source_sha256": "f28982d837f886a7208bc7913868f2177ada473e9fe75b06b8fc19a6bcf6b4f4",
+      "patched_sha256": "6e405a409f09bd25471f9abe1a8316951aeabbe8b27521357a498382ff0a4fdd",
+      "edits": [
+        {
+          "offset": 4916,
+          "original": 3,
+          "replacement": 2,
+          "operation": "0x8b",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "stage": "wn02",
+      "file": "b9c8ae4d.scx",
+      "source_sha256": "8018d5a5358fa07663f364d9aab58236ac8bd7f65178aa19fb41b0497738053a",
+      "patched_sha256": "dfd2680a3cc813ca53c9a80730c9ccd74253a4a50e935fcb0934203dd59486f4",
+      "edits": [
+        {
+          "offset": 3519,
+          "original": 3,
+          "replacement": 2,
+          "operation": "0x8b",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "vector_cannon": "vanilla; excluded from both pools",
+  "zero_shift": "cf01 story ownership write included; progression and assets unverified",
+  "ui_and_asset_adapters": false,
+  "progression_verified": false,
+  "metatron_hook": false
+}

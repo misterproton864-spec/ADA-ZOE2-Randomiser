@@ -1,0 +1,26 @@
+{
+  "source_sha256": "f4b9c5b25f95a6ab7554b7492eefac9b43083425969d78e867a451fd685fedac",
+  "source_call": 9575,
+  "original_hash": "869acfd7",
+  "procedure_entry": 82256,
+  "procedure_end": 82302,
+  "commands": [
+    "869acfd7",
+    "d1efc2e5",
+    "7d6e9d45"
+  ],
+  "source_offsets_preserved": true,
+  "original_data_preserved": true,
+  "preprocessor_declarations_added": false,
+  "gameplay_verified": false,
+  "archive_integrated": false,
+  "stack_replay_checks": 14,
+  "original_instruction_offsets_verified": true,
+  "native_model_source": "scx-flow-interpreter-native.c",
+  "native_factory_sources": [
+    "scx-manager-contract-0x14819aa30.c",
+    "scx-manager-contract-0x1481534a0.c",
+    "scx-manager-contract-0x148167750.c"
+  ],
+  "next_step": "Verify factory/constructor stack effects and rebuild archive file table before game testing"
+}

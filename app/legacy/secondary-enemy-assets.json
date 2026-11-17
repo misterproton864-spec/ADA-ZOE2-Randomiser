@@ -1,0 +1,47 @@
+{
+  "internal_family": "spider",
+  "display_name_verified": false,
+  "donor": "vc02",
+  "pool_command": "ffff03b0",
+  "pool_setup": "14a5e7610",
+  "activation": "14a5912a0",
+  "object_size": 4720,
+  "inactive_marker": 15,
+  "inactive_marker_is_not_an_enemy_species": true,
+  "files": [
+    {
+      "hash": "0e1a4b16.mtl",
+      "name": "spider.mtl",
+      "size": 54064,
+      "sha256": "f7d728fa81e64700c69b682f3d68f653ba856725453c96455a892007457980b5"
+    },
+    {
+      "hash": "59f1d59d.mts",
+      "name": "spider.mts",
+      "size": 848,
+      "sha256": "fe7525208780bb6061d03b54aa52cff322877085d2bba098b006b617b52ed229"
+    },
+    {
+      "hash": "607f001b.tex",
+      "name": null,
+      "size": 99584,
+      "sha256": "753f421f60cce48f869285f9838aba7a4f6d51baaf520b7c7f5b8a2e8cac9ee2"
+    },
+    {
+      "hash": "ecc7da85.mdz",
+      "name": "spd_mid.mdz",
+      "size": 22816,
+      "sha256": "c99f3b08c0064307f26e836a3bda5254a6de5f3b215e740865b420c70be14e92"
+    },
+    {
+      "hash": "f678eb05.mdz",
+      "name": "spd_def.mdz",
+      "size": 37216,
+      "sha256": "97a3aab601b1233753d1120db7a137d82834e8494d72bc740159abf1100f75cc"
+    }
+  ],
+  "missing_textures": [],
+  "requires_separate_native_adapter": true,
+  "asset_dependencies_complete": false,
+  "gameplay_verified": false
+}

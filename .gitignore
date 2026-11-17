@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+/runtime/
+build/
+dist/
+builds/
+originals/
+backups/
+diagnostics/
+qa/
+*.zip
+*.7z
+*.rar
+*.log
+*.dmp
+*.partial
+*.tmp
+preferences.json
+game.json
+last-applied.json
+last-built.json
+.env
+.env.*
+!.env.example
+# Game archives and extracted assets must never be committed.
+*.pac
+*.wem
+*.bnk
+*.awb
+*.mdz
+*.scx
+*.tex
+*.wav
+*.iso
+STAGE.DAT
+Zoe2Mars.exe
+# app contains small, pinned ADA helper binaries with corresponding source.
+# They intentionally remain tracked; the game executable is always excluded.
