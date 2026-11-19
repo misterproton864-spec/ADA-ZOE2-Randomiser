@@ -1,6 +1,6 @@
 import portable_paths as _portable
 """Seeded cue-compatible music choices; never remap an unsupported event."""
-import hashlib
+import hashlib, math
 from collections import Counter
 
 
@@ -23,14 +23,21 @@ def select(families, seed):
     donor = 0xf0b0
     eligible = [src for src in families if donor in candidates[src]]
     if eligible:
-        src = min(eligible, key=lambda f: (len(candidates[f]), rank('featured', f)))
+        src = min(eligible, key=lambda f: rank('featured', f))
         mapping[src] = donor
         usage[donor] += 1
     for src in sorted(families, key=lambda f: (len(candidates[f]), rank('source', f))):
         if src in mapping:
             continue
         if candidates[src]:
-            dst = min(candidates[src], key=lambda d: (usage[d], rank(str(src), d)))
+            # A hard least-used-first rule made scarce cue groups force later
+            # choices into the same sequence. A seeded weighted draw keeps
+            # every compatible donor eligible while gently balancing reuse.
+            def score(d):
+                raw=int.from_bytes(rank(str(src),d)[:8],'big')
+                uniform=(raw+1)/(2**64+1)
+                return -math.log(uniform)*(1+usage[d])
+            dst = min(candidates[src], key=score)
             mapping[src] = dst
             usage[dst] += 1
     return mapping, candidates
@@ -56,5 +63,5 @@ def patch_compiler(text):
  assert len(mapping)>=10
 ''' + text[end:]
     text = text.replace("category_basis='Original stage membership; conservative inferred gameplay categories plus exact authored structure/state signatures.'",
-                        "selection_policy='balanced-cue-superset-v1',category_basis='Gameplay banks with identical authored structure; donor supports every source Play/State cue.'")
+                        "selection_policy='seeded-weighted-cue-superset-v2',category_basis='Gameplay banks with identical authored structure; donor supports every source Play/State cue.'")
     return text

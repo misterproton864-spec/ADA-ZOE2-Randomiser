@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "component": "viper-combat-experimental-4",
+  "name": "ViperCombatAdapter.exe",
+  "exe_sha256": "51949d3b6b2c8b5416ff1ba4e49a5378ace5ccf2872f2f13881ea81d0beeb38c",
+  "compiled_code_sha256": "fa40b173c04d25c6fb0b8a7f0d753e4e0a7b83bca162348429fb5e8710b1ec64",
+  "source_sha256": "a7fd0391a9951cede1646b39be67f623de9e580ca8f611532f7506a4a72c47f1",
+  "config_size": 3656,
+  "source_bindings": [
+    {
+      "stage": "ca02",
+      "actor": 4294892883,
+      "close": true
+    },
+    {
+      "stage": "ba02",
+      "actor": 4294915707,
+      "close": false
+    },
+    {
+      "stage": "ba03",
+      "actor": 4294959705,
+      "close": false
+    },
+    {
+      "stage": "cy02",
+      "actor": 4294915707,
+      "close": true
+    },
+    {
+      "stage": "vc01",
+      "actor": 4294915707,
+      "close": true
+    },
+    {
+      "stage": "ef01",
+      "actor": 4294915707,
+      "close": false
+    },
+    {
+      "stage": "ef02g",
+      "actor": 4294892883,
+      "close": false
+    },
+    {
+      "stage": "fr02",
+      "actor": 4294932111,
+      "close": false
+    },
+    {
+      "stage": "cs01",
+      "actor": 4294959705,
+      "close": false
+    },
+    {
+      "stage": "fa01",
+      "actor": 4294959705,
+      "close": false
+    },
+    {
+      "stage": "fr04g",
+      "actor": 4294959705,
+      "close": false
+    },
+    {
+      "stage": "am01g",
+      "actor": 4294781001,
+      "close": false
+    },
+    {
+      "stage": "am01g",
+      "actor": 4294912100,
+      "close": false
+    },
+    {
+      "stage": "am02",
+      "actor": 3757126974,
+      "close": false
+    }
+  ],
+  "hooks": [
+    {
+      "entry": "0x140772d10",
+      "cave_offset": 0,
+      "stolen": "e96ba71709"
+    },
+    {
+      "entry": "0x1498eb385",
+      "cave_offset": 512,
+      "stolen": "f783d415000000020000"
+    },
+    {
+      "entry": "0x14980fa08",
+      "cave_offset": 1024,
+      "stolen": "8b05ee5dd2f70b05e45dd2f7"
+    },
+    {
+      "entry": "0x14980fa87",
+      "cave_offset": 1536,
+      "stolen": "8b8350140000"
+    }
+  ],
+  "relocation_cases": 9,
+  "native_original_mars_unchanged": true,
+  "arena_exclusions": [],
+  "gameplay_verified": false
+}

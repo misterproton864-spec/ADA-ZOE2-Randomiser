@@ -20,8 +20,13 @@ def augment(source):
    actors.Add(Try(delegate{return Obj("actor",Hex(a),"serial",U32(a+8),"actor_id",Hex(U32(a+0x78)),
     "hp",U32(a+0xc20),"max_hp",U32(a+0xc24),"native_variant",U32(a+0x14e4),
     "state",U32(a+0x12a0),"next_state",U32(a+0x12a4),"motion",Read(a+0x99,1)[0],
+    "native_flags_14e0",Hex(U32(a+0x14e0)),"control_flags_bec",Hex(U32(a+0xbec)),
+    "body_flags_1bc",Hex(U32(a+0x1bc)),"body_raw_150",BitConverter.ToString(Read(a+0x150,0x80)),
+    "model_flags_ea",Try(delegate{long model=Ptr(a+0x80);return model==0?null:(object)Hex(U16(model+0xea));}),
+    "ai_script_step",Read(a+0x1d25,1)[0],"ai_script_timer",U32(a+0x1d28),
     "position",FiniteVec3(a+0x980),"movement_min",FiniteVec3(a+0x14b0),
     "movement_max",FiniteVec3(a+0x14c0),"movement_centre",FiniteVec3(a+0x14d0),
+    "previous_transform_position",FiniteVec3(a+0x14a0),
     "completion_callback",U32(a+0x14f0));}));
   }
   return Obj("actors",actors,"visited",seen.Count,"cycle_or_limit",current!=0&&current!=sentinel,"read_only",true);
@@ -37,6 +42,7 @@ def augment(source):
    string json=new JavaScriptSerializer().Serialize(InhertActorsAt(a,0,1234));
    if(!json.Contains("5678") && !json.Contains("0x162e"))throw new Exception("Inhert actor identity missing");
    if(!json.Contains("\"native_variant\":1")||!json.Contains("\"max_hp\":200"))throw new Exception("Inhert fields missing");
+   if(!json.Contains("\"native_flags_14e0\"")||!json.Contains("\"body_raw_150\"")||!json.Contains("\"previous_transform_position\""))throw new Exception("Inhert collision observations missing");
    string other=new JavaScriptSerializer().Serialize(InhertActorsAt(a,0,4321));
    if(!other.Contains("\"actors\":[]"))throw new Exception("Wrong actor vtable accepted");
   } finally {Marshal.FreeHGlobal(memory);}

@@ -26,7 +26,7 @@ def main():
         lock.close();messagebox.showinfo('ZOE2 Randomiser is already open','Use the existing randomiser window.');return
     if '--select-game' in sys.argv or not pp.CONFIG.exists():
         root=tk.Tk();root.title('ZOE2 Randomiser — Choose game folder');root.geometry('580x230')
-        ttk.Label(root,text='ADA — ZOE2 Randomiser local.22',font=('Segoe UI',16)).pack(pady=18)
+        ttk.Label(root,text='ADA — ZOE2 Randomiser local.23',font=('Segoe UI',16)).pack(pady=18)
         ttk.Label(root,text='Choose your own Steam ZOE2 MARS installation.\nSelect the folder containing Zoe2Mars.exe.',justify='center').pack(pady=8)
         accepted=[]
         def select():

@@ -67,6 +67,8 @@ def expanded_groups(media,leftovers,audibility):
  return result
 
 def build(tree,out,seed,sound,legacy_clean):
+ from ada_modes import build as build_modes
+ return build_modes(tree,out,seed,sound,legacy_clean)
  out=Path(out);cache=_portable.HOME/'audio-clean-originals';cache.mkdir(exist_ok=True)
  index_path=cache/'index.json';index=json.loads(index_path.read_text()) if index_path.exists() else {}
  table=json.loads((ROOT/'voice-stream-compatibility.json').read_text());nodes=table['nodes']

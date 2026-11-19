@@ -1348,11 +1348,11 @@
       "cue": "vca05015.wav"
     },
     "English(US)/449378560.wem": {
-      "sha256": "df23ce57e8e3b91b8b049c8383de218c3dfb0a54d1b4c2ab055661e6b69f9fc4",
+      "sha256": "b42ffd138eac363bbe23b8122824438d3f869af2a956df9f3dba0ee8bbb644b7",
       "decode_ok": true,
-      "seconds": 13.4349375,
-      "rms": 856,
-      "peak": 9481,
+      "seconds": 40.688,
+      "rms": 722,
+      "peak": 9228,
       "audible": true,
       "cue": "vc057ffe_360_ada.wav"
     },
@@ -1996,11 +1996,11 @@
       "cue": "vca01009.wav"
     },
     "English(US)/689108594.wem": {
-      "sha256": "52e511c1bd7b485adc8f62ee95c1e766304b9fd153a01170bd486634e3fb52df",
+      "sha256": "c62de2761c3717ac74c050cc1a17ae56d67267b61131d065014383e12bd5f3e6",
       "decode_ok": true,
-      "seconds": 13.411854166666666,
-      "rms": 655,
-      "peak": 8004,
+      "seconds": 20.96,
+      "rms": 733,
+      "peak": 8820,
       "audible": true,
       "cue": "vc057ffe_360_pp_ada.wav"
     },
@@ -3002,6 +3002,115 @@
       "peak": 18397,
       "audible": true,
       "cue": "vca04002.wav"
+    },
+    "English(US)/8720125.wem": {
+      "sha256": "5370d2e87f756bee02846609219204bb88b8386da5a3cf569d1a03fc3878b9ed",
+      "decode_ok": true,
+      "seconds": 15.522,
+      "rms": 714,
+      "peak": 13058,
+      "audible": true,
+      "cue": "s030m1_Ada_Eab.wav"
+    },
+    "English(US)/8973821.wem": {
+      "sha256": "e43061ad6ab7d08e0fbae0b68a326e98fd90f7e3fa2adfe1f0b4b45430aa0fdf",
+      "decode_ok": true,
+      "seconds": 325.729,
+      "rms": 228,
+      "peak": 16238,
+      "audible": true,
+      "cue": "s065m2_Ada_E.wav"
+    },
+    "English(US)/162771907.wem": {
+      "sha256": "db30ce3ed7f7fb0cc9a8232e91a8b0e87eb3865cddb500152db1807288349429",
+      "decode_ok": true,
+      "seconds": 182.532,
+      "rms": 467,
+      "peak": 14970,
+      "audible": true,
+      "cue": "s088m2_Ada_E.wav"
+    },
+    "English(US)/518949234.wem": {
+      "sha256": "3c536d9b18bad85deef3302f74353e6bc9f7e8139b4eaaacff04319230645de2",
+      "decode_ok": true,
+      "seconds": 147.504,
+      "rms": 460,
+      "peak": 16481,
+      "audible": true,
+      "cue": "s101m1_Re_Ada_E.wav"
+    },
+    "English(US)/614057640.wem": {
+      "sha256": "10d9fc7fcbdf75fb1fc2a5b54e3dbd6cc33139250b892868d5d46f0b67246e04",
+      "decode_ok": true,
+      "seconds": 81.92,
+      "rms": 242,
+      "peak": 12352,
+      "audible": true,
+      "cue": "s108m1_Ada_E.wav"
+    },
+    "English(US)/663093118.wem": {
+      "sha256": "18bd2a5b8a7db2c32a9128b4de9111f7ccea325df2350357b4ad4d4441f91a0f",
+      "decode_ok": true,
+      "seconds": 83.951,
+      "rms": 809,
+      "peak": 16201,
+      "audible": true,
+      "cue": "s038m1_Re_Ada_E.wav"
+    },
+    "English(US)/669544158.wem": {
+      "sha256": "c1322edac494be5483598db0146bca24baea19cc7750ddb0db35534f042a9204",
+      "decode_ok": true,
+      "seconds": 126.862,
+      "rms": 107,
+      "peak": 13581,
+      "audible": true,
+      "cue": "s052m1_Ada_E.wav"
+    },
+    "English(US)/799684736.wem": {
+      "sha256": "5dc94ab1502dc37e43cd341c09f5c3f463e1c39b6cc0f533a546fe4e07a1b495",
+      "decode_ok": true,
+      "seconds": 47.949,
+      "rms": 296,
+      "peak": 12859,
+      "audible": true,
+      "cue": "s092m1_Ada_E.wav"
+    },
+    "English(US)/890263170.wem": {
+      "sha256": "f357219002b488f2dc45c1a690a497edf0101e5895f275bc14f09d18eb06b299",
+      "decode_ok": true,
+      "seconds": 249.335,
+      "rms": 356,
+      "peak": 16688,
+      "audible": true,
+      "cue": "s141m2_Re_Ada_E.wav"
+    },
+    "English(US)/906524113.wem": {
+      "sha256": "7cda30829c47d851b845e9f3bb2fc55e0771c8c345f11b6576cf639f2ce93949",
+      "decode_ok": true,
+      "seconds": 99.799,
+      "rms": 285,
+      "peak": 14724,
+      "audible": true,
+      "cue": "s073m1_Re_Ada_E.wav"
+    },
+    "English(US)/979373749.wem": {
+      "sha256": "9f2ac985f8c6bbc4e57c8b82d9a8dbdcdcea7eafe4ac8ef9d27db718a7d45f4a",
+      "decode_ok": true,
+      "seconds": 12.139,
+      "rms": 637,
+      "peak": 13058,
+      "audible": true,
+      "cue": "s030m1_Ada_Ebb.wav"
+    },
+    "English(US)/985281162.wem": {
+      "sha256": "f29d4ec348a5f371641ce1202aae86d620f5d1cfca692c1e0f574464cfd46893",
+      "decode_ok": true,
+      "seconds": 163.758,
+      "rms": 334,
+      "peak": 16861,
+      "audible": true,
+      "cue": "s067m1_Re_Ada_E.wav"
     }
-  }
+  },
+  "local24_expansion": "Twelve explicitly named English ADA scene recordings; full native decode and source-node/field audit."
 }

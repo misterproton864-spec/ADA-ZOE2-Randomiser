@@ -1,0 +1,22 @@
+{
+  "version": "6.4.16-beta.1",
+  "contracts": [
+    {
+      "name": "FakeAumaanReachAdapter",
+      "stage": "fa01",
+      "vtable": 5382865712,
+      "entry": 5373906064,
+      "native": 5494153024,
+      "actor": 4294959705,
+      "type": 10,
+      "callback": 5800,
+      "stolen": "e9abd22a07",
+      "tick_entry": 0,
+      "tick_sha256": "9c7bd62e399c787025f2566155c0ec5b1bc6313de9d82942bb10f66dfeadc9ac",
+      "exe_sha256": "4e36300897a0d2b67aced77eba27d3e6f50784c87398c8b31a9a173102416092",
+      "native_original_called_once": true,
+      "gameplay_verified": false
+    }
+  ],
+  "source_sha256": "89792882bf8af1418754d801867b4c43e440b2f70a55b9c023c9026259ced82d"
+}

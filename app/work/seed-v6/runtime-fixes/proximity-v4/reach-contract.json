@@ -1,0 +1,116 @@
+{
+  "version": "6.4.15-local.11-aumaan-viper-audio-experimental",
+  "contracts": [
+    {
+      "name": "FakeAumaanReachAdapter",
+      "stage": "shuffled combat actors",
+      "bindings": [
+        [
+          "am01g",
+          4294781001
+        ],
+        [
+          "am01g",
+          4294912100
+        ],
+        [
+          "ba02",
+          4294915707
+        ],
+        [
+          "ba03",
+          4294959705
+        ],
+        [
+          "ca02",
+          4294892883
+        ],
+        [
+          "cs01",
+          4294959705
+        ],
+        [
+          "cy02",
+          4294915707
+        ],
+        [
+          "ef01",
+          4294915707
+        ],
+        [
+          "ef02g",
+          4294892883
+        ],
+        [
+          "fa01",
+          4294959705
+        ],
+        [
+          "fr02",
+          4294932111
+        ],
+        [
+          "fr04g",
+          4294959705
+        ],
+        [
+          "vc01",
+          4294915707
+        ],
+        [
+          "wn01",
+          2146269963
+        ]
+      ],
+      "native_arena": "am02",
+      "native_original_called_once": true,
+      "gameplay_verified": false,
+      "healing_states": [
+        20,
+        21,
+        24
+      ],
+      "shared_motion_states": [
+        22,
+        23
+      ],
+      "tick_entry": 768,
+      "heal_gate_entry": 0,
+      "hooks": [
+        {
+          "entry": "0x1404f4c90",
+          "offset": 0,
+          "stolen": "e9abd22a07"
+        },
+        {
+          "entry": "0x14778e180",
+          "offset": 512,
+          "stolen": "4889742420"
+        },
+        {
+          "entry": "0x147790550",
+          "offset": 1024,
+          "stolen": "4889e048895808"
+        },
+        {
+          "entry": "0x147791970",
+          "offset": 1536,
+          "stolen": "48895c2410"
+        },
+        {
+          "entry": "0x147792e00",
+          "offset": 2048,
+          "stolen": "534883ec40"
+        },
+        {
+          "entry": "0x147794150",
+          "offset": 2560,
+          "stolen": "48895c2418"
+        }
+      ],
+      "exe_sha256": "9e41102e57ab2bb4b7f6161a36f0156e55a1a78afd5b199c1f2fc5eed904ff4f",
+      "tick_sha256": "52560e0e3fc7ed1fb5daa6ba38ee8709d8c0c192f7210455322ce7fc3fd198cd"
+    }
+  ],
+  "source_sha256": "71855cd63ebf2ca6b98560f387b9ea51174a1cad84e8408942e1b33acb368bfc"
+}

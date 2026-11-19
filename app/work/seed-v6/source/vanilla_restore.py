@@ -7,7 +7,7 @@ import argparse,hashlib,json,os,shutil,uuid
 from datetime import datetime,timezone
 from pathlib import Path,PurePosixPath
 
-CATALOG_SHA256='49cf0c1951a950e5b35c77a3dba9a1d854634f6091062eef769e8725f144e67b'
+CATALOG_SHA256='c1679eff6437cb169a855992d6da811465d687a5084588de9abc517300b93eeb'
 
 def sha(path):
  p=Path(path)

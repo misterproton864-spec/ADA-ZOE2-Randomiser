@@ -1,0 +1,102 @@
+{
+  "version": "6.4.15-local.7",
+  "contracts": [
+    {
+      "name": "FakeAumaanReachAdapter",
+      "stage": "shuffled combat actors",
+      "bindings": [
+        [
+          "am01g",
+          4294781001
+        ],
+        [
+          "am01g",
+          4294912100
+        ],
+        [
+          "ba02",
+          4294915707
+        ],
+        [
+          "ba03",
+          4294959705
+        ],
+        [
+          "ca02",
+          4294892883
+        ],
+        [
+          "cs01",
+          4294959705
+        ],
+        [
+          "cy02",
+          4294915707
+        ],
+        [
+          "ef01",
+          4294915707
+        ],
+        [
+          "ef02g",
+          4294892883
+        ],
+        [
+          "fa01",
+          4294959705
+        ],
+        [
+          "fr02",
+          4294932111
+        ],
+        [
+          "fr04g",
+          4294959705
+        ],
+        [
+          "vc01",
+          4294915707
+        ],
+        [
+          "wn01",
+          2146269963
+        ]
+      ],
+      "native_arena": "am02",
+      "native_original_called_once": true,
+      "gameplay_verified": false,
+      "healing_state": 20,
+      "shared_motion_states": [
+        22,
+        23
+      ],
+      "tick_entry": 752,
+      "heal_gate_entry": 0,
+      "hooks": [
+        {
+          "entry": "0x1404f4c90",
+          "offset": 0,
+          "stolen": "e9abd22a07"
+        },
+        {
+          "entry": "0x14778e180",
+          "offset": 512,
+          "stolen": "4889742420"
+        },
+        {
+          "entry": "0x147791970",
+          "offset": 1024,
+          "stolen": "48895c2410"
+        },
+        {
+          "entry": "0x147792e00",
+          "offset": 1536,
+          "stolen": "534883ec40"
+        }
+      ],
+      "exe_sha256": "1c473d2d559c6da99567006ca27e680a49674d060e762e70d2df64a0e22ab1f3",
+      "tick_sha256": "2b746df8f300cc45977d930f704a096492152a09b436bfe77f5e92085ce92de8"
+    }
+  ],
+  "source_sha256": "ecfbc9bd98099f2a240a9fd521702c78b68db0598f37081538440b7c03c5cc5a"
+}

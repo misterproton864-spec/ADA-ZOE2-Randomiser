@@ -7,7 +7,7 @@ from randomizer_settings import DEFAULT_WEIGHTS,DEFAULT_BOSSES,WEAPONS,enemy_wei
 DEFAULTS=dict(boss_mode='shuffle_test',repeat_rule='no_repeat',enemy_percentages=DEFAULT_WEIGHTS,
  enabled_bosses=DEFAULT_BOSSES,enabled_subweapons=list(WEAPONS),include_viola_ai=False,
  include_neith_experimental=False,randomise_enemy_levels=False,randomise_music=True,
- randomise_ada=True,metatron_subweapon_chance_percent=20,
+ randomise_ada=True,ada_mode='semi',enemy_density_multiplier=1,metatron_subweapon_chance_percent=20,
  randomise_boss_sequence=False,randomise_survival=False,randomise_extra_missions=False,
  enemy_health_multiplier=1,boss_health_multiplier=1,
  include_inhert_experimental=False,include_spider_experimental=False,include_mosquito_experimental=False,
@@ -22,6 +22,8 @@ def normalise(value=None):
  out=copy.deepcopy(DEFAULTS);out.update(copy.deepcopy(value))
  for name in BOOLS:
   if type(out[name]) is not bool:raise ValueError(name+' must be true or false')
+ if out['ada_mode'] not in ('semi','chaos'):raise ValueError('ADA mode must be Semi-random or Chaos ADA')
+ if type(out['enemy_density_multiplier']) not in (int,float) or out['enemy_density_multiplier'] not in (1,1.5):raise ValueError('Enemy density must be Normal or Experimental 1.5x')
  if out['boss_mode'] not in ('native','shuffle_test'):raise ValueError('Only the audited native and shuffle_test profiles are supported')
  if out['repeat_rule'] not in ('no_repeat','compatible_exhaustion'):raise ValueError('Unknown boss repeat rule')
  chance=out['metatron_subweapon_chance_percent']

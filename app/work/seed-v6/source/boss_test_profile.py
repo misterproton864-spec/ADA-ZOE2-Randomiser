@@ -12,7 +12,7 @@ from randomizer_settings import BOSSES,boss_selection
 STAGES=('ca02','ba02','ba03','wn01','cy02','vc01','ef01','ef02g','fr02','cs01','fa01','fr04g','am01g','am02')
 PROTECTED_STAGES=('af02',)
 BOSS_HELPERS=frozenset(('ViperCombatAdapter.exe','FakeAumaanReachAdapter.exe','AumaanArenaGuard.exe','ViperArenaGuard.exe','FakeAnubisDamageAdapter.exe',
-                        'FakeAnubisDamageTableAdapter.exe','NephtisFullHealthAdapter.exe','NephtisDialogueAdapter.exe'))
+                        'FakeAnubisDamageTableAdapter.exe','InhertPhaseAdapter.exe','NephtisFullHealthAdapter.exe','NephtisDialogueAdapter.exe'))
 # Native Inhert starts with fr02 limits: X/Z +/-2200 and Y -5500..-1000.
 # The cs01 source boss spawns at (0, 800, -500), outside that Y interval.
 # Use the factory's native D1 limit option for both imported combat phases.

@@ -1,4 +1,4 @@
-"""Repackage Local.22 with public notices; leave gameplay code and baseline intact."""
+"""Package the checked Local.24 source using the pinned Local.22 runtime."""
 import argparse
 import hashlib
 import json
@@ -51,15 +51,15 @@ def package(baseline_zip, output):
     }.items():
         rows[target] = (ROOT / source).read_bytes()
     rows['DISTRIBUTION-NOTE.txt'] = (
-        'ADA 6.4.15-local.22 - public distribution revision github.1\n\n'
-        'The Local.22 application and helper binaries retain their sealed baseline bytes.\n'
-        'This revision adds MIT and third-party notices and recovered helper source.\n'
-        'No Local.23 gameplay changes are included. See KNOWN-ISSUES.md.\n'
+        'ADA 6.4.15-local.24 - experimental source candidate\n\n'
+        'Application source matches the checked Local.24 snapshot.\n'
+        'The launcher and Python runtime come from the pinned Local.22 baseline.\n'
+        'Includes Local.23 boss candidates and Local.24 audio/diagnostics changes.\n'
         'No live gameplay or second-PC qualification is claimed by this repackaging.\n'
     ).encode('utf-8')
     # The manifest covers additions as well as the unchanged original binaries/runtime.
     hashes = {name: sha(data) for name, data in sorted(rows.items())}
-    manifest = dict(format=1, edition='experimental-beta-public', version='6.4.15-local.22',
+    manifest = dict(format=1, edition='experimental-beta-public', version='6.4.15-local.24',
                     distribution_revision='github.1', game_assets_included=False, files=hashes)
     rows['package-manifest.json'] = (json.dumps(manifest, indent=2) + '\n').encode('utf-8')
     forbidden = {'.pac', '.wem', '.bnk', '.awb', '.mdz', '.scx', '.tex', '.wav', '.iso', '.dmp'}
@@ -78,7 +78,7 @@ def package(baseline_zip, output):
                 raise ValueError('Output hash mismatch: ' + name)
     print(json.dumps(dict(passed=True, output=str(output), bytes=output.stat().st_size,
                          sha256=sha(output.read_bytes()), app_files=len(metadata['application_files']),
-                         application_unchanged=True, gameplay_verified=False), indent=2))
+                         application_matches_local24_snapshot=True, gameplay_verified=False), indent=2))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)

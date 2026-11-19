@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "critical_stages": {
+    "af01": [],
+    "af02": [],
+    "tr01": [],
+    "tr02": [],
+    "ef02g": []
+  },
+  "protected": [],
+  "evidence": "Native SCX references matched against source cue and Wwise Play/Stop hashes; all matched tutorial, Vector Cannon, Zakat and rescue guidance remains native in semi mode."
+}

@@ -17,6 +17,7 @@ ATTACH_LOG_ROOT=Path(str(_portable.HOME / 'diagnostics'))
 
 def main():
  app=tk.Tk();app.title(f'ZOE2 Randomiser — v{VERSION} Beta Tester Edition');app.geometry('1180x920');app.minsize(1000,800)
+ ada_mode=tk.StringVar(value='semi');density=tk.BooleanVar(value=False)
  seed=tk.StringVar(value='zoe2-'+secrets.token_hex(8));status=tk.StringVar(value='Portable beta: choose settings, Build, then Apply. New changes need gameplay testing.')
  preview_mode=(ROOT/'tester-preview.json').is_file()
  if preview_mode:status.set('Tester controls preview • Game builds, installation and helpers are unavailable. Neith original-AI port is in progress.')
@@ -48,6 +49,7 @@ def main():
   viola.set(settings.get('include_viola_ai',False));levels.set(settings.get('randomise_enemy_levels',False))
   native_bosses.set(settings.get('boss_mode','shuffle_test')=='native')
   neith.set(settings['include_neith_experimental']);music.set(settings['randomise_music']);ada.set(settings['randomise_ada'])
+  ada_mode.set(settings['ada_mode']);density.set(settings['enemy_density_multiplier']==1.5)
   chance.set(settings['metatron_subweapon_chance_percent']);inhert.set(settings['include_inhert_experimental'])
   spider.set(settings['include_spider_experimental']);mosquito.set(settings['include_mosquito_experimental'])
   repeats.set(settings['repeat_rule']=='compatible_exhaustion')
@@ -71,7 +73,10 @@ def main():
  tabs.add(enemy_tab,text='Enemy percentages');tabs.add(boss_tab,text='Bosses ON / OFF');tabs.add(weapon_tab,text='Subweapons ON / OFF')
  tabs.add(audio_tab,text='Music / ADA / Metatron')
  ttk.Checkbutton(audio_tab,text='Randomise music (compatible gameplay banks)',variable=music).grid(row=0,column=0,sticky='w',padx=12,pady=5)
- ttk.Checkbutton(audio_tab,text='Randomise compatible ADA gameplay voice lines',variable=ada).grid(row=1,column=0,sticky='w',padx=12,pady=5)
+ ttk.Checkbutton(audio_tab,text='Randomise ADA voice lines',variable=ada).grid(row=1,column=0,sticky='w',padx=12,pady=5)
+ ttk.Radiobutton(audio_tab,text='Semi-random ADA — about half; preserve story and mission guidance',variable=ada_mode,value='semi').grid(row=4,column=0,columnspan=2,sticky='w',padx=12,pady=5)
+ ttk.Radiobutton(audio_tab,text='Chaos ADA - gameplay and story dialogue (319 recordings)',variable=ada_mode,value='chaos').grid(row=5,column=0,columnspan=2,sticky='w',padx=12,pady=5)
+ ttk.Checkbutton(enemy_tab,text='1.5× regular enemies (Experimental) — protected objectives and boss fights stay native',variable=density).grid(row=14,column=0,columnspan=8,sticky='w',padx=12,pady=5)
  ttk.Label(audio_tab,text='Metatron → random subweapon chance, 0–100%:').grid(row=2,column=0,sticky='w',padx=12,pady=5)
  ttk.Spinbox(audio_tab,from_=0,to=100,textvariable=chance,width=6).grid(row=2,column=1,padx=8)
  ttk.Label(audio_tab,text='OFF restores original audio payloads on Apply. Empty subweapon pool applies 0%; native healing stays available.').grid(row=3,column=0,columnspan=2,padx=12,pady=5)
@@ -255,7 +260,7 @@ def main():
   selected=boss_selection([n for n,v in bosses.items() if v.get()],viola.get())
   eligible={'Ardjet','Nephtis','Anubis','Vic Viper'}|({'Inhert'} if inhert.get() else set())
   if not native and not any(BOSSES[n] in eligible for n in selected):raise ValueError('Enable an eligible replacement boss. Inhert requires its experimental checkbox.')
-  return normalise(dict(boss_mode='native' if native else 'shuffle_test',repeat_rule='compatible_exhaustion' if repeats.get() else 'no_repeat',enemy_percentages=enemy_weights({n:v.get() for n,v in weights.items()}),enabled_bosses=selected,enabled_subweapons=weapon_selection([i for i,v in weapons.items() if v.get()]),include_viola_ai=viola.get(),randomise_enemy_levels=levels.get(),include_neith_experimental=neith_selection(neith.get()),randomise_music=music.get(),randomise_ada=ada.get(),metatron_subweapon_chance_percent=chance.get(),include_inhert_experimental=inhert.get(),include_spider_experimental=spider.get(),include_mosquito_experimental=mosquito.get(),valley_viper_test=valley.get(),ensure_mosquito_replacements=ensure_mosquito.get(),randomise_boss_sequence=sequence.get(),randomise_survival=survival.get(),randomise_extra_missions=extra.get(),enemy_health_multiplier=enemy_health.get(),boss_health_multiplier=boss_health.get()))
+  return normalise(dict(boss_mode='native' if native else 'shuffle_test',repeat_rule='compatible_exhaustion' if repeats.get() else 'no_repeat',enemy_percentages=enemy_weights({n:v.get() for n,v in weights.items()}),enabled_bosses=selected,enabled_subweapons=weapon_selection([i for i,v in weapons.items() if v.get()]),include_viola_ai=viola.get(),randomise_enemy_levels=levels.get(),include_neith_experimental=neith_selection(neith.get()),randomise_music=music.get(),randomise_ada=ada.get(),ada_mode=ada_mode.get(),enemy_density_multiplier=1.5 if density.get() else 1,metatron_subweapon_chance_percent=chance.get(),include_inhert_experimental=inhert.get(),include_spider_experimental=spider.get(),include_mosquito_experimental=mosquito.get(),valley_viper_test=valley.get(),ensure_mosquito_replacements=ensure_mosquito.get(),randomise_boss_sequence=sequence.get(),randomise_survival=survival.get(),randomise_extra_missions=extra.get(),enemy_health_multiplier=enemy_health.get(),boss_health_multiplier=boss_health.get()))
  def export_settings():
   try:
    settings=current_settings()
@@ -312,7 +317,7 @@ def main():
  def persist(*_):
   try:save_profile(ROOT/'preferences.json',current_settings())
   except (OSError,ValueError,tk.TclError):pass
- for variable in [*weights.values(),*bosses.values(),*weapons.values(),viola,neith,levels,native_bosses,music,ada,chance,inhert,spider,mosquito,repeats,valley,ensure_mosquito,sequence,survival,extra,enemy_health,boss_health]:variable.trace_add('write',persist)
+ for variable in [*weights.values(),*bosses.values(),*weapons.values(),ada_mode,density,viola,neith,levels,native_bosses,music,ada,chance,inhert,spider,mosquito,repeats,valley,ensure_mosquito,sequence,survival,extra,enemy_health,boss_health]:variable.trace_add('write',persist)
  def close():
   if process and process.poll() is None:status.set('An operation is still running. Wait for its result before closing the utility.');return
   persist()

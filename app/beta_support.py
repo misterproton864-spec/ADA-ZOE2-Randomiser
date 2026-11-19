@@ -79,7 +79,7 @@ def pristine_audio(rel):
     if sha(target)!=index['sound/Windows/'+rel]:raise ValueError('Original audio input hash differs: '+rel)
     return target.read_bytes()
 def export_report(destination,current=None):
-    allowed=['viper-combat-contract.json','proximity-fix-contract.json','build-result.json','randomisation-settings.json','effective-settings.json','release-policy.json','boss-mapping.json','side-modes.json','enemy-mapping.json','subweapon-mapping.json','build-provenance.json','installation-plan.json','installation-journal.json','last-attachment.json','original-inputs.json','boss-spawn-check.json','finite-mosquito-tests.json','verification-boss-test.json','verification-side-modes.json','health-boss-targets.tsv']
+    allowed=['viper-combat-contract.json','proximity-fix-contract.json','build-result.json','randomisation-settings.json','effective-settings.json','release-policy.json','boss-mapping.json','side-modes.json','enemy-mapping.json','subweapon-mapping.json','ada-gameplay-mapping.json','build-provenance.json','installation-plan.json','installation-journal.json','last-attachment.json','original-inputs.json','boss-spawn-check.json','finite-mosquito-tests.json','verification-boss-test.json','verification-side-modes.json','health-boss-targets.tsv','inhert-phase-contract.json','compact-storage.json','compact-payloads.json']
     files=[]
     if pp.BUILD_ROOT.exists():
         recent=sorted(pp.BUILD_ROOT.glob('*.log'),key=lambda f:f.stat().st_mtime,reverse=True)[:10]

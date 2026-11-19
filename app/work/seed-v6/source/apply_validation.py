@@ -35,7 +35,12 @@ def validate(package, require_policy=True):
     for row in plan['files']:
         source = (p/row['package_path']).resolve()
         if not source.is_relative_to(p): raise ValueError('Package payload escapes package directory')
-        if sha(source) != row['patched_sha256']: raise ValueError('Package hash mismatch: '+row['package_path'])
+        if not source.is_file() and (p/'compact-payloads.json').is_file():
+            from compact_payloads import virtual_sha
+            recipes=read('compact-payloads.json')['files']
+            matches=[r for r in recipes if r['file']==row['package_path']]
+            if len(matches)!=1 or virtual_sha(p,matches[0])!=row['patched_sha256']:raise ValueError('Compact payload checksum mismatch')
+        elif sha(source) != row['patched_sha256']: raise ValueError('Package hash mismatch: '+row['package_path'])
     for row in manifest['runtime_helpers']:
         if sha(p/'runtime'/row['file']) != row['sha256']: raise ValueError('Runtime helper hash mismatch: '+row['file'])
     if manifest.get('settings',{}).get('boss_mode') in ('native','shuffle_test'):

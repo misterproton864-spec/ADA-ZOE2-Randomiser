@@ -1,0 +1,177 @@
+{
+  "format": 1,
+  "component": "viper-combat-experimental-8",
+  "name": "ViperCombatAdapter.exe",
+  "exe_sha256": "88a8469dee81244c17c553fd6d32c3531853c37fcd50ce0624b97a84a581507b",
+  "compiled_code_sha256": "ab29f7818f2a09cfc15096e78270bf0b6cfb4c1224cb617ce581efc5dcc9b00c",
+  "source_sha256": "da72dcee4995f4e4973f3fa510a06b95b5c7df89a778011bbcc8856f614812a8",
+  "config_size": 3656,
+  "source_bindings": [
+    {
+      "stage": "ca02",
+      "actor": 4294892883,
+      "close": true,
+      "recover": false
+    },
+    {
+      "stage": "ba02",
+      "actor": 4294915707,
+      "close": false,
+      "recover": false
+    },
+    {
+      "stage": "ba03",
+      "actor": 4294959705,
+      "close": false,
+      "recover": true
+    },
+    {
+      "stage": "cy02",
+      "actor": 4294915707,
+      "close": true,
+      "recover": false
+    },
+    {
+      "stage": "vc01",
+      "actor": 4294915707,
+      "close": true,
+      "recover": false
+    },
+    {
+      "stage": "ef01",
+      "actor": 4294915707,
+      "close": false,
+      "recover": false
+    },
+    {
+      "stage": "ef02g",
+      "actor": 4294892883,
+      "close": false,
+      "recover": false
+    },
+    {
+      "stage": "fr02",
+      "actor": 4294932111,
+      "close": false,
+      "recover": true
+    },
+    {
+      "stage": "cs01",
+      "actor": 4294959705,
+      "close": false,
+      "recover": true
+    },
+    {
+      "stage": "fa01",
+      "actor": 4294959705,
+      "close": false,
+      "recover": true
+    },
+    {
+      "stage": "fr04g",
+      "actor": 4294959705,
+      "close": false,
+      "recover": true
+    },
+    {
+      "stage": "am01g",
+      "actor": 4294781001,
+      "close": false,
+      "recover": false
+    },
+    {
+      "stage": "am01g",
+      "actor": 4294912100,
+      "close": false,
+      "recover": false
+    },
+    {
+      "stage": "am02",
+      "actor": 3757126974,
+      "close": false,
+      "recover": true
+    },
+    {
+      "stage": "vs_am02",
+      "actor": 3757126974,
+      "close": false,
+      "recover": true
+    },
+    {
+      "stage": "vs_cs01",
+      "actor": 4294959705,
+      "close": false,
+      "recover": true
+    },
+    {
+      "stage": "vs_ef02",
+      "actor": 4294892883,
+      "close": false,
+      "recover": false
+    },
+    {
+      "stage": "vs_ef01",
+      "actor": 4294915707,
+      "close": false,
+      "recover": false
+    },
+    {
+      "stage": "vs_vc01",
+      "actor": 4294915707,
+      "close": true,
+      "recover": false
+    },
+    {
+      "stage": "vs_cy02",
+      "actor": 4294915707,
+      "close": true,
+      "recover": false
+    },
+    {
+      "stage": "vs_wn01",
+      "actor": 2146269963,
+      "close": false,
+      "recover": true
+    },
+    {
+      "stage": "vs_ba02",
+      "actor": 4294915707,
+      "close": false,
+      "recover": false
+    },
+    {
+      "stage": "vs_ca02",
+      "actor": 4294892883,
+      "close": true,
+      "recover": false
+    }
+  ],
+  "hooks": [
+    {
+      "entry": "0x140772d10",
+      "cave_offset": 0,
+      "stolen": "e96ba71709"
+    },
+    {
+      "entry": "0x1498eb385",
+      "cave_offset": 512,
+      "stolen": "f783d415000000020000"
+    },
+    {
+      "entry": "0x14980fa08",
+      "cave_offset": 1024,
+      "stolen": "8b05ee5dd2f70b05e45dd2f7"
+    },
+    {
+      "entry": "0x14980fa87",
+      "cave_offset": 1536,
+      "stolen": "8b8350140000"
+    }
+  ],
+  "relocation_cases": 9,
+  "native_original_mars_unchanged": true,
+  "arena_exclusions": [],
+  "gameplay_verified": false,
+  "movement_policy": "Native locomotion and transformation; initialise once; no helper position writes or repeated ground-state reset",
+  "long_range_in_indoor_arenas": true
+}

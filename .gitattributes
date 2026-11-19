@@ -8,5 +8,8 @@
 *.cmd text eol=crlf
 *.exe binary
 *.obj binary
-# Keep the sealed Local.22 snapshot byte-for-byte across Windows/Linux checkouts.
+# Keep the checked application snapshot byte-for-byte across Windows/Linux checkouts.
 app/** -text
+
+# Preserve original CRLF bytes while checking application whitespace.
+app/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

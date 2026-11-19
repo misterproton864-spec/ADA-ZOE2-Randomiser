@@ -224,6 +224,8 @@ def generate(seed,directory,settings=None,include_neith_experimental=False):
         metadata=dict(added=len(packs),source_sha256=[hashlib.sha256(p).hexdigest() for p in packs],readback_verified=False)
         metadata['donor' if len(donors)==1 else 'donors']=donors[0] if len(donors)==1 else donors
         row['sound_pack_import']=metadata
+    from enemy_density import apply as apply_density
+    density_report=apply_density(stock,updates,applied,seed)
     blocks={}
     print('Packing updated stage sections:',len(updates),flush=True)
     for stage,files in updates.items():
@@ -254,6 +256,7 @@ def generate(seed,directory,settings=None,include_neith_experimental=False):
              native_enemy_coverage=coverage,opening_enemy_imports=opening_reports,ship_enemy_imports=ship_reports,atlas_aliases=aliases,atlases=[],runtime_helpers=[],
              release_name='v'+VERSION+(' experimental boss-shuffle diagnostic' if boss_test else ' original-boss Normal test seed'),gameplay_verified=False,full_requirements_complete=False,
              full_campaign_gameplay_verified=False,installed=False,preview_ready_for_install=False)
+    m['enemy_density']=density_report
     m['side_modes']=side_modes
     m['side_mode_stages']=sorted(side_stages)
     m['settings'].update(applied)
@@ -313,11 +316,13 @@ def generate(seed,directory,settings=None,include_neith_experimental=False):
         for name in BOSS_HELPERS:
             from arena_runtime_support import HELPERS as reach_helpers
             from viper_runtime_support import HELPERS as viper_helpers
-            if name!='NephtisDialogueAdapter.exe' and name not in reach_helpers|viper_helpers:shutil.copy2(V5/'runtime'/name,out/'runtime'/name)
+            if name not in ('NephtisDialogueAdapter.exe','InhertPhaseAdapter.exe') and name not in reach_helpers|viper_helpers:shutil.copy2(V5/'runtime'/name,out/'runtime'/name)
         from arena_runtime_support import install as install_reach
         m['proximity_fixes']=install_reach(out)
         from viper_runtime_support import install as install_viper
         m['viper_combat_fixes']=install_viper(out)
+        from inhert_runtime_support import install as install_inhert
+        m['inhert_phase_fixes']=install_inhert(out)
     m['runtime_helpers']=[dict(file=n,sha256=sha(out/'runtime'/n)) for n in sorted(helpers)]
     from metatron_manifest import manifest as metatron
     save(out/'metatron-counter-manifest.json',metatron(seed,chance=applied['metatron_subweapon_chance_percent'],pool=weapons))
@@ -338,13 +343,12 @@ def generate(seed,directory,settings=None,include_neith_experimental=False):
         script=directory/'Build-Atlases.ps1'
         for label in ('main','small'):(out/(label+'-aliases.tsv')).write_text(''.join(k+'\t'+v+'\n' for k,v in sorted(aliases[label].items())))
         from boss_install_guard import ps_quote
-        atlas_text="$ErrorActionPreference='Stop'\nAdd-Type -Path "+ps_quote(L/'CampaignAtlasAlias.cs')+'\n'
-        for label,name in [('small','atlas_pc_jp_Zlib_ps2.pac'),('main','atlas_pc_Zlib.pac')]:
-            atlas_text+='[CampaignAtlasAlias]::BuildWithReplacements('+','.join(ps_quote(value) for value in [original['atlases'][name]['path'],out/name,L/'Loader-Test'/(label+'-index.txt'),out/(label+'-aliases.tsv')])+')\n'
-        script.write_text(atlas_text)
-        subprocess.run(['powershell.exe','-NoProfile','-ExecutionPolicy','Bypass','-File',str(script)],check=True)
-        for name in original['atlases']:
-            digest=sha(out/name);files.append(dict(relative_path='atlas/'+name,package_path=name,expected_before_sha256=sha(GAME/'atlas'/name),patched_sha256=digest));m['atlases'].append(dict(file=name,sha256=digest))
+        from compact_payloads import prepare_atlases
+        atlas_recipes=prepare_atlases(out,original['atlases'],aliases)
+        for item in atlas_recipes:
+            name=item['file'];digest=item['patched_sha256']
+            files.append(dict(relative_path='atlas/'+name,package_path=name,expected_before_sha256=sha(GAME/'atlas'/name),patched_sha256=digest))
+            m['atlases'].append(dict(file=name,sha256=digest))
     for row in json.loads((directory/'reports/audio-install-files.json').read_text()):
         row=dict(row);target=GAME/row['relative_path'];row['expected_before_sha256']=sha(target) if target.is_file() else None;files.append(row)
     changed={r['relative_path'] for r in files}
@@ -375,6 +379,9 @@ def generate(seed,directory,settings=None,include_neith_experimental=False):
                 category_manifest_hashes={k:hashlib.sha256(json.dumps(v,sort_keys=True).encode()).hexdigest() for k,v in categories.items()})
     save(out/'build-result.json',result)
     if {p.name:sha(p) for p in SOURCE.glob('*.py')}!=sources:raise ValueError('Source changed while generating; rebuild required')
+    from compact_payloads import compact
+    m['compact_storage']=compact(out);save(out/'manifest.json',m)
+    print('Compact seed: atlas instructions saved; full atlas copies removed.',flush=True)
     sealed=['manifest.json','build-result.json','installation-plan.json','Install-preview.ps1','Validate boss spawns.ps1','boss-spawn-check.json',
             'randomisation-settings.json','effective-settings.json','metatron-counter-manifest.json','original-inputs.json','native-changes.json','enemy-mapping.json','boss-mapping.json','side-modes.json','subweapon-mapping.json','release-policy.json',
             'runtime/Attach-Full-Preview.ps1','Attach at main menu.cmd']
@@ -384,6 +391,9 @@ def generate(seed,directory,settings=None,include_neith_experimental=False):
     if swarm['selected']:sealed+=['finite-mosquito-contract.json','finite-mosquito-tests.json','runtime/finite-mosquito.c','runtime/finite-mosquito.obj','runtime/FiniteMosquitoAdapter.cs']
     if m['health_multiplier_runtime']['enabled']:sealed+=['health-boss-targets.tsv','runtime/HealthMultiplierAdapter.cs']
     sealed += [r['package_path'] for r in files]+['runtime/'+n for n in sorted(helpers)]
+    sealed=[n for n in sealed if (out/n).is_file()]
+    sealed+=['compact-payloads.json','compact-storage.json','runtime/CompactSeedPayload.cs']+[r['header'] for r in m['compact_storage']['files']]
+    if boss_test:sealed+=['inhert-phase-contract.json']
     save(out/'build-provenance.json',dict(format=2,build_id=BUILD_ID,seed=seed,source_snapshot_stable=True,source_hashes=sources,
                                        package_hashes={n:sha(out/n) for n in sorted(set(sealed))}))
     save(out/'checksums.json',{p.relative_to(out).as_posix():sha(p) for p in out.rglob('*') if p.is_file() and p.name!='checksums.json'})

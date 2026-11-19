@@ -117,6 +117,8 @@ def verify(package):
         from viper_runtime_support import verify as verify_viper
         verify_viper(p,m)
     original=resolve_stage(VAN);a=Archive(p/'STAGE.DAT');stock=Archive(original['path'])
+    from enemy_density import verify as verify_density
+    strip_density=verify_density(stock,a,m)
     require(sha(a.path)==m['patched_sha256'],'Archive hash differs')
     require(set(a.stages)==set(stock.stages),'Stage set changed')
     side_stages=set(m.get('side_mode_stages',[]))
@@ -204,7 +206,7 @@ def verify(package):
             else:require(set(old_names)<={f['name'] for f in ng['files']},'Native resources removed: '+stage)
             old_data=stock.decode(og);new_data=a.decode(ng);groups_checked+=1
             for nf in ng['files']:
-                name=nf['name'];of=old_names.get(name);after=new_data[nf['offset']:nf['offset']+nf['size']]
+                name=nf['name'];of=old_names.get(name);after=strip_density(stage,name,new_data[nf['offset']:nf['offset']+nf['size']])
                 if appended_sound and of is None:
                     index=int(name[2:8],16)-len(old_names)
                     require(0<=index<len(appended_sound) and hashlib.sha256(after).hexdigest()==appended_sound[index],
@@ -245,7 +247,7 @@ def verify(package):
                     allowed=set()
                     from nephtis_arena_limits import verify_prefix
                     allowed.update(verify_prefix(stage,name,before,after,boss.get('arena_limits')))
-                    for row in boss.get('source_visual_overrides',[])+boss.get('source_registration_overrides',[]):allowed.update(range(row['offset'],row['offset']+5))
+                    for row in boss.get('source_visual_overrides',[])+boss.get('source_registration_overrides',[])+boss.get('source_rescue_overrides',[]):allowed.update(range(row['offset'],row['offset']+5))
                     for site in boss['sites']:allowed.update(range(site['source_call'],site['source_call']+5))
                     require(len(after)>=len(expected) and all(x==after[i] or i in allowed for i,x in enumerate(expected)), 'Unrelated native boss script prefix changed: '+stage)
                 else:require(after==expected,'Unexpected resource or script change: '+stage+'/'+name)

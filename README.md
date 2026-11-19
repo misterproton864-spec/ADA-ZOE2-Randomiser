@@ -2,9 +2,11 @@
 
 An unofficial Windows randomiser for **ZONE OF THE ENDERS THE 2nd RUNNER: MARS**.
 
-**Current version: 6.4.15-local.22, experimental beta.** Boss AI, health-bar displays and victory transitions can still fail. This is a testing release; read the [known issues](docs/KNOWN-ISSUES.md) before starting a run.
+**Current source: 6.4.15-local.24, experimental and not gameplay retested.** Boss AI, health-bar displays and victory transitions can still fail. This is a testing release; read the [known issues](docs/KNOWN-ISSUES.md) before starting a run.
 
 ## Download and play
+
+The existing Local.22 release download is separate from this Local.24 source update. Pushing this source does not publish a new tester ZIP.
 
 Open this repository's **Releases** page and download the **ADA Beta Tester Edition ZIP** attached to the Local.22 pre-release. GitHub's automatically generated **Source code** ZIP is for developers and does not include the bundled Python runtime.
 
@@ -23,13 +25,13 @@ See the [full tester guide](docs/TESTER-GUIDE.md) for setup, storage and reporti
 - Music and ADA dialogue using compatibility checks.
 - Boss Sequence/Boss Battles, Survival and Extra Missions through their respective options. Offline generation checks cover these modes; live behaviour still needs testing.
 
-Bosses stay in the boss pool. Zakat and Vector Cannon retain their established protections. Special encounter mechanics and uncommon boss placements remain experimental. Neith/ZOE1 ports and unfinished Local.23 changes are outside this release.
+Bosses stay in the boss pool. Zakat and Vector Cannon retain their established protections. Special encounter mechanics and uncommon boss placements remain experimental. Neith/ZOE1 ports are outside this source snapshot. Local.23 boss candidates and Local.24 audio/diagnostics changes are included.
 
 ## Known limits
 
-Vic Viper can stop acting in the Valley; Inhert, Anubis and Aumaan Anubis can stall in shuffled arenas. Triple boss health can produce misleading HUD bars. Clone fights can show graphical or AI problems. A Local.22 report also described an Ardjet post-victory crash in the Viola AI arena; its fix is outside this release.
+Vic Viper can stop acting in the Valley; Inhert, Anubis and Aumaan Anubis can stall in shuffled arenas. Triple boss health can produce misleading HUD bars. Clone fights can show graphical or AI problems. The Ardjet/Viola transition candidate is included but still needs gameplay qualification. Inhert intermittently lets attacks pass through in the Anubis 1 arena; Local.24 adds read-only diagnostics, not a collision fix. Strict no-repeat across the full run remains unresolved.
 
-The tool validates the supported executable and input files. It rejects unknown versions. Local.22 passed recorded offline generation and package checks; that does **not** establish a clean gameplay run or second-PC compatibility.
+The tool validates the supported executable and input files. It rejects unknown versions. Local.24 passed recorded offline generation and package checks; that does **not** establish a clean gameplay run or second-PC compatibility.
 
 ## Report a problem or contribute
 

@@ -1,4 +1,4 @@
-# Running and packaging Local.22
+# Running and packaging Local.24
 
 ## Run the source on Windows
 
@@ -18,17 +18,17 @@ Do not run multiple copies against the same app state. Original-file capture and
 
 ## Make a portable package
 
-The packaging script reuses only the Python/Tk runtime and launcher from the pinned, asset-free Local.22 tester ZIP, then copies the app from this checkout and adds the public licence/notices. No game installation or game files are required for packaging.
+The packaging script reuses only the Python/Tk runtime and launcher from the pinned, asset-free Local.22 tester ZIP, then copies the checked Local.24 app from this checkout and adds the public licence/notices. No game installation or game files are required for packaging.
 
 ```powershell
-python tools/package_release.py --baseline-zip "F:\ZOE2-Randomiser\releases\ADA-Beta-Tester-Edition-6.4.15-local.22-experimental.zip" --output "F:\ZOE2-Randomiser\releases\ADA-Beta-Tester-Edition-6.4.15-local.22-github.1.zip"
+python tools/package_release.py --baseline-zip "F:\ZOE2-Randomiser\releases\ADA-Beta-Tester-Edition-6.4.15-local.22-experimental.zip" --output "F:\ZOE2-Randomiser\releases\ADA-Beta-Tester-Edition-6.4.15-local.24-github.1.zip"
 ```
 
-It refuses to overwrite an existing output, verifies the baseline ZIP's SHA-256, rebuilds the package manifest, checks CRC and hashes, and rejects game-asset filenames. `github.1` changes the distribution documentation and includes recovered helper source; it does not change the Local.22 gameplay implementation. The original sealed beta remains available as the input to this process.
+It refuses to overwrite an existing output, verifies the baseline ZIP's SHA-256, rebuilds the package manifest, checks CRC and hashes, and rejects game-asset filenames. The current application is pinned by `packaging/source-local24.json`; the runtime/launcher baseline remains pinned by `packaging/baseline-local22.json`. Local.24 includes unqualified boss candidates, audio changes and read-only diagnostics. The original sealed beta remains available as the input to this process.
 
 ## Helper binaries and source
 
-Eight small Windows helper executables and one finite-Mosquito object are retained byte-for-byte from the sealed Local.22 app. Their baseline hashes are in `packaging/baseline-local22.json`. Corresponding C# source is included; four legacy helper source files were recovered from project authoring files, and are identified in that manifest. Their source-to-binary equivalence has not been independently proven. Recompiling is a new build and requires its own validation before distribution.
+The source tree retains small ADA helper executables, their source, and the finite-Mosquito object. Current application hashes are in `packaging/source-local24.json`; historical Local.22 hashes remain in `packaging/baseline-local22.json`. Corresponding C# source is included; four legacy helper source files were recovered from project authoring files, and are identified in that manifest. Their source-to-binary equivalence has not been independently proven. Recompiling is a new build and requires its own validation before distribution.
 
 To compile a C# helper, use the .NET Framework compiler with `/platform:x64`, `/optimize+` and, where `System.Web.Script.Serialization` is used, `/r:System.Web.Extensions.dll`. The GUI launcher source is `packaging/Launcher.cs`; compile it as `/target:winexe` with `/r:System.Windows.Forms.dll`.
 

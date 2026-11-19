@@ -21,7 +21,11 @@ def confirm(package,restore=False):
         if actual!=row['original_sha256' if restore else 'patched_sha256']:
             raise ValueError('Journal/game hash mismatch: '+row['relative_path'])
         backup=Path(row['backup'])
-        if (sha(backup) if backup.exists() else None)!=row['original_sha256']:
+        backup_digest=sha(backup) if backup.exists() else None
+        if not backup.exists() and Path(str(backup)+'.compact.json').is_file():
+            from compact_payloads import virtual_sha
+            backup_digest=virtual_sha(p,read(str(backup)+'.compact.json'))
+        if backup_digest!=row['original_sha256']:
             raise ValueError('Restore backup hash mismatch: '+row['relative_path'])
     return journal
 

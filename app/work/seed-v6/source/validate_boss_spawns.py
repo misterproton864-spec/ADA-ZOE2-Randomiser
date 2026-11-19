@@ -185,6 +185,8 @@ def validate_context(ctx):
   verify_reach(p,m)
   from viper_runtime_support import verify as verify_viper
   verify_viper(p,m,story)
+  from inhert_runtime_support import verify as verify_inhert
+  verify_inhert(p,m)
  helper_hashes={h['file']:h['sha256'] for h in m.get('runtime_helpers',[])}
  for name in ('AumaanArenaGuard.exe','ViperArenaGuard.exe','FakeAnubisDamageAdapter.exe','FakeAnubisDamageTableAdapter.exe','NephtisFullHealthAdapter.exe'):
   need(name in helper_hashes and (p/'runtime'/name).is_file() and sha(p/'runtime'/name)==helper_hashes[name],'Missing or altered boss runtime support: '+name)
@@ -237,6 +239,9 @@ def validate_context(ctx):
    expected_offsets={s['offset'] for s in expected}
    need(name==expected[0]['file'] and set(source_offsets)==expected_offsets,stage+': source combat phase omitted or added')
   site_labels=[s.get('replacement_variant',label) for s in r['sites']]
+  if stage=='ef02g' and label!='Viola AI (full rescue fight)':
+   observers=[q for q,h in native_calls(native) if h==0x23aa5aa0]
+   need(observers and all(b[q:q+5]==bytes.fromhex('885af7ffff') for q in observers),stage+': ordinary boss retains Viola rescue observer')
   if stage=='am01g' and r.get('clone_safety'):
    need(len(site_labels)==2 and len({SPECS[x][0] for x in site_labels})==2,stage+': clone boss identities repeat')
   required={}
@@ -277,6 +282,8 @@ def validate_context(ctx):
    need(site['source_actor_id']==source_id and site['source_completion_callback']==source_done,stage+': original actor/completion mismatch')
    need(source_done in native_bounds,stage+': original completion is not an instruction boundary')
    phases=site.get('phases',[]);need(phases,stage+': no replacement boss phase')
+   if site_label=='Inhert' and stage not in ('fr02','vs_fr02'):
+    need(len(phases)==1 and site.get('inhert_phase_one_only') is True,stage+': foreign Inhert phase 2 must be disabled')
    wrapper=site['procedure_entry']
    actual_entry=struct.unpack_from('<I',b,source+1)[0]
    need(actual_entry in boundaries and support_route(b,actual_entry,wrapper),stage+': source spawn bypasses validated wrapper')
@@ -336,6 +343,7 @@ def validate_context(ctx):
        vc_rows=procedure(b,vc[key]);start_vc=vc[key];end_vc=vc_rows[-1][0]+1;frag_vc=b[start_vc:end_vc]+b'\x8e'
        matches=[q for q,h in native_calls(frag_vc) if h==command]
        need(len(matches)==1 and signature(call_arguments(frag_vc,matches[0]))==expected_args,stage+': Viola AI resume/failure callback chain broken')
+    if cmd in (0xdfedfdb4,0xbfd9f8ec) and stage not in ('fr02','vs_fr02'):need(decoded['variant']==0,stage+': foreign Inhert must use phase 1')
     if cmd==0xffff367b:need(decoded['phase']==3 and decoded['script_callback']==expected,stage+': Nephtis combat mode/callback invalid')
     if cmd==0xef9a96d8:need(decoded['source_option']['value']==0,stage+': cinematic Aumaan variant cannot replace combat')
     for command in ([TABLE_COMMANDS[cmd]] if cmd in TABLE_COMMANDS else []):

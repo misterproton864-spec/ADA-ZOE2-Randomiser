@@ -12,7 +12,7 @@ def augment(source):
   var actors=new List<object>();
   for(int i=0;i<128;i++){int at=72+i*24;long actor=BitConverter.ToInt64(config,at);if(actor==0)continue;
    actors.Add(Obj("actor_id",BitConverter.ToUInt32(config,at+20),"position_hex",BitConverter.ToString(Read(actor+0x980,12)),"physics_hex",BitConverter.ToString(Read(actor+0xb60,12)),"model_position_hex",BitConverter.ToString(Read(Ptr(actor+0x80)+0x70,12)),"serial",BitConverter.ToUInt32(config,at+8),"native_death_seen",BitConverter.ToUInt32(config,at+12)!=0,"native_completion_flag_seen",BitConverter.ToUInt32(config,at+16)!=0));}
-  return Obj("status","attached","component","viper-combat-experimental-7","session_spawns",BitConverter.ToUInt32(config,48),"session_repositions",BitConverter.ToUInt32(config,52),"session_flight_redirects",BitConverter.ToUInt32(config,56),"session_native_completion_flags",BitConverter.ToUInt32(config,60),"current_arena_actors",actors,"interpretation","Native death/completion flags observed; confirm the next encounter or exit separately.");
+  return Obj("status","attached","component","viper-combat-experimental-8","session_spawns",BitConverter.ToUInt32(config,48),"session_repositions",BitConverter.ToUInt32(config,52),"session_flight_redirects",BitConverter.ToUInt32(config,56),"session_native_completion_flags",BitConverter.ToUInt32(config,60),"current_arena_actors",actors,"interpretation","Native death/completion flags observed; confirm the next encounter or exit separately.");
  }
 '''
  if source.count(marker)!=1:raise ValueError('Capture recorder main boundary changed')

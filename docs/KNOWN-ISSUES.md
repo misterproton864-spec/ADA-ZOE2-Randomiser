@@ -1,4 +1,8 @@
-# Known issues — ADA Beta Tester Edition
+# Local.24 qualification
+
+Gameplay and audible playback were not retested before this source update. Inhert intermittently lets attacks pass through in the Anubis 1 host; expanded read-only observations are included, but this fault is not fixed. Strict full-run boss uniqueness remains unresolved. Chaos shuffles 319 identified spoken ADA recordings; this does not establish that every individual ADA line is covered or audible. Use Local.24 to restore a Local.24 seed because twelve additional original audio files are managed.
+
+# Known issues â€” ADA Beta Tester Edition
 
 This is an experimental beta candidate. Offline validation does not establish that every boss fight can be completed.
 
@@ -28,7 +32,7 @@ A Local.20 Boss Sequence run crashed while fighting Anubis 2 in the Nephtis aren
 
 ## Other limits
 
-- A later Local.22 playtest reported Ardjet crashing immediately after defeat in the Viola AI host arena. The unfinished Local.23 transition candidate is not included in this release.
+- A later Local.22 playtest reported Ardjet crashing immediately after defeat in the Viola AI host arena. The Local.23 transition candidate is included; defeat/progression still needs gameplay validation.
 - A later Local.22 playtest reported Vic Viper jerking or moving toward Jehuty in Inhert's indoor arena rather than maintaining the requested long range.
 
 - Music, ADA dialogue and combat sound randomisation passed offline checks; audible playback varies by game situation and needs tester feedback.

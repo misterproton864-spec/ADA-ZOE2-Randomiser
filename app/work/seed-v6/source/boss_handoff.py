@@ -108,7 +108,15 @@ def append_mixed_handoff(data,sites,profile,digest,suppress_nephtis_pole_visuals
   if set(site_profiles)!={s['offset'] for s in sites} or any(p['protected'] for p in site_profiles.values()):
    raise ValueError('Every clone site needs one unprotected boss profile')
  profiles=site_profiles or {s['offset']:profile for s in sites}
- result=bytearray(original);reports=[];visual_overrides=[];registration_overrides=[]
+ result=bytearray(original);reports=[];visual_overrides=[];registration_overrides=[];rescue_overrides=[]
+ # A replacement ordinary boss must not install the native rescue observer.
+ # It owns Jehuty's grab controller and retains an Ardjet-specific reference.
+ rescue_host=any(s['command']==ARDJET_STORY and decode_story_boss(original,s['offset'],ARDJET_STORY)['variant']==1 for s in sites)
+ if rescue_host and not any(p.get('full_viola_ai') for p in profiles.values()):
+  for p,(op,raw) in boundaries.items():
+   if op==0x88 and struct.unpack_from('<I',raw,1)[0]==0x23aa5aa0:
+    result[p+1:p+5]=struct.pack('<I',0xfffff75a)
+    rescue_overrides.append(dict(offset=p,original_command='23aa5aa0',replacement_command='fffff75a',reason='Ordinary defeat has no Viola rescue/grab observer'))
  from boss_donor_initialisation import REGISTRATIONS
  destination_commands={t['command'] for p in profiles.values() for t in p['templates']}
  registered={REGISTRATIONS[command] for command in destination_commands if command in REGISTRATIONS}
@@ -149,6 +157,19 @@ def append_mixed_handoff(data,sites,profile,digest,suppress_nephtis_pole_visuals
   # All Nephtis donors are normalized to the same autonomous full-health
   # combat mode. Multiple donor story spawns must not become duplicate rounds
   # in a single source encounter with one set of throwable support objects.
+  foreign_inhert=local_profile['boss']=='Inhert' and command not in INHERT_STORY
+  inhert_bounds=local_profile.get('arena_bounds')
+  if foreign_inhert:
+   templates=local_profile['templates'][:1]
+   if inhert_bounds is None:
+    import math
+    point=[]
+    for arg in coords[:3]:
+     if arg['kind'] not in (0xc0,0xc1) or arg['value'] is None:raise ValueError('Foreign Inhert requires measured bounds or literal host position')
+     value=struct.unpack('<f',struct.pack('<I',arg['value']))[0] if arg['kind']==0xc1 else float(arg['value'])
+     if not math.isfinite(value):raise ValueError('Non-finite Inhert host position')
+     point.append(value)
+    x,y,z=point;inhert_bounds=(x-600,y-300,z-600,x+600,y+300,z+600)
   if all(t['command']==NEPHTIS_STORY for t in templates):
    templates=templates[:1]
   entry=len(result);noop=entry;result.extend(b'\x89');phase_reports=[]
@@ -161,7 +182,7 @@ def append_mixed_handoff(data,sites,profile,digest,suppress_nephtis_pole_visuals
    source_finish=len(result)
    if fade_guard:result.extend(fade_guard['bytes'])
    result.extend(procedure(callback))
-   if command==ARDJET_STORY:result.extend(native(TRANSITION_EFFECT,[]))
+   if command==ARDJET_STORY and source['variant']==0 and local_profile['boss']!='Ardjet':result.extend(native(TRANSITION_EFFECT,[]))
    result.extend(b'\x89')
   viola_callbacks=None
   if local_profile.get('full_viola_ai'):
@@ -173,7 +194,7 @@ def append_mixed_handoff(data,sites,profile,digest,suppress_nephtis_pole_visuals
    identity=source['actor_id'] if index==0 else int.from_bytes(hashlib.sha256(
     (digest+'\0'+local_profile['encounter']+'\0'+str(offset)+'\0'+str(index)).encode()).digest()[:4],'little')
    if index and struct.pack('<I',identity) in original:raise ValueError('Additional phase actor identity collision')
-   code=emit_spawn(template['command'],template,identity,coord_bytes,next_callback,noop,local_profile.get('arena_bounds'),viola_callbacks)
+   code=emit_spawn(template['command'],template,identity,coord_bytes,next_callback,noop,inhert_bounds,viola_callbacks)
    if viola_callbacks and site==sorted(sites,key=lambda s:s['offset'])[0] and index==0:
     # Native ef02g SCX5253: installs Jehuty's Ardjet grab handler and its
     # observer, then resets the grab counter. The factory alone does not.
@@ -197,13 +218,14 @@ def append_mixed_handoff(data,sites,profile,digest,suppress_nephtis_pole_visuals
    viola_callbacks=viola_report if viola_callbacks else None,source_call=offset,source_command=f'{command:08x}',source_actor_id=source['actor_id'],
    source_completion_callback=callback,source_completion_bridge=source_finish,
    completion_fade_guard=None if fade_guard is None else {k:v for k,v in fade_guard.items() if k!='bytes'},
+   inhert_phase_one_only=foreign_inhert,inhert_effective_bounds=inhert_bounds,
    procedure_entry=wrapper,noop_entry=noop,phases=phase_reports,
    coordinates=[dict(kind=a['kind'],value=a['value']) for a in coords],coordinate_expression_bytes=coord_bytes.hex()))
  changed={i for s in sites for i in range(s['offset'],s['offset']+5)}
  changed.update(i for row in visual_overrides for i in range(row['offset']+1,row['offset']+5))
- changed.update(i for row in registration_overrides for i in range(row['offset']+1,row['offset']+5))
+ changed.update(i for row in registration_overrides+rescue_overrides for i in range(row['offset']+1,row['offset']+5))
  if any(a!=b for i,(a,b) in enumerate(zip(original,result)) if i not in changed):raise ValueError('Unrelated source bytes changed')
  return bytes(result),dict(destination_encounter=profile['encounter'],destination_boss=profile['boss'],sites=reports,
   source_sha256=digest,output_sha256=hashlib.sha256(result).hexdigest(),
-  original_prefix_preserved=True,source_visual_overrides=visual_overrides,source_registration_overrides=registration_overrides,foreign_ai_verified=False,source_completion_gameplay_verified=False,
+  original_prefix_preserved=not rescue_overrides,source_rescue_overrides=rescue_overrides,source_visual_overrides=visual_overrides,source_registration_overrides=registration_overrides,foreign_ai_verified=False,source_completion_gameplay_verified=False,
   phase_actor_lifetime_verified=False,arena_verified=False,ready_for_install=False,installed=False)

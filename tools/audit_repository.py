@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 FORBIDDEN = {'.pac', '.wem', '.bnk', '.awb', '.mdz', '.scx', '.tex', '.wav', '.iso', '.dmp'}
-ALLOWED = {'.py', '.cs', '.ps1', '.cmd', '.json', '.xml', '.tbl', '.txt', '.exe', '.obj'}
+ALLOWED = {'.py', '.cs', '.c', '.h', '.ps1', '.cmd', '.json', '.xml', '.tbl', '.txt', '.exe', '.obj'}
 SECRETS = [re.compile(r'gh[pousr]_[A-Za-z0-9_]{20,}'),
            re.compile(r'github_pat_[A-Za-z0-9_]{20,}'),
            re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----'),
@@ -38,15 +38,15 @@ def audit(root=ROOT):
                 errors.append('Private path or credential pattern: ' + name)
         except (SyntaxError, UnicodeError, json.JSONDecodeError) as error:
             errors.append(name + ': ' + str(error))
-    baseline = json.loads((root / 'packaging/baseline-local22.json').read_text(encoding='utf-8'))
+    baseline = json.loads((root / 'packaging/source-local24.json').read_text(encoding='utf-8'))
     changed = []
     for name, expected in baseline['application_files'].items():
         path = root / name
         if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != expected:
             changed.append(name)
-    # Later development may change the source; this initial snapshot is deliberately pinned.
+    # Later development may change the source; the candidate snapshot is deliberately pinned.
     if changed:
-        errors.append('Local.22 application differs from sealed baseline: ' + ', '.join(changed))
+        errors.append('Local.24 application differs from checked source snapshot: ' + ', '.join(changed))
     for name in ('LICENSE', 'THIRD-PARTY-NOTICES.txt', 'app/legacy/research/THIRD_PARTY_LICENSE.txt'):
         if not (root / name).is_file():
             errors.append('Missing licence notice: ' + name)

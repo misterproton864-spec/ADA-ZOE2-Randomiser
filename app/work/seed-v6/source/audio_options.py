@@ -12,10 +12,13 @@ def apply(directory,options):
   cache=_portable.HOME/'audio-clean-originals'
   for row in voice['files']:
    rel=row['relative_path'].removeprefix('sound/Windows/')
-   source=cache/rel
+   source=__import__('ada_modes').source_path(rel) if voice.get('format')==3 else cache/rel
    if sha(source)!=row['clean_sha256']:raise ValueError('Pristine ADA input differs: '+rel)
    (out/row['package_path']).write_bytes(source.read_bytes());row['patched_sha256']=row['clean_sha256'];row['shuffled']=False
   voice.update(enabled=False,mapping={},stream_changes=[],shuffled_streams=0,legacy_shuffled_streams=0,expanded_shuffled_streams=0)
+  if voice.get('format')==3:
+   voice['bank_source_metadata_changes']=[];voice['chaos_complete']=False
+   voice['native_voice_bank'].update(sha256=voice['native_voice_bank']['original_sha256'],byte_identical=True)
   bypath={r['relative_path']:r for r in voice['files']}
   rows=[bypath.get(r['relative_path'],r) for r in rows]
   save(out/'ada-gameplay-mapping.json',voice);m['ada_overlay']=voice

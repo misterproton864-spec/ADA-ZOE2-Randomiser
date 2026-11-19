@@ -8,7 +8,11 @@ def sha(b):return hashlib.sha256(b).hexdigest()
 
 def verify(package):
  p=Path(package);root=Path(__file__).resolve().parents[1];cache=_portable.HOME/'audio-clean-originals'
- r=json.loads((p/'ada-gameplay-mapping.json').read_text());table=json.loads((root/'voice-stream-compatibility.json').read_text())
+ r=json.loads((p/'ada-gameplay-mapping.json').read_text())
+ if r.get('format')==3:
+  from ada_modes import verify as verify_modes
+  return verify_modes(p)
+ table=json.loads((root/'voice-stream-compatibility.json').read_text())
  audible=json.loads((root/'voice-audibility.json').read_text())['files']
  assert r['format']==2 and r['prior_bank_event_rewrite_removed']
  native=(cache/table['native_bank']).read_bytes();bank=(p/'audio/files'/table['native_bank']).read_bytes()
