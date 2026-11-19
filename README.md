@@ -39,6 +39,10 @@ Use **Issues** for bugs and include the seed, options, mode, host arena, replace
 
 Developers: read [BUILDING.md](BUILDING.md), [CONTRIBUTING.md](CONTRIBUTING.md) and the [source map](docs/SOURCE-MAP.md). This repository is separate from Cronos and has its own history and releases.
 
+## Contributors and acknowledgements
+
+Developed and playtested under the direction of the project creator, with AI assistance from **GPT-Sol**, **GPT-Terra** and **GPT-Astra** for coding, debugging, research and documentation.
+
 ## Licence and credits
 
 ADA's original code is available under the [MIT licence](LICENSE). The archive reader adapts Missingno_force / Missingmew's tools-mgs algorithms and retains their separate notice. Bundled Python, Tcl/Tk and Microsoft runtime components retain their own terms. See [third-party notices](THIRD-PARTY-NOTICES.txt).
