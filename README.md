@@ -6,9 +6,9 @@ An unofficial Windows randomiser for **ZONE OF THE ENDERS THE 2nd RUNNER: MARS**
 
 ## Download and play
 
-The existing Local.22 release download is separate from this Local.24 source update. Pushing this source does not publish a new tester ZIP.
+**Latest tester download: [Local.24 experimental pre-release](https://github.com/misterproton864-spec/ADA-ZOE2-Randomiser/releases/tag/v6.4.15-local.24).**
 
-Open this repository's **Releases** page and download the **ADA Beta Tester Edition ZIP** attached to the Local.22 pre-release. GitHub's automatically generated **Source code** ZIP is for developers and does not include the bundled Python runtime.
+Under **Assets**, download `ADA-Beta-Tester-Edition-6.4.15-local.24-github.1.zip`. The attached `SHA256SUMS.txt` provides its checksum. GitHub's automatically generated **Source code** ZIP is for developers and does not include the bundled Python runtime.
 
 1. Extract the entire tester ZIP. Keep `ADA Randomiser.exe`, `app` and `runtime` together.
 2. Close ZOE2, run **ADA Randomiser.exe**, and select your own Steam game folder.
